@@ -4,14 +4,8 @@ PRODUCT_PACKAGES += dump_aoc \
 		    aocd \
 		    aocxd
 
-# If AoC Daemon is not present on this build, load firmware at boot via rc
-ifeq ($(wildcard vendor/google/whitechapel/aoc/aocd),)
-PRODUCT_COPY_FILES += \
-	device/google/gs-common/aoc/conf/init.aoc.nodaemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.aoc.rc
-else
 PRODUCT_COPY_FILES += \
 	device/google/gs-common/aoc/conf/init.aoc.daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.aoc.rc
-endif
 
 ifneq ($(wildcard vendor/google/whitechapel/aoc/aocx/aidl/aocx/framework_compatibility_matrix.xml),)
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
