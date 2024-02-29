@@ -1,2 +1,0 @@
-/dev/touch_offload                                                               u:object_r:touch_offload_device:s0
-/vendor/bin/twoshay                                                              u:object_r:twoshay_exec:s0
