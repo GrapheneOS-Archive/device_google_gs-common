@@ -28,3 +28,6 @@ allow gnssd sysfs_gps:file rw_file_perms;
 
 # Allow gnssd to set GPS property
 set_prop(gnssd, vendor_gps_prop)
+
+# Read RIL property
+get_prop(gnssd, vendor_rild_prop)
