@@ -1,0 +1,2 @@
+allow dumpstate touch_context_service:service_manager find;
+binder_call(dumpstate, twoshay)
