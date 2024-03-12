@@ -38,3 +38,12 @@ binder_call(edgetpu_app_server, edgetpu_vendor_server);
 
 # Allow EdgeTPU service to log to stats service. (metrics)
 allow edgetpu_app_server fwk_stats_service:service_manager find;
+
+# Allow mlock without size restriction
+allow edgetpu_app_server self:capability ipc_lock;
+
+# Need to effectively read file mapped file when mmap + mlocked.
+allow edgetpu_app_server privapp_data_file:file { map read};
+
+# For shell level testing of mlock
+allow edgetpu_app_server shell_data_file:file { map read};
