@@ -66,6 +66,17 @@ if [ -f $cfg_file ]; then
       "insmod") insmod $arg ;;
       "setprop") setprop $arg 1 ;;
       "enable") echo 1 > $arg ;;
+      "condinsmod")
+        prop=$(echo $arg | cut -d '|' -f 1)
+        module1=$(echo $arg | cut -d '|' -f 2)
+        module2=$(echo $arg | cut -d '|' -f 3)
+        value=$(getprop $prop)
+        if [[ ${value} == "true" ]]; then
+          insmod ${vendor_modules_dir}/${module1}
+        else
+          insmod ${vendor_modules_dir}/${module2}
+        fi
+        ;;
       "modprobe")
         case ${arg} in
           "system -b *" | "system -b")
