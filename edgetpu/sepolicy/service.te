@@ -4,4 +4,4 @@ type edgetpu_dba_service, app_api_service, service_manager_type, isolated_comput
 type edgetpu_tachyon_service, app_api_service, service_manager_type, isolated_compute_allowed_service;
 
 # EdgeTPU binder service type declaration.
-type edgetpu_app_service, service_manager_type;
+type edgetpu_app_service, service_manager_type, isolated_compute_allowed_service;
