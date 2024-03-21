@@ -1,1 +1,4 @@
 add_service(hal_audio_default, hal_audio_ext_service)
+# Allow audio-hal to register battery_mitigation service
+allow hal_audio_default hal_battery_mitigation_service:service_manager find;
+binder_call(hal_audio_default, battery_mitigation)

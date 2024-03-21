@@ -29,9 +29,10 @@ int main() {
     runCommand("AoC logging wake", "timeout 0.1 cat /sys/devices/platform/*.aoc/control/logging_wakeup");
     runCommand("AoC hotword wake", "timeout 0.1 cat /sys/devices/platform/*.aoc/control/hotword_wakeup");
     runCommand("AoC memory exception wake", "timeout 0.1 cat /sys/devices/platform/*.aoc/control/memory_exception");
-    runCommand("AoC memory votes", "timeout 0.1 cat /sys/devices/platform/*.aoc/control/memory_votes_a32");
-    runCommand("AoC memory votes", "timeout 0.1 cat /sys/devices/platform/*.aoc/control/memory_votes_ff1");
+    runCommand("AoC memory votes", "timeout 0.5 cat /sys/devices/platform/*.aoc/control/memory_votes_a32");
+    runCommand("AoC memory votes", "timeout 0.5 cat /sys/devices/platform/*.aoc/control/memory_votes_ff1");
     runCommand("clean AoC buffer","echo ' ' > /dev/acd-debug; timeout 0.1 cat /dev/acd-debug");
+    runCommand("AoC DVFS (A32)", "echo 'dbg info -c 1 DVFSA32' > /dev/acd-debug; timeout 0.1 cat /dev/acd-debug");
     runCommand("AoC DVFS (FF1)", "echo 'dbg info -c 2 DVFSFF1' > /dev/acd-debug; timeout 0.1 cat /dev/acd-debug");
     runCommand("AoC Monitor Mode Status", "echo 'monitor_mode status' > /dev/acd-debug; timeout 0.1 cat /dev/acd-debug");
     return 0;

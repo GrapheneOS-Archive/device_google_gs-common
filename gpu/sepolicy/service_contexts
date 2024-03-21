@@ -1,0 +1,4 @@
+# Note that native/passthrough HALs use the "{type}/{instance}" pattern from
+# SEPolicy perspective and are looked up via the corresponding filename
+# "{type}.{instance}.so".
+mapper/pixel u:object_r:hal_graphics_mapper_service:s0

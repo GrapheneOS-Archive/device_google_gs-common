@@ -31,3 +31,5 @@ binder_use(battery_mitigation)
 wakelock_use(battery_mitigation)
 # Allow battery_mitigation to run aidl service
 add_service(battery_mitigation, hal_battery_mitigation_service)
+# Allow battery_mitigation to run audio mitigation callback
+binder_call(battery_mitigation, hal_audio_default)
