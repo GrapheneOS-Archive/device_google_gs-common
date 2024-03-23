@@ -34,6 +34,8 @@ done
 
 echo 'TMU state:'
 cat /sys/module/gs_thermal/parameters/tmu_reg_dump_state
+echo 'TMU intpend:'
+cat /sys/module/gs_thermal/parameters/tmu_reg_dump_intpend
 echo 'TMU current temperature:'
 cat /sys/module/gs_thermal/parameters/tmu_reg_dump_current_temp
 echo 'TMU_TOP rise thresholds:'
