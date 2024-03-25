@@ -6,7 +6,7 @@ ifneq ($(TARGET_BUILD_VARIANT), user)
       BOARD_SEPOLICY_DIRS += device/google/gs-common/gyotaku_app/sepolicy/
 
       # Pixel 5a (barbet) does not support Pixel dump
-      ifneq ($(TARGET_PRODUCT), barbet)
+      ifeq (,$(filter barbet%,$(TARGET_PRODUCT)))
         PRODUCT_PACKAGES_DEBUG += dump_gyotaku
         BOARD_SEPOLICY_DIRS += device/google/gs-common/gyotaku_app/dump
       endif
