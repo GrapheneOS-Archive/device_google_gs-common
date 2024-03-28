@@ -1,0 +1,2 @@
+# Pixel Support App
+user=_app seinfo=PixelSupport name=com.google.android.apps.pixel.support domain=pixelsupport_app type=app_data_file isPrivApp=true levelFrom=user

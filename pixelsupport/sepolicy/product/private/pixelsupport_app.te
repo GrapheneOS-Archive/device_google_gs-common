@@ -1,0 +1,11 @@
+typeattribute pixelsupport_app coredomain;
+
+app_domain(pixelsupport_app)
+# Access the network.
+net_domain(pixelsupport_app)
+# Access bluetooth.
+bluetooth_domain(pixelsupport_app)
+
+allow pixelsupport_app app_api_service:service_manager find;
+allow pixelsupport_app radio_service:service_manager find;
+

@@ -1,0 +1,8 @@
+type gti_ical, domain;
+type gti_ical_exec, vendor_file_type, exec_type, file_type;
+init_daemon_domain(gti_ical)
+
+allow gti_ical sysfs_touch_gti:file rw_file_perms;
+allow gti_ical sysfs_touch_gti:dir search;
+
+set_prop(gti_ical, vendor_gti_prop)

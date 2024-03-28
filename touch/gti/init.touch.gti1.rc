@@ -24,3 +24,15 @@ on property:sys.boot_completed=1
     chown system system /proc/goog_touch_interface/gti.1/ss_base
     chown system system /proc/goog_touch_interface/gti.1/ss_diff
     chown system system /proc/goog_touch_interface/gti.1/ss_raw
+
+on property:vendor.touch.gti1.ical=*
+    setprop vendor.touch.gti1.ical.state init
+    start touch_gti1_ical
+    wait_for_prop vendor.touch.gti1.ical.state done
+
+service touch_gti1_ical /vendor/bin/touch_gti_ical 1 ${vendor.touch.gti1.ical}
+    class main
+    user system
+    group system shell
+    disabled
+    oneshot
