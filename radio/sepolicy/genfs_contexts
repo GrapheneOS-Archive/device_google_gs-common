@@ -1,2 +1,3 @@
 # modem state node
 genfscon sysfs /devices/platform/cpif/modem_state       u:object_r:sysfs_modem_state:s0
+

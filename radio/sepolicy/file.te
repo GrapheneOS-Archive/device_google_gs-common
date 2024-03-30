@@ -1,6 +1,9 @@
 # Data
 type tcpdump_vendor_data_file, file_type, data_file_type;
 
+# Modem
+type sysfs_modem_state, sysfs_type, fs_type;
+
 userdebug_or_eng(`
   typeattribute tcpdump_vendor_data_file mlstrustedobject;
 ')
