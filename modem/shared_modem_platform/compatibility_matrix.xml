@@ -1,0 +1,11 @@
+<compatibility-matrix version="1.0" type="framework">
+    <!-- Optional since older devices will not register any services. -->
+    <hal format="aidl" optional="true">
+        <name>com.google.pixel.shared_modem_platform</name>
+        <version>1</version>
+        <interface>
+            <name>ISharedModemPlatform</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>

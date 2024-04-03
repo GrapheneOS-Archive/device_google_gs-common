@@ -1,0 +1,8 @@
+# Allow binder connection from client to server
+binder_call(hal_shared_modem_platform_client, hal_shared_modem_platform_server)
+
+# Allow client to find the service, server to register the service
+hal_attribute_service(hal_shared_modem_platform, hal_shared_modem_platform_service)
+
+# Allow binder communication from server to service_manager
+binder_use(hal_shared_modem_platform_server)

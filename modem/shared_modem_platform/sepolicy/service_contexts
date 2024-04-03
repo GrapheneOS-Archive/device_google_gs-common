@@ -1,0 +1,2 @@
+# Bind Shared Modem Platform AIDL service name to the SELinux type.
+com.google.pixel.shared_modem_platform.ISharedModemPlatform/default u:object_r:hal_shared_modem_platform_service:s0
