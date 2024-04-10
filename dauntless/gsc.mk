@@ -9,7 +9,6 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver-service.citadel \
     android.hardware.authsecret-service.citadel \
     android.hardware.oemlock-service.citadel \
-    android.hardware.identity@1.0-service.citadel \
     init_citadel \
     android.hardware.strongbox_keystore.xml \
     android.hardware.security.keymint-service.citadel \
