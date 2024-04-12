@@ -5,3 +5,5 @@ type vendor_camera_lyricconfigprovider_service, hal_service_type, protected_serv
 type vendor_camera_isp_service, hal_service_type, protected_service, service_manager_type;
 
 type vendor_camera_cameraidremapper_service, hal_service_type, protected_service, service_manager_type;
+
+type vendor_image_processing_hal_service, hal_service_type, protected_service, service_manager_type;

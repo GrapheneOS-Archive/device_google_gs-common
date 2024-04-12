@@ -1,0 +1,17 @@
+# dump_ramdump
+/vendor/bin/dump/dump_ramdump           u:object_r:dump_ramdump_exec:s0
+
+# ramdump
+/data/vendor/ramdump(/.*)?                u:object_r:ramdump_vendor_data_file:s0
+/mnt/vendor/ramdump(/.*)?                 u:object_r:ramdump_vendor_mnt_file:s0
+/vendor/bin/ramdump                       u:object_r:ramdump_exec:s0
+/vendor/bin/ramdump32                     u:object_r:ramdump_exec:s0
+
+# sscoredump
+/data/vendor/ssrdump(/.*)?             u:object_r:sscoredump_vendor_data_crashinfo_file:s0
+/data/vendor/ssrdump/coredump(/.*)?    u:object_r:sscoredump_vendor_data_coredump_file:s0
+/dev/sscd_.*                           u:object_r:sscoredump_device:s0
+/vendor/bin/sscoredump                 u:object_r:sscoredump_exec:s0
+
+# ssr_detector_app
+/data/vendor/ssrdump/logcat(/.*)?      u:object_r:sscoredump_vendor_data_logcat_file:s0

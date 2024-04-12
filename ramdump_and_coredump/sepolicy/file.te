@@ -1,0 +1,15 @@
+# ramdump: file
+type ramdump_vendor_data_file, file_type, data_file_type, mlstrustedobject;
+type ramdump_vendor_mnt_file, file_type, data_file_type, mlstrustedobject;
+type ramdump_vendor_fs, fusefs_type, data_file_type, mlstrustedobject;
+
+# sscoredump: file
+type sscoredump_vendor_data_coredump_file, file_type, data_file_type, mlstrustedobject;
+type sscoredump_vendor_data_crashinfo_file, file_type, data_file_type, mlstrustedobject;
+
+# sscoredump: sysfs
+type sysfs_sscoredump_level, sysfs_type, fs_type;                  # sscoredump level
+type sysfs_sscoredump_subsystem_report_count, sysfs_type, fs_type; # subsystem report_count: per device explicit path
+
+# ssr_detector_app
+type sscoredump_vendor_data_logcat_file, file_type, data_file_type, mlstrustedobject;

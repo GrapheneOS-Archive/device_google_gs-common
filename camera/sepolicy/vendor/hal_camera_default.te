@@ -8,5 +8,6 @@ binder_call(hal_camera_default, vendor_pbcs_app);
 
 binder_call(hal_camera_default, vendor_pcs_app);
 
-# Allow Lyric HAL to start ISP Service
+# Allow Lyric HAL to start ISP Service and Image Processing HAL
 add_service(hal_camera_default, vendor_camera_isp_service)
+add_service(hal_camera_default, vendor_image_processing_hal_service)
