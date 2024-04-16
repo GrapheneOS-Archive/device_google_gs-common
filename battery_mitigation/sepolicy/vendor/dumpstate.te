@@ -1,0 +1,3 @@
+# To call battery_mitigation hal
+allow dumpstate hal_battery_mitigation_service:service_manager find;
+binder_call(dumpstate, battery_mitigation);

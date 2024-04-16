@@ -1,1 +1,1 @@
-type hal_battery_mitigation_service, protected_service, hal_service_type, service_manager_type;
+type hal_battery_mitigation_service, hal_service_type, service_manager_type;
