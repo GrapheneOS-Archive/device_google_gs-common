@@ -14,9 +14,11 @@
  * limitations under the License.
  */
 
+#include <android-base/chrono_utils.h>
 #include <android-base/file.h>
 #include <android-base/logging.h>
 #include <android-base/stringprintf.h>
+#include <android-base/unique_fd.h>
 
 #include <errno.h>
 #include <fcntl.h>
@@ -26,21 +28,28 @@
 #include <string.h>
 #include <unistd.h>
 
-#define DEV_GLOB "/sys/devices/platform/*.watchdog_cl0/watchdog/watchdog*"
+#include <chrono>
+#include <vector>
+
+#define DEV_GLOB "/sys/devices/platform/*.watchdog_cl*/watchdog/watchdog*"
+
+#define DEFAULT_INTERVAL 10s
+#define DEFAULT_MARGIN 10s
 
 using android::base::Basename;
 using android::base::StringPrintf;
+using std::literals::chrono_literals::operator""s;
 
 int main(int argc, char** argv) {
     android::base::InitLogging(argv, &android::base::KernelLogger);
 
-    int interval = 10;
-    if (argc >= 2) interval = atoi(argv[1]);
+    std::chrono::seconds interval = argc >= 2
+        ? std::chrono::seconds(atoi(argv[1])) : DEFAULT_INTERVAL;
+    std::chrono::seconds margin = argc >= 3
+        ? std::chrono::seconds(atoi(argv[2])) : DEFAULT_MARGIN;
 
-    int margin = 10;
-    if (argc >= 3) margin = atoi(argv[2]);
-
-    LOG(INFO) << "gs_watchdogd started (interval " << interval << ", margin " << margin << ")!";
+    LOG(INFO) << "gs_watchdogd started (interval " << interval.count()
+              << ", margin " << margin.count() << ")!";
 
     glob_t globbuf;
     int ret = glob(DEV_GLOB, GLOB_MARK, nullptr, &globbuf);
@@ -49,40 +58,42 @@ int main(int argc, char** argv) {
         return 1;
     }
 
-    if (globbuf.gl_pathc > 1) {
-        PLOG(WARNING) << "Multiple watchdog dev path found by " << DEV_GLOB;
-    }
+    std::vector<android::base::unique_fd> wdt_dev_fds;
 
-    std::string dev_path = StringPrintf("/dev/%s", Basename(globbuf.gl_pathv[0]).c_str());
-    globfree(&globbuf);
+    for (size_t i = 0; i < globbuf.gl_pathc; i++) {
+        std::chrono::seconds timeout = interval + margin;
+        int timeout_secs = timeout.count();
+        std::string dev_path = StringPrintf("/dev/%s", Basename(globbuf.gl_pathv[i]).c_str());
 
-    int fd = open(dev_path.c_str(), O_RDWR | O_CLOEXEC);
-    if (fd == -1) {
-        PLOG(ERROR) << "Failed to open " << dev_path;
-        return 1;
-    }
+        int fd = TEMP_FAILURE_RETRY(open(dev_path.c_str(), O_RDWR | O_CLOEXEC));
+        if (fd == -1) {
+            PLOG(ERROR) << "Failed to open " << dev_path;
+            return 1;
+        }
 
-    int timeout = interval + margin;
-    ret = ioctl(fd, WDIOC_SETTIMEOUT, &timeout);
-    if (ret) {
-        PLOG(ERROR) << "Failed to set timeout to " << timeout;
-        ret = ioctl(fd, WDIOC_GETTIMEOUT, &timeout);
+        wdt_dev_fds.emplace_back(fd);
+        ret = ioctl(fd, WDIOC_SETTIMEOUT, &timeout_secs);
         if (ret) {
-            PLOG(ERROR) << "Failed to get timeout";
-        } else {
-            if (timeout > margin) {
-                interval = timeout - margin;
+            PLOG(ERROR) << "Failed to set timeout to " << timeout_secs;
+            ret = ioctl(fd, WDIOC_GETTIMEOUT, &timeout_secs);
+            if (ret) {
+                PLOG(ERROR) << "Failed to get timeout";
             } else {
-                interval = 1;
+                interval = timeout > margin ? timeout - margin : 1s;
+                LOG(WARNING) << "Adjusted interval to timeout returned by driver: "
+                             << "timeout " << timeout_secs
+                             << ", interval " << interval.count()
+                             << ", margin " << margin.count();
             }
-            LOG(WARNING) << "Adjusted interval to timeout returned by driver: "
-                         << "timeout " << timeout << ", interval " << interval << ", margin "
-                         << margin;
         }
     }
 
+    globfree(&globbuf);
+
     while (true) {
-        write(fd, "", 1);
-        sleep(interval);
+        for (const auto& fd : wdt_dev_fds) {
+            TEMP_FAILURE_RETRY(write(fd, "", 1));
+        }
+        sleep(interval.count());
     }
 }
