@@ -10,3 +10,10 @@ sh_binary {
     sub_dir: "dump",
 }
 
+sh_binary {
+    name: "predump_syna.sh",
+    src: "dump_syna.sh",
+    init_rc: ["init.touch.syna.rc"],
+    vendor: true,
+    sub_dir: "dump_touch",
+}

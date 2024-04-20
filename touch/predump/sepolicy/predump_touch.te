@@ -1,0 +1,9 @@
+type predump_touch, domain;
+type predump_touch_exec, vendor_file_type, exec_type, file_type;
+init_daemon_domain(predump_touch)
+
+allow predump_touch vendor_touch_dump_file:dir rw_dir_perms;
+allow predump_touch vendor_touch_dump_file:file create_file_perms;
+
+allow predump_touch vendor_toolbox_exec:file execute_no_trans;
+allow predump_touch vendor_shell_exec:file execute_no_trans;

@@ -5,6 +5,7 @@ package {
 cc_binary {
     name: "dump_perf",
     srcs: ["dump_perf.cpp"],
+    init_rc: ["init.pixel-mm-gs.rc"],
     cflags: [
         "-Wall",
         "-Wextra",

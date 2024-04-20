@@ -33,3 +33,19 @@ cc_binary {
     ],
     vendor: true,
 }
+
+sh_binary {
+    name: "predump_gti0.sh",
+    src: "dump_gti0.sh",
+    init_rc: ["init.touch.gti0.rc"],
+    vendor: true,
+    sub_dir: "dump_touch",
+}
+
+sh_binary {
+    name: "predump_gti1.sh",
+    src: "dump_gti1.sh",
+    init_rc: ["init.touch.gti1.rc"],
+    vendor: true,
+    sub_dir: "dump_touch",
+}

@@ -1,0 +1,12 @@
+service vendor.touch_dumpstate /vendor/bin/predump_touch.sh
+    class main
+    user system
+    group system shell
+    disabled
+    oneshot
+
+on post-fs-data
+    mkdir /data/vendor/dump_touch 0775 system system
+
+on property:init.svc.dumpstatez=running
+    start vendor.touch_dumpstate

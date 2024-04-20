@@ -1,0 +1,17 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+sh_binary {
+    name: "predump_touch.sh",
+    src: "predump_touch.sh",
+    init_rc: ["init.touch.predump.rc"],
+    vendor: true,
+}
+
+sh_binary {
+    name: "dump_touch.sh",
+    src: "dump_touch.sh",
+    vendor: true,
+    sub_dir: "dump",
+}

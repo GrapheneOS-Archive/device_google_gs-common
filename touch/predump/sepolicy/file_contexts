@@ -1,0 +1,5 @@
+/vendor/bin/predump_touch\.sh           u:object_r:predump_touch_exec:s0
+/vendor/bin/dump/dump_touch\.sh         u:object_r:dump_touch_exec:s0
+/data/vendor/dump_touch/dump\.log       u:object_r:vendor_touch_dump_file:s0
+/data/vendor/dump_touch/dumping         u:object_r:vendor_touch_dump_file:s0
+/data/vendor/dump_touch                 u:object_r:vendor_touch_dump_file:s0

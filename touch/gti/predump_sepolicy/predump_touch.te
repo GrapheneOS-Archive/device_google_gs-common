@@ -1,0 +1,4 @@
+allow predump_touch proc_touch_gti:dir r_dir_perms;
+allow predump_touch proc_touch_gti:file rw_file_perms;
+allow predump_touch sysfs_touch_gti:dir r_dir_perms;
+allow predump_touch sysfs_touch_gti:file rw_file_perms;
