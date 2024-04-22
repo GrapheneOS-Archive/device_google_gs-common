@@ -28,6 +28,8 @@
 /dev/acd-audio_ap_offload_tx        u:object_r:aoc_device:s0
 /dev/acd-mel_processor              u:object_r:aoc_device:s0
 /dev/acd-aocx_control               u:object_r:aoc_device:s0
+/dev/acd-aocx_inject[0-9]*          u:object_r:aoc_device:s0
+/dev/acd-aocx_tapout[0-9]*          u:object_r:aoc_device:s0
 /dev/acd-mc_headpos                 u:object_r:aoc_device:s0
 
 # AoC vendor binaries
