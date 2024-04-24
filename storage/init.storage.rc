@@ -6,6 +6,8 @@ on default_storage_mode
     # F2FS
     write /dev/sys/fs/by-name/userdata/data_io_flag 8
     write /dev/sys/fs/by-name/userdata/node_io_flag 8
+    write /dev/sys/fs/by-name/userdata/max_io_bytes 524288
+    write /dev/sys/fs/by-name/userdata/min_hot_blocks 0
 
     # Block
     write /dev/sys/block/by-name/rootdisk/queue/iostats 1
