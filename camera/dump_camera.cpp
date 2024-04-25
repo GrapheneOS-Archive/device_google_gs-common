@@ -49,6 +49,8 @@ int main() {
   dumpLogs(kCameraLogDir.data(), cameraDestDir.c_str(), 5, "fatal-error-");
   dumpLogs(kGraphStateDumpDir.data(), cameraDestDir.c_str(), 5,
            "hal_graph_state_");
+  dumpLogs(kCameraLogDir.data(), cameraDestDir.c_str(), 10,
+           "fd_state_tracker-");
 
   return 0;
 }

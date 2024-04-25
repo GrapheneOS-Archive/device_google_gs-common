@@ -29,7 +29,7 @@ on init
 
     # Block
     write /dev/sys/block/by-name/rootdisk/queue/iostats 0
-    write /sys/sys/block/by-name/rootdisk/queue/nr_requests 256
+    write /dev/sys/block/by-name/rootdisk/queue/nr_requests 256
 
     # UFS
     write /dev/sys/block/bootdevice/clkgate_enable 0
