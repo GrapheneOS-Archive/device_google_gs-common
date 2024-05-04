@@ -6,9 +6,6 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service-aidl.aoc \
     vendor.google.whitechapel.audio.hal.parserservice \
 
-# AIDL software effects. These are the effects supporting in all projects.
-# For the project-specific effects, such as haptic generator, please add them
-# to makefile in the project's device folder.
 PRODUCT_PACKAGES += \
     libvisualizeraidl \
     libbundleaidl \
@@ -16,6 +13,7 @@ PRODUCT_PACKAGES += \
     libdynamicsprocessingaidl \
     libloudnessenhanceraidl \
     libdownmixaidl \
+    libhapticgeneratoraidl \
 
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/audio/sepolicy/aidl
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/audio/sepolicy/hdmi_audio
