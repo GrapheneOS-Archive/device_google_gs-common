@@ -49,3 +49,14 @@ get_prop(edgetpu_tachyon_server, vendor_edgetpu_runtime_prop)
 get_prop(edgetpu_tachyon_server, vendor_hetero_runtime_prop)
 # Allow Tachyon service to read EdgeTPU CPU scheduler properties
 get_prop(edgetpu_tachyon_server, vendor_edgetpu_cpu_scheduler_prop)
+
+# Allow mlock without size restriction
+allow edgetpu_tachyon_server self:capability ipc_lock;
+
+# Need to effectively read file mapped file when mmap + mlocked.
+allow edgetpu_tachyon_server privapp_data_file:file { map read};
+
+# For shell level testing of mlock
+userdebug_or_eng(`
+    allow edgetpu_tachyon_server shell_data_file:file { map read};
+')
