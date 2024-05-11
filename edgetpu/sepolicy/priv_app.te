@@ -7,3 +7,6 @@ allow priv_app edgetpu_nnapi_service:service_manager find;
 # Allows privileged applications to access the EdgeTPU device, except open,
 # which is guarded by the EdgeTPU service.
 allow priv_app edgetpu_device:chr_file { getattr read write ioctl map };
+
+# Allows EdgeTPU Tachyon service to call the app.
+binder_call(edgetpu_tachyon_server, priv_app);

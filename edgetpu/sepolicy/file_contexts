@@ -17,6 +17,8 @@
 # EdgeTPU runtime libraries
 /vendor/lib64/com\.google\.edgetpu_app_service-V[1-4]-ndk\.so              u:object_r:same_process_hal_file:s0
 /vendor/lib64/com\.google\.edgetpu_vendor_service-V[1-2]-ndk\.so           u:object_r:same_process_hal_file:s0
+# EdgeTPU Tachyon libraries
+/vendor/lib64/libedgetpu_tachyon\.google\.so                               u:object_r:same_process_hal_file:s0
 
 # EdgeTPU data files
 /data/vendor/hal_neuralnetworks_darwinn(/.*)?                              u:object_r:hal_neuralnetworks_darwinn_data_file:s0
@@ -27,3 +29,6 @@
 
 # Tachyon service
 /vendor/bin/hw/com\.google\.edgetpu.tachyon-service                        u:object_r:edgetpu_tachyon_server_exec:s0
+
+# libfmq.so is dynamically loaded by the Tachyon client-side library libedgetpu_tachyon.google.so
+/vendor/lib64/libfmq\.so                                                   u:object_r:same_process_hal_file:s0

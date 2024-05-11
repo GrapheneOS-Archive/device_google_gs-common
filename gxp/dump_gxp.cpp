@@ -17,7 +17,7 @@
 #include <android-base/properties.h>
 #include <android-base/file.h>
 
-#define maxGxpDebugDumps 3
+#define maxGxpDebugDumps 4
 
 int main() {
     /* TODO(b/277094681): Set default value to false around device beta milestone. */

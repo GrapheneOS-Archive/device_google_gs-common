@@ -5,3 +5,5 @@ allow untrusted_app_all edgetpu_app_service:service_manager find;
 # by the EdgeTPU service.
 allow untrusted_app_all edgetpu_device:chr_file { getattr read write ioctl map };
 
+# Allows EdgeTPU Tachyon service to call the app.
+binder_call(edgetpu_tachyon_server, untrusted_app_all);
