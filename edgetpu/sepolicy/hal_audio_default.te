@@ -12,7 +12,19 @@ binder_call(hal_audio_default, edgetpu_app_server)
 
 # Allow audio HAL to read tflite Darwinn delegate properties
 get_prop(hal_audio_default, vendor_tflite_delegate_prop)
+
+# Allow audio HAL to read DarwiNN runtime properties
 get_prop(hal_audio_default, vendor_edgetpu_runtime_prop)
+
+# Allow audio HAL to read hetero runtime properties
+get_prop(hal_audio_default, vendor_hetero_runtime_prop)
 
 # Allow DMA Buf access.
 allow hal_audio_default dmabuf_system_heap_device:chr_file r_file_perms;
+
+# Allow audio HAL to connect to the stats service for logging EdgeTpu metrics.
+allow hal_audio_default fwk_stats_service:service_manager find;
+
+# Allow audio HAL to send EdgeTpu trace packets to Perfetto.
+# Enable for prod devices, see: go/darwinn-perfetto-critical-events
+perfetto_producer(hal_audio_default)

@@ -12,7 +12,7 @@ cc_binary {
         "-Werror",
     ],
     shared_libs: [
-	"libdump",
+        "libdump",
     ],
     vendor: true,
     relative_install_path: "dump",

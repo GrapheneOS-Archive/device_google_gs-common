@@ -18,5 +18,8 @@
 
 int main() {
     dumpFileContent("VENDOR PROC DUMP", "/proc/vendor_sched/dump_task");
+    dumpFileContent("BTS scenario", "/sys/kernel/debug/bts/scenario");
+    dumpFileContent("BTS vc", "/sys/kernel/debug/bts/vc");
+    dumpFileContent("BTS status", "/sys/kernel/debug/bts/status");
     return 0;
 }

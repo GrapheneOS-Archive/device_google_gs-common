@@ -1,3 +1,7 @@
 pixel_bugreport(dump_perf)
 
 allow dump_perf proc_vendor_sched:file r_file_perms;
+userdebug_or_eng(`
+  allow dump_perf vendor_bts_debugfs:dir r_dir_perms;
+  allow dump_perf vendor_bts_debugfs:file r_file_perms;
+')
