@@ -1,1 +1,5 @@
 /vendor/bin/hw/vendor\.google\.wireless_charger-default                  u:object_r:hal_wireless_charger_exec:s0
+/vendor/bin/hw/vendor\.google\.wireless_charger\.service-default         u:object_r:hal_wlcservice_exec:s0
+
+# Data
+/data/vendor/wireless_charger(/.*)?                                      u:object_r:vendor_wlc_file:s0
