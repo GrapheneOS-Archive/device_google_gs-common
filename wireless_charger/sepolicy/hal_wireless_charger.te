@@ -17,4 +17,3 @@ userdebug_or_eng(`
 
 binder_call(hal_wireless_charger, platform_app)
 binder_call(hal_wireless_charger, system_app)
-binder_call(hal_wireless_charger, hal_wlcservice)

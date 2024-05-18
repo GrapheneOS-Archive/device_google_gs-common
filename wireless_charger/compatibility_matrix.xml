@@ -7,12 +7,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl" optional="true">
-        <name>vendor.google.wireless_charger.service</name>
-        <version>1</version>
-        <interface>
-            <name>IWlcService</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
 </compatibility-matrix>
