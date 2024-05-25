@@ -1,0 +1,20 @@
+# NOTE: CHANGE THIS FILE WITH CAUTIOUS
+# - this file is referenced by other OWNERS file, e.g. device/google/*/OWNERS
+# - changing this file might break the function, check go/gerrit-code-owners-syntax first
+#
+# Makefile Review Guide for OWNERS: go/pixel-device-mk-owner-checklist
+
+aaronding@google.com
+rurumihong@google.com
+adamshih@google.com
+wilsonsung@google.com
+cyanhsieh@google.com
+cyuanjen@google.com
+robinpeng@google.com
+achant@google.com
+etam@google.com
+pattjin@google.com
+bkhalife@google.com
+lokeshgoel@google.com
+jainne@google.com
+pscovanner@google.com
