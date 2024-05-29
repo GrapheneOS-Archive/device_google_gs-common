@@ -12,8 +12,8 @@ cc_binary {
     ],
     shared_libs: [
         "libbase",
-	"libdump",
-	"liblog",
+        "libdump",
+        "liblog",
     ],
     vendor: true,
     relative_install_path: "dump",
@@ -24,5 +24,13 @@ prebuilt_etc {
     vendor: true,
     filename: "vendor.android.hardware.camera.preview-dis.xml",
     src: "vendor.android.hardware.camera.preview-dis.xml",
+    sub_dir: "permissions",
+}
+
+prebuilt_etc {
+    name: "concurrent_foldable_dual_front_xml",
+    vendor: true,
+    filename: "com.google.pixel.camera.concurrent_foldable_dual_front.xml",
+    src: "com.google.pixel.camera.concurrent_foldable_dual_front.xml",
     sub_dir: "permissions",
 }

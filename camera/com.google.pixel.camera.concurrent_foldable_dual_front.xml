@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- The feature on Pixel devices which supports concurrent foldable
+     dual front streaming -->
+<permissions>
+    <feature name="com.google.pixel.camera.concurrent_foldable_dual_front" />
+</permissions>
