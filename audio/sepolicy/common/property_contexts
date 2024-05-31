@@ -9,3 +9,6 @@ vendor.audiodump.encode.disable                 u:object_r:vendor_audio_prop:s0
 vendor.audiodump.log.cca.updated                u:object_r:vendor_audio_prop:s0
 vendor.audiodump.cca.config                     u:object_r:vendor_audio_prop:s0
 vendor.audio_hal.aidl.enable                    u:object_r:vendor_audio_prop:s0
+
+# for audio app
+persist.vendor.app.audio.                       u:object_r:vendor_audio_prop_restricted:s0

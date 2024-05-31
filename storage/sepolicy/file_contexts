@@ -3,3 +3,4 @@
 /dev/sg[0-9]                       u:object_r:sg_device:s0
 /data/vendor/storage(/.*)?         u:object_r:dump_storage_data_file:s0
 /vendor/bin/sg_read_buffer         u:object_r:sg_util_exec:s0
+/dev/block/by-name/userdata_exp.*  u:object_r:userdata_exp_block_device:s0

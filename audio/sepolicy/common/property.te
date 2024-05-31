@@ -1,2 +1,5 @@
 # Audio
 vendor_internal_prop(vendor_audio_prop)
+
+# The property for Audio App
+vendor_restricted_prop(vendor_audio_prop_restricted)

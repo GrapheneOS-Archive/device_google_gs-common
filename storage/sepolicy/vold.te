@@ -1,4 +1,8 @@
 allow vold sysfs_scsi_devices_0000:file rw_file_perms;
 
+# Access userdata_exp block device.
+allow vold userdata_exp_block_device:blk_file rw_file_perms;
+allowxperm vold userdata_exp_block_device:blk_file ioctl BLKSECDISCARD;
+
 dontaudit vold dumpstate:fifo_file rw_file_perms;
 dontaudit vold dumpstate:fd use ;

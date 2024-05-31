@@ -1,0 +1,2 @@
+# Userdata Exp block device.
+type userdata_exp_block_device, dev_type;

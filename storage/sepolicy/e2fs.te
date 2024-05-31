@@ -1,0 +1,1 @@
+allow e2fs userdata_exp_block_device:blk_file rw_file_perms;
