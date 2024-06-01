@@ -1,0 +1,19 @@
+# Specific build for fingerprint
+type gyotaku_app, domain;
+
+app_domain(gyotaku_app)
+net_domain(gyotaku_app)
+
+# For Gyotaku app common use
+allow gyotaku_app app_api_service:service_manager find;
+allow gyotaku_app privapp_data_file:lnk_file read;
+allow gyotaku_app system_app_data_file:dir create_dir_perms;
+allow gyotaku_app system_app_data_file:file create_file_perms;
+
+# For getproperty isDebuggable use
+get_prop(gyotaku_app, userdebug_or_eng_prop)
+
+# For access /data/vendor/misc fingerprint use.
+allow gyotaku_app vendor_misc_data_file:dir search;
+allow gyotaku_app vendor_fingerprint_data_file:dir r_dir_perms;
+allow gyotaku_app vendor_fingerprint_data_file:file r_file_perms;

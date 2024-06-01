@@ -31,6 +31,9 @@
 /dev/acd-aocx_inject[0-9]*          u:object_r:aoc_device:s0
 /dev/acd-aocx_tapout[0-9]*          u:object_r:aoc_device:s0
 /dev/acd-mc_headpos                 u:object_r:aoc_device:s0
+/dev/acd-chre_bt_offload_ctl        u:object_r:aoc_device:s0
+/dev/acd-chre_bt_offload_data_tx    u:object_r:aoc_device:s0
+/dev/acd-chre_bt_offload_data_rx    u:object_r:aoc_device:s0
 
 # AoC vendor binaries
 /vendor/bin/aocd                    u:object_r:aocd_exec:s0
