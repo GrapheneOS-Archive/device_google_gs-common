@@ -13,6 +13,7 @@ on default_storage_mode
     write /dev/sys/block/by-name/rootdisk/queue/iostats 1
     write /dev/sys/block/by-name/rootdisk/queue/nr_requests 128
     write /dev/sys/block/by-name/rootdisk/queue/rq_affinity 2
+    write /dev/sys/block/by-name/zoned_device/queue/rq_affinity 2
 
     # UFS
     write /dev/sys/block/bootdevice/clkgate_enable 1
