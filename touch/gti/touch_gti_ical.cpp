@@ -34,6 +34,18 @@ int main(int argc, char *argv[])
 	char *line = NULL;
 	size_t len = 0;
 	FILE *ical_fd;
+	const char *ical_override_cmd_prop[2] = {
+		[0] = "vendor.touch.gti0.ical.override.cmd",
+		[1] = "vendor.touch.gti1.ical.override.cmd",
+	};
+	const char *ical_override_result_prop[2] = {
+		[0] = "vendor.touch.gti0.ical.override.result",
+		[1] = "vendor.touch.gti1.ical.override.result",
+	};
+	const char *ical_write_history_prop[2] = {
+		[0] = "vendor.touch.gti0.ical.write.history",
+		[1] = "vendor.touch.gti1.ical.write.history",
+	};
 	const char *ical_state_prop[2] = {
 		[0] = "vendor.touch.gti0.ical.state",
 		[1] = "vendor.touch.gti1.ical.state",
@@ -46,9 +58,16 @@ int main(int argc, char *argv[])
 		[0] = "/sys/devices/virtual/goog_touch_interface/gti.0/interactive_calibrate",
 		[1] = "/sys/devices/virtual/goog_touch_interface/gti.1/interactive_calibrate",
 	};
+	const char *ical_override_cmd_prop_path = ical_override_cmd_prop[0];
+	const char *ical_override_result_prop_path = ical_override_result_prop[0];
+	const char *ical_write_history_prop_path = ical_write_history_prop[0];
 	const char *ical_state_prop_path = ical_state_prop[0];
 	const char *ical_result_prop_path = ical_result_prop[0];
 	const char *ical_sysfs_path = ical_sysfs[0];
+	const char ical_override_all_cmd_prop_val[PROPERTY_VALUE_MAX] = "xxx";
+	char ical_override_cmd_prop_val[PROPERTY_VALUE_MAX] = "\0";
+	char ical_override_result_prop_val[PROPERTY_VALUE_MAX] = "\0";
+	char ical_write_history_prop_val[PROPERTY_VALUE_MAX] = "\0";
 
 	if (argc < 3) {
 		ALOGW("No target dev or command for interactive_calibrate sysfs.\n");
@@ -60,10 +79,17 @@ int main(int argc, char *argv[])
 	if (strncmp(argv[1], "1", strlen(argv[1])) == 0 ||
 		strncmp(argv[1], "gti1", strlen(argv[1])) == 0 ||
 		strncmp(argv[1], "gti.1", strlen(argv[1])) == 0) {
+		ical_override_cmd_prop_path = ical_override_cmd_prop[1];
+		ical_override_result_prop_path = ical_override_result_prop[1];
+		ical_write_history_prop_path = ical_write_history_prop[1];
 		ical_state_prop_path = ical_state_prop[1];
 		ical_result_prop_path = ical_result_prop[1];
 		ical_sysfs_path = ical_sysfs[1];
 	}
+
+	property_get(ical_override_cmd_prop_path, ical_override_cmd_prop_val, NULL);
+	property_get(ical_override_result_prop_path, ical_override_result_prop_val, "0 - -2147483648");
+	property_get(ical_write_history_prop_path, ical_write_history_prop_val, NULL);
 
 	property_set(ical_result_prop_path, "na");
 	property_set(ical_state_prop_path, "running");
@@ -84,11 +110,25 @@ int main(int argc, char *argv[])
 		getline(&line, &len, ical_fd);
 		if (line != NULL) {
 			property_set(ical_state_prop_path, "read");
-			property_set(ical_result_prop_path, line);
-			ALOGI("read: %s => %s", ical_sysfs_path, line);
+			if (strncmp(ical_override_cmd_prop_val,
+					ical_write_history_prop_val,
+					strlen(ical_write_history_prop_path)) == 0 ||
+				strncasecmp(ical_override_cmd_prop_val,
+					ical_override_all_cmd_prop_val,
+					strlen(ical_override_all_cmd_prop_val)) == 0) {
+				property_set(ical_result_prop_path, ical_override_result_prop_val);
+				ALOGW("read(original): %s => %s",
+					ical_sysfs_path, line);
+				ALOGW("read(override): %s => %s",
+					ical_sysfs_path, ical_override_result_prop_val);
+			} else {
+				property_set(ical_result_prop_path, line);
+				ALOGI("read: %s => %s", ical_sysfs_path, line);
+			}
 			free(line);
 		}
 	} else {
+		property_set(ical_write_history_prop_path, argv[2]);
 		property_set(ical_state_prop_path, argv[2]);
 		fwrite(argv[2], 1, strlen(argv[2]), ical_fd);
 		ALOGI("write: %s => %s\n", argv[2], ical_sysfs_path);

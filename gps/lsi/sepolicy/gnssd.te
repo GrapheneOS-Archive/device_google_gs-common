@@ -31,3 +31,6 @@ set_prop(gnssd, vendor_gps_prop)
 
 # Read RIL property
 get_prop(gnssd, vendor_rild_prop)
+
+# Read modme state
+allow gnssd sysfs_modem_state:file r_file_perms;
