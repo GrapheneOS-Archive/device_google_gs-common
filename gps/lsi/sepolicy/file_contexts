@@ -7,6 +7,4 @@
 /vendor/bin/hw/swcnd            u:object_r:swcnd_exec:s0
 /vendor/bin/hw/spad             u:object_r:spad_exec:s0
 /vendor/bin/hw/android.hardware.gnss-service           u:object_r:hal_gnss_default_exec:s0
-/vendor/bin/gnss_check\.sh                                     u:object_r:gnss_check_exec:s0
-# keep only one rule and use eGNSS one
-# /data/vendor/gps(/.*)?             u:object_r:vendor_gps_file:s0
+/data/vendor/gps(/.*)?             u:object_r:vendor_gps_file:s0

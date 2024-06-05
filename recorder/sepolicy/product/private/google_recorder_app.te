@@ -1,0 +1,16 @@
+app_domain(google_recorder_app)
+net_domain(google_recorder_app)
+
+get_prop(google_recorder_app, graphics_config_writable_prop)
+
+allow google_recorder_app app_api_service:service_manager find;
+allow google_recorder_app audioserver_service:service_manager find;
+allow google_recorder_app mediaextractor_service:service_manager find;
+allow google_recorder_app mediametrics_service:service_manager find;
+allow google_recorder_app mediaserver_service:service_manager find;
+
+allow google_recorder_app privapp_data_file:lnk_file r_file_perms;
+allow google_recorder_app privapp_data_file:file execute;
+
+# Library code may try to access default properties, but should be denied
+dontaudit google_recorder_app default_prop:file read;
