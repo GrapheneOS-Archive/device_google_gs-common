@@ -19,7 +19,7 @@
 
 #define GYOTAKU_DIRECTORY "/data/vendor/gyotaku/andlog"
 #define GYOTAKU_ANDROID_LOG_PREFIX "android_"
-
+#define GYOTAKU_ODPM_LOG_PREFIX "odpm_"
 #define maxFileLogsNumber 30
 
 int main() {
@@ -30,6 +30,7 @@ int main() {
     }
 
     dumpLogs(GYOTAKU_DIRECTORY, outputDir.c_str(), maxFileLogsNumber, GYOTAKU_ANDROID_LOG_PREFIX);
+    dumpLogs(GYOTAKU_DIRECTORY, outputDir.c_str(), maxFileLogsNumber, GYOTAKU_ODPM_LOG_PREFIX);
     return 0;
 }
 
