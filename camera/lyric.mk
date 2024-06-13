@@ -11,13 +11,8 @@ ifneq ($(wildcard vendor/google/services/LyricCameraHAL/src),)
 $(call soong_config_set,gch,hwl_library,lyric)
 endif
 
-# Check if we're in PDK build
-ifeq ($(wildcard vendor/google/camera),)
-# If vendor/google/camera doesn't exist, it's a PDK build.
-$(call soong_config_set,lyric,pdk_build,true)
-else
-# Otherwise, it's an internal Google build.
-$(call soong_config_set,lyric,pdk_build,false)
+# Check if we're in the internal build
+ifneq ($(wildcard vendor/google/camera),)
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/google/camera \
