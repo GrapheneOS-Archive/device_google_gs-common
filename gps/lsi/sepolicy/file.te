@@ -1,5 +1,0 @@
-type vendor_gps_file, file_type, data_file_type;
-type sysfs_gps, sysfs_type, fs_type;
-userdebug_or_eng(`
-  typeattribute vendor_gps_file mlstrustedobject;
-')

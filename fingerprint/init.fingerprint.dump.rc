@@ -1,0 +1,2 @@
+on post-fs-data
+    mkdir /data/vendor/tombstones/fingerprint 0770 system system

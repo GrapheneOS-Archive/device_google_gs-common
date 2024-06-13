@@ -1,0 +1,2 @@
+/vendor/bin/dump/dump_fingerprint          u:object_r:dump_fingerprint_exec:s0
+/data/vendor/tombstones/fingerprint(/.*)?  u:object_r:fingerprint_vendor_data_file:s0

@@ -1,0 +1,21 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+cc_binary {
+    name: "dump_fingerprint",
+    srcs: ["dump_fingerprint.cpp"],
+    init_rc: ["init.fingerprint.dump.rc"],
+    cflags: [
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+    ],
+    shared_libs: [
+        "libbase",
+        "libdump",
+        "liblog",
+    ],
+    vendor: true,
+    relative_install_path: "dump",
+}
