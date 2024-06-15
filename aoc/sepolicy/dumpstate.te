@@ -1,0 +1,2 @@
+# Allow dumpstate to talk to aocxd over binder
+binder_call(dumpstate, aocxd)
