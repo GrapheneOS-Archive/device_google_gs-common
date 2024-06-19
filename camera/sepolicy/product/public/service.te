@@ -1,1 +1,5 @@
 type camera_binder_service, hal_service_type, protected_service, service_manager_type;
+
+type camera_cameraidremapper_service, hal_service_type, protected_service, service_manager_type;
+
+type camera_lyricconfigprovider_service, hal_service_type, protected_service, service_manager_type;
