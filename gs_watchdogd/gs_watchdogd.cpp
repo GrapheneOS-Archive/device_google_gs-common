@@ -19,37 +19,30 @@
 #include <android-base/logging.h>
 #include <android-base/stringprintf.h>
 #include <android-base/unique_fd.h>
+#include <log/log.h>
 
-#include <errno.h>
 #include <fcntl.h>
 #include <glob.h>
 #include <linux/watchdog.h>
 #include <stdlib.h>
 #include <string.h>
+#include <sys/cdefs.h>
 #include <unistd.h>
 
-#include <chrono>
+#include <cstdlib>
 #include <vector>
+
+#define NSEC_PER_SEC (1000LL * 1000LL * 1000LL)
 
 #define DEV_GLOB "/sys/devices/platform/*.watchdog_cl*/watchdog/watchdog*"
 
-#define DEFAULT_INTERVAL 10s
-#define DEFAULT_MARGIN 10s
-
 using android::base::Basename;
 using android::base::StringPrintf;
-using std::literals::chrono_literals::operator""s;
 
-int main(int argc, char** argv) {
+int main(int __unused argc, char** argv) {
+    auto min_timeout_nsecs = std::numeric_limits<typeof(NSEC_PER_SEC)>::max();
+
     android::base::InitLogging(argv, &android::base::KernelLogger);
-
-    std::chrono::seconds interval = argc >= 2
-        ? std::chrono::seconds(atoi(argv[1])) : DEFAULT_INTERVAL;
-    std::chrono::seconds margin = argc >= 3
-        ? std::chrono::seconds(atoi(argv[2])) : DEFAULT_MARGIN;
-
-    LOG(INFO) << "gs_watchdogd started (interval " << interval.count()
-              << ", margin " << margin.count() << ")!";
 
     glob_t globbuf;
     int ret = glob(DEV_GLOB, GLOB_MARK, nullptr, &globbuf);
@@ -61,8 +54,7 @@ int main(int argc, char** argv) {
     std::vector<android::base::unique_fd> wdt_dev_fds;
 
     for (size_t i = 0; i < globbuf.gl_pathc; i++) {
-        std::chrono::seconds timeout = interval + margin;
-        int timeout_secs = timeout.count();
+        int timeout_secs;
         std::string dev_path = StringPrintf("/dev/%s", Basename(globbuf.gl_pathv[i]).c_str());
 
         int fd = TEMP_FAILURE_RETRY(open(dev_path.c_str(), O_RDWR | O_CLOEXEC));
@@ -71,29 +63,39 @@ int main(int argc, char** argv) {
             return 1;
         }
 
-        wdt_dev_fds.emplace_back(fd);
-        ret = ioctl(fd, WDIOC_SETTIMEOUT, &timeout_secs);
+        ret = ioctl(fd, WDIOC_GETTIMEOUT, &timeout_secs);
         if (ret) {
-            PLOG(ERROR) << "Failed to set timeout to " << timeout_secs;
-            ret = ioctl(fd, WDIOC_GETTIMEOUT, &timeout_secs);
-            if (ret) {
-                PLOG(ERROR) << "Failed to get timeout";
-            } else {
-                interval = timeout > margin ? timeout - margin : 1s;
-                LOG(WARNING) << "Adjusted interval to timeout returned by driver: "
-                             << "timeout " << timeout_secs
-                             << ", interval " << interval.count()
-                             << ", margin " << margin.count();
-            }
+            PLOG(ERROR) << "Failed to get timeout on " << dev_path;
+            continue;
+        } else {
+            min_timeout_nsecs = std::min(min_timeout_nsecs, NSEC_PER_SEC * timeout_secs);
         }
+
+        wdt_dev_fds.emplace_back(fd);
     }
 
     globfree(&globbuf);
 
+    if (wdt_dev_fds.empty()) {
+        LOG(ERROR) << "no valid wdt dev found";
+        return 1;
+    }
+
+    timespec ts;
+    auto result = div(min_timeout_nsecs / 2, NSEC_PER_SEC);
+    ts.tv_sec = result.quot;
+    ts.tv_nsec = result.rem;
+
     while (true) {
+        timespec rem = ts;
+
         for (const auto& fd : wdt_dev_fds) {
             TEMP_FAILURE_RETRY(write(fd, "", 1));
         }
-        sleep(interval.count());
+
+        if (TEMP_FAILURE_RETRY(nanosleep(&rem, &rem))) {
+            PLOG(ERROR) << "nanosleep failed";
+            return 1;
+        }
     }
 }
