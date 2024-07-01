@@ -5,7 +5,9 @@ init_daemon_domain(gnssd);
 # Allow gnssd to access rild
 binder_call(gnssd, rild);
 binder_call(gnssd, hwservicemanager)
+binder_call(gnssd, servicemanager)
 allow gnssd hal_exynos_rild_hwservice:hwservice_manager find;
+allow gnssd hal_vendor_radio_external_service:service_manager find;
 allow gnssd radio_device:chr_file rw_file_perms;
 
 # Allow gnssd to acess gnss device
