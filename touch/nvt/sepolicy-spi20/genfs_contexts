@@ -1,0 +1,8 @@
+# Touch
+genfscon sysfs /devices/platform/111d0000.spi/spi_master/spi20/spi20.0   u:object_r:sysfs_touch:s0
+
+# System suspend wakeup files
+genfscon sysfs /devices/platform/111d0000.spi/spi_master/spi20/spi20.0/power_supply/nvt-pen-battery/wakeup                  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/111d0000.spi/spi_master/spi20/spi20.0/power_supply/USI_Stylus_Battery/wakeup               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/111d0000.spi/spi_master/spi20/spi20.0/input/input2/wakeup                                  u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/111d0000.spi/spi_master/spi20/spi20.0/wakeup                                               u:object_r:sysfs_wakeup:s0

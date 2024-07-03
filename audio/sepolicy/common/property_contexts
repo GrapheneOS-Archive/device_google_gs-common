@@ -1,3 +1,6 @@
+# for serial no
+vendor.audio_hal.device.serialno                u:object_r:vendor_audio_prop:s0
+
 # for audio
 vendor.audio_hal.period_multiplier              u:object_r:vendor_audio_prop:s0
 vendor.audiodump.enable                         u:object_r:vendor_audio_prop:s0
