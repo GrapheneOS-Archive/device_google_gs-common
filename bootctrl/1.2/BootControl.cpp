@@ -19,6 +19,7 @@
 #include "BootControl.h"
 
 #include <android-base/file.h>
+#include <android-base/properties.h>
 #include <android-base/unique_fd.h>
 #include <bootloader_message/bootloader_message.h>
 #include <cutils/properties.h>
@@ -254,16 +255,15 @@ static bool blowAR_gs101() {
 }
 
 static bool blowAR() {
-    char platform[PROPERTY_VALUE_MAX];
-    property_get("ro.boot.hardware.platform", platform, "");
+    const auto& platform = ::android::base::GetProperty("ro.boot.hardware.platform", "");
 
-    if (std::string(platform) == "gs101") {
+    if (platform == "gs101") {
         return blowAR_gs101();
-    } else if (std::string(platform) == "gs201" || std::string(platform) == "zuma") {
+    } else if (platform == "gs201" || platform == "zuma" || platform == "zumapro") {
         return blowAR_zuma();
     }
 
-    return true;
+    return false;
 }
 
 }  // namespace
