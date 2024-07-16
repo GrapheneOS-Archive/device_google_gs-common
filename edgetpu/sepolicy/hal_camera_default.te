@@ -6,3 +6,10 @@ get_prop(hal_camera_default, vendor_edgetpu_runtime_prop)
 
 # Allow camera HAL to read hetero runtime properties
 get_prop(hal_camera_default, vendor_hetero_runtime_prop)
+
+# Allow camera HAL to access tachyon HAL
+allow hal_camera_default edgetpu_tachyon_service:service_manager find;
+
+# Allow camera HAL to communicate with tachyon hal using binder calls
+binder_call(hal_camera_default, edgetpu_tachyon_server);
+
