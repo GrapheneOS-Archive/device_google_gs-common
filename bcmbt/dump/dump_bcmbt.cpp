@@ -34,7 +34,8 @@ int main() {
         return 0;
     }
 
-    dumpLogs(BCMBT_SNOOP_LOG_DIRECTORY, outputDir.c_str(), 2, BCMBT_SNOOP_LOG_PREFIX);
+    dumpLogs(BCMBT_SNOOP_LOG_DIRECTORY, outputDir.c_str(), 4,
+             BCMBT_SNOOP_LOG_PREFIX);
     dumpLogs(BCMBT_SNOOP_LOG_DIRECTORY, outputDir.c_str(), 2, BCMBT_BACKUP_SNOOP_LOG_PREFIX);
     dumpLogs(BCMBT_FW_LOG_DIRECTORY, outputDir.c_str(), 10, BCMBT_FW_DUMP_LOG_PREFIX);
     dumpLogs(BCMBT_FW_LOG_DIRECTORY, outputDir.c_str(), 10, BCMBT_CHRE_DUMP_LOG_PREFIX);

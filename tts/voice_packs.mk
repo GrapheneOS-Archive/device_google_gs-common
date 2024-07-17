@@ -15,8 +15,8 @@
 
 # Voice packs for Text-To-Speech
 PRODUCT_COPY_FILES += \
-	device/google/gs-common/tts/ja-jp/ja-jp-x-multi-r49.zvoice:product/tts/google/ja-jp/ja-jp-x-multi-r49.zvoice\
-	device/google/gs-common/tts/fr-fr/fr-fr-x-multi-r51.zvoice:product/tts/google/fr-fr/fr-fr-x-multi-r51.zvoice\
-	device/google/gs-common/tts/de-de/de-de-x-multi-r51.zvoice:product/tts/google/de-de/de-de-x-multi-r51.zvoice\
-	device/google/gs-common/tts/it-it/it-it-x-multi-r47.zvoice:product/tts/google/it-it/it-it-x-multi-r47.zvoice\
-	device/google/gs-common/tts/es-es/es-es-x-multi-r50.zvoice:product/tts/google/es-es/es-es-x-multi-r50.zvoice
+	device/google/gs-common/tts/ja-jp/ja-jp-x-multi-r51.zvoice:product/tts/google/ja-jp/ja-jp-x-multi-r51.zvoice\
+	device/google/gs-common/tts/fr-fr/fr-fr-x-multi-r53.zvoice:product/tts/google/fr-fr/fr-fr-x-multi-r53.zvoice\
+	device/google/gs-common/tts/de-de/de-de-x-multi-r53.zvoice:product/tts/google/de-de/de-de-x-multi-r53.zvoice\
+	device/google/gs-common/tts/it-it/it-it-x-multi-r49.zvoice:product/tts/google/it-it/it-it-x-multi-r49.zvoice\
+	device/google/gs-common/tts/es-es/es-es-x-multi-r52.zvoice:product/tts/google/es-es/es-es-x-multi-r52.zvoice
