@@ -1,0 +1,2 @@
+/vendor/bin/hw/google\.hardware\.media\.c2@3\.0-service                     u:object_r:mediacodec_google_exec:s0
+/dev/vpu                                                                    u:object_r:video_device:s0

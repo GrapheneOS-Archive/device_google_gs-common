@@ -63,3 +63,8 @@ allow edgetpu_tachyon_server privapp_data_file:file { map read};
 userdebug_or_eng(`
     allow edgetpu_tachyon_server shell_data_file:file { map read};
 ')
+
+# For shell level testing
+userdebug_or_eng(`
+    binder_call(edgetpu_tachyon_server, shell);
+')
