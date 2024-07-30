@@ -8,6 +8,8 @@ allow hal_wlcservice vendor_wlc_file:file create_file_perms;
 allow hal_wlcservice hal_wireless_charger_service:service_manager find;
 allow hal_wlcservice kmsg_device:chr_file { getattr w_file_perms };
 
+get_prop(hal_wlcservice, vendor_wlcservice_test_prop)
+
 binder_call(hal_wlcservice, servicemanager)
 add_service(hal_wlcservice, hal_wlcservice_service)
 
