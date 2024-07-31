@@ -26,7 +26,8 @@ int main() {
     if (!::android::os::dumpstate::PropertiesHelper::IsUserBuild()) {
         // Not a user build, if this is also not a production device dump the USF registry.
         std::string hwRev = ::android::base::GetProperty("ro.boot.hardware.revision", "");
-        if (hwRev.find("PROTO") != std::string::npos ||
+        if (hwRev.find("DEV") != std::string::npos ||
+            hwRev.find("PROTO") != std::string::npos ||
             hwRev.find("EVT") != std::string::npos ||
             hwRev.find("DVT") != std::string::npos ||
             hwRev.find("PVT") != std::string::npos) {
