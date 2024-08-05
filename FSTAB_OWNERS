@@ -1,0 +1,11 @@
+# NOTE: CHANGE THIS FILE WITH CAUTIOUS
+# - this file is referenced by other OWNERS file, e.g. device/google/*/OWNERS
+# - changing this file might break the function, check go/gerrit-code-owners-syntax first
+
+jaegeuk@google.com
+huangrandall@google.com
+bvanassche@google.com
+daehojeong@google.com
+chullee@google.com
+vkon@google.com
+thomasyen@google.com
