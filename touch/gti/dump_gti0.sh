@@ -8,6 +8,11 @@ else
 heatmap_path=$path
 fi
 
+if [[ -f "${procfs_path}/dump" ]]; then
+  echo "------ Dump ------"
+  cat ${procfs_path}/dump
+fi
+
 echo "------ Force Touch Active ------"
 result=$( cat "$path/force_active" 2>&1 )
 if [ $? -eq 0 ]; then
@@ -59,11 +64,6 @@ cat $heatmap_path/ss_raw
 
 echo "------ Self Test ------"
 cat $path/self_test
-
-if [[ -f "${procfs_path}/dump" ]]; then
-  echo "------ Dump ------"
-  cat ${procfs_path}/dump
-fi
 
 echo "------ Disable Force Touch Active ------"
 echo 0 > $path/force_active
