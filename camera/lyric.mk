@@ -14,8 +14,13 @@ ifneq ($(wildcard vendor/google/services/LyricCameraHAL/src),)
 $(call soong_config_set,gch,hwl_library,lyric)
 endif
 
-# Check if we're in the internal build
-ifneq ($(wildcard vendor/google/camera),)
+# Use build-time flag to select whether to build from source
+# or ingest prebuilt-apex.  We would want the development teams
+# using release configuration: (trunk-staging) to build from source.
+# All shipping releases will switch to prebuilts (trunk+)
+# if this condition is not true, then build from source.
+
+ifneq ($(RELEASE_PIXEL_CAMERA_ENABLE_PREBUILT),true)
 
 PRODUCT_SOONG_NAMESPACES += \
     vendor/google/camera \
@@ -36,8 +41,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Calibration tool for debug builds
 PRODUCT_PACKAGES_DEBUG += tarasque_test
 PRODUCT_PACKAGES_DEBUG += ProtoCalibGenerator
-
-endif  # vendor/google/camera check
+endif  # RELEASE_PIXEL_CAMERA_ENABLE_PREBUILT check
 
 # Init-time log settings for Google 3A
 PRODUCT_PACKAGES += libg3a_standalone_gabc_rc
