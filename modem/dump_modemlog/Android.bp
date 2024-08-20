@@ -1,12 +1,12 @@
 package {
-    default_applicable_licenses: [ "Android-Apache-2.0" ],
+    default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
-sh_binary {
-    name: "dump_modem.sh",
-    src: "dump_modem.sh",
+rust_binary {
+    name: "dump_modem",
+    srcs: ["dump_modem.rs"],
     vendor: true,
-    sub_dir: "dump",
+    relative_install_path: "dump",
 }
 
 // Modem Log Dumper
@@ -30,10 +30,10 @@ cc_defaults {
 
 cc_library {
     name: "modem_log_dumper",
-    srcs: [ "modem_log_dumper.cpp" ],
-    defaults: [ "modem_log_dumper_defaults" ],
+    srcs: ["modem_log_dumper.cpp"],
+    defaults: ["modem_log_dumper_defaults"],
     export_shared_lib_headers: modem_log_dumper_public_deps,
-    export_include_dirs: [ "include" ],
+    export_include_dirs: ["include"],
     vendor_available: true,
 }
 
@@ -41,7 +41,7 @@ cc_library {
 
 cc_binary {
     name: "dump_modemlog",
-    srcs: [ "dump_modemlog.cpp" ],
+    srcs: ["dump_modemlog.cpp"],
     cflags: [
         "-Wall",
         "-Wextra",
@@ -60,7 +60,7 @@ cc_binary {
 
 cc_test {
     name: "dump_modemlog_test",
-    srcs: [ "modem_log_dumper_test.cpp" ],
+    srcs: ["modem_log_dumper_test.cpp"],
     defaults: [
         "modem_log_dumper_defaults",
         "modem_android_property_manager_fake_defaults",
