@@ -9,7 +9,7 @@
     </hal>
     <hal format="aidl">
         <name>vendor.google.whitechapel.audio.extension</name>
-        <version>2</version>
+        <version>3</version>
         <interface>
             <name>IAudioExtension</name>
             <instance>default</instance>

@@ -2,7 +2,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/gpu/sepolicy
 
 PRODUCT_PACKAGES += gpu_probe
 
-USE_MAPPER5 := false
+USE_MAPPER5 := true
 
 PRODUCT_PACKAGES += pixel_gralloc_allocator
 PRODUCT_PACKAGES += pixel_gralloc_mapper

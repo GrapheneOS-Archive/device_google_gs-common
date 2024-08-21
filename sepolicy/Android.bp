@@ -1,0 +1,5 @@
+se_flags {
+    name: "usb_udc_sysfs_selinux_flags",
+    flags: ["RELEASE_USB_UDC_SYSFS_SELINUX_POLICY_ENABLED"],
+    export_to: ["all_selinux_flags"],
+}
