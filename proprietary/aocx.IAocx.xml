@@ -1,0 +1,9 @@
+<compatibility-matrix version="9.0" type="framework">
+    <hal format="aidl" optional="true">
+        <name>aocx</name>
+        <interface>
+            <name>IAocx</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
