@@ -1,0 +1,10 @@
+<compatibility-matrix version="1.0" type="framework">
+    <hal format="aidl">
+        <name>vendor.google.aam</name>
+        <version>2</version>
+        <interface>
+            <name>IAam</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
