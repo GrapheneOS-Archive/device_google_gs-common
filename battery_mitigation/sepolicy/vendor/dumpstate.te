@@ -1,3 +1,20 @@
 # To call battery_mitigation hal
 allow dumpstate hal_battery_mitigation_service:service_manager find;
 binder_call(dumpstate, battery_mitigation);
+
+allow hal_dumpstate_default sysfs_acpm_stats:dir { read open search };
+allow hal_dumpstate_default sysfs_acpm_stats:file { read open getattr };
+allow hal_dumpstate_default sysfs_cpu:file { read open getattr };
+allow hal_dumpstate_default sysfs_batteryinfo:dir { read open search };
+allow hal_dumpstate_default sysfs_batteryinfo:file { read open getattr };
+allow hal_dumpstate_default logbuffer_device:chr_file { read open getattr };
+allow hal_dumpstate_default mitigation_vendor_data_file:dir { search };
+allow hal_dumpstate_default sysfs_bcl:dir { read open search };
+allow hal_dumpstate_default sysfs_bcl:file { read open getattr };
+allow hal_dumpstate_default vendor_file:file { execute_no_trans };
+allow hal_dumpstate_default battery_history_device:chr_file { read };
+
+
+userdebug_or_eng(`
+  allow hal_dumpstate_default vendor_pm_genpd_debugfs:file { read open getattr };
+')
