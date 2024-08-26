@@ -1,0 +1,7 @@
+prebuilt_etc {
+    name: "fir-proximity-feature.xml",
+    src: "fir-proximity-feature.xml",
+    product_specific: true,
+    sub_dir: "sysconfig",
+    filename_from_src: true,
+}
