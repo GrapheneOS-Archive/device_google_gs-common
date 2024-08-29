@@ -1,1 +1,2 @@
 system_public_prop(vendor_gti_prop)
+typeattribute vendor_gti_prop         touch_property_type;

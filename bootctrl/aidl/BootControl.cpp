@@ -384,7 +384,7 @@ ScopedAStatus BootControl::isSlotMarkedSuccessful(int32_t in_slot, bool* _aidl_r
         *_aidl_return = true;
         return ScopedAStatus::ok();
     }
-    if (in_slot >= slots)
+    if (in_slot < 0 || in_slot >= slots)
         return ScopedAStatus::fromServiceSpecificErrorWithMessage(
                 INVALID_SLOT, (std::string("Invalid slot ") + std::to_string(in_slot)).c_str());
 

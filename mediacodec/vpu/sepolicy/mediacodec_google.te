@@ -7,6 +7,8 @@ hal_server_domain(mediacodec_google, hal_codec2)
 
 hal_client_domain(mediacodec_google, hal_graphics_allocator)
 
+add_service(mediacodec_google, eco_service)
+
 allow mediacodec_google dmabuf_system_heap_device:chr_file r_file_perms;
 allow mediacodec_google video_device:chr_file { read write open ioctl map };
 
@@ -19,3 +21,11 @@ neverallow mediacodec_google { file_type fs_type }:file execute_no_trans;
 # https://android-developers.googleblog.com/2016/05/hardening-media-stack.html
 neverallow mediacodec_google domain:{ udp_socket rawip_socket } *;
 neverallow mediacodec_google { domain userdebug_or_eng(`-su') }:tcp_socket *;
+
+# Allow HAL to send trace packets to Perfetto
+userdebug_or_eng(`perfetto_producer(mediacodec_google)')
+
+userdebug_or_eng(`
+ allow mediacodec_google vendor_media_data_file:dir rw_dir_perms;
+ allow mediacodec_google vendor_media_data_file:file create_file_perms;
+')
