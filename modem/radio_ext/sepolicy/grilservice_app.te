@@ -1,0 +1,2 @@
+allow grilservice_app hal_radio_ext_service:service_manager find;
+binder_call(grilservice_app, hal_radio_ext)

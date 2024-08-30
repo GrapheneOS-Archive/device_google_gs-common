@@ -1,1 +1,6 @@
+# fix fsck
 allow fsck userdata_exp_block_device:blk_file rw_file_perms;
+allow fsck efs_block_device:blk_file rw_file_perms;
+allow fsck modem_userdata_block_device:blk_file rw_file_perms;
+allow fsck sysfs_scsi_devices_0000:dir r_dir_perms;
+allow fsck sysfs_scsi_devices_0000:file r_file_perms;

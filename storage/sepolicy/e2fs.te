@@ -1,1 +1,9 @@
+# fix mkfs
 allow e2fs userdata_exp_block_device:blk_file rw_file_perms;
+allow e2fs efs_block_device:blk_file rw_file_perms;
+allow e2fs modem_userdata_block_device:blk_file rw_file_perms;
+allowxperm e2fs { persist_block_device efs_block_device modem_userdata_block_device }:blk_file ioctl {
+  BLKSECDISCARD BLKDISCARD BLKPBSZGET BLKDISCARDZEROES BLKROGET
+};
+allow e2fs sysfs_scsi_devices_0000:dir r_dir_perms;
+allow e2fs sysfs_scsi_devices_0000:file r_file_perms;
