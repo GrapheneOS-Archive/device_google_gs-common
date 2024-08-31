@@ -1,5 +1,6 @@
 # Pet watchdog timer every half of its timeout period.
 service gs_watchdogd /system_ext/bin/gs_watchdogd
+    user root
     class core
     oneshot
     seclabel u:r:gs_watchdogd:s0

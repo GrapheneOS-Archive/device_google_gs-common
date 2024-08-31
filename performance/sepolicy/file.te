@@ -1,2 +1,8 @@
+# proactive kill
 type sysfs_pakills, fs_type, sysfs_type;
+
+# bts dump
 type vendor_bts_debugfs, fs_type, debugfs_type;
+
+# proc_compaction_proactiveness type
+type proc_compaction_proactiveness, fs_type, proc_type;
