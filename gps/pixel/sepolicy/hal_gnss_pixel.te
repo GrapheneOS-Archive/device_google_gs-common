@@ -10,6 +10,9 @@ allow hal_gnss_pixel sysfs_gps:file rw_file_perms;
 # Allow access to CHRE multiclient HAL.
 get_prop(hal_gnss_pixel, vendor_chre_hal_prop)
 
+# Allow read vendor gps prop.
+get_prop(hal_gnss_pixel, vendor_gps_prop)
+
 # Allow binder to CHRE.
 binder_call(hal_gnss_pixel, hal_contexthub_default)
 allow hal_gnss_pixel hal_contexthub_service:service_manager find;

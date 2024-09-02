@@ -25,6 +25,6 @@ int main() {
     dumpFileContent("Primary panel name", "/sys/devices/platform/exynos-drm/primary-panel/panel_name");
     dumpFileContent("Primary panel extra info", "/sys/devices/platform/exynos-drm/primary-panel/panel_extinfo");
     dumpFileContent("Primary panel power Vreg", "/sys/devices/platform/exynos-drm/primary-panel/panel_pwr_vreg");
+    dumpFileContent("Primary panel power mode register", "/sys/devices/platform/exynos-drm/primary-panel/power_mode");
     return 0;
 }
-
