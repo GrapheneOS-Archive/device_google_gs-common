@@ -1,0 +1,9 @@
+# support ufs ffu via ota
+init_daemon_domain(ufs_firmware_update)
+
+# support ufs ffu via ota
+allow ufs_firmware_update vendor_toolbox_exec:file execute_no_trans;
+allow ufs_firmware_update block_device:dir { search };
+allow ufs_firmware_update ufs_internal_block_device:blk_file rw_file_perms;
+allow ufs_firmware_update sysfs_scsi_devices_0000:file r_file_perms;
+

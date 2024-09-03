@@ -1,0 +1,3 @@
+/dev/st54spi                                                                u:object_r:st54spi_device:s0
+/vendor/bin/hw/android\.hardware\.secure_element-service\.thales            u:object_r:hal_secure_element_st54spi_aidl_exec:s0
+

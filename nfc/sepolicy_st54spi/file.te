@@ -1,0 +1,3 @@
+# SecureElement SPI device
+type st54spi_device, dev_type;
+

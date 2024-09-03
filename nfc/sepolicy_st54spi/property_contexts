@@ -1,0 +1,2 @@
+# SecureElement vendor property
+persist.vendor.se.                         u:object_r:vendor_secure_element_prop:s0
