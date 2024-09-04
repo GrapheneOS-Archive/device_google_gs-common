@@ -1,2 +1,11 @@
 # Userdata Exp block device.
 type userdata_exp_block_device, dev_type;
+
+# Block Devices
+type persist_block_device, dev_type;
+type efs_block_device, dev_type;
+type modem_userdata_block_device, dev_type;
+
+# Storage firmware upgrade
+type ufs_internal_block_device, dev_type;
+

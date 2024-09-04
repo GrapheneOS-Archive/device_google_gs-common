@@ -1,0 +1,10 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+prebuilt_etc {
+    name: "init.esim-gs.rc",
+    src: "init.esim-gs.rc",
+    vendor: true,
+    sub_dir: "init",
+}

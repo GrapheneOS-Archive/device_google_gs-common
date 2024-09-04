@@ -1,5 +1,7 @@
 # support ufs ffu via ota
 init_daemon_domain(ufs_firmware_update)
+type ufs_firmware_update, domain;
+type ufs_firmware_update_exec, vendor_file_type, exec_type, file_type;
 
 # support ufs ffu via ota
 allow ufs_firmware_update vendor_toolbox_exec:file execute_no_trans;

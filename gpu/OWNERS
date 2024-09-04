@@ -1,0 +1,2 @@
+per-file gpu.mk=set noparent
+per-file gpu.mk=file:MK_OWNERS

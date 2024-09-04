@@ -1,0 +1,2 @@
+# Allow to read setupwizard_feature_prop
+get_prop(priv_app, setupwizard_feature_prop)

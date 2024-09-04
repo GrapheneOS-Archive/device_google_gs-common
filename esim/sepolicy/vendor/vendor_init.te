@@ -1,0 +1,2 @@
+# setupwizard
+set_prop(vendor_init, setupwizard_feature_prop)
