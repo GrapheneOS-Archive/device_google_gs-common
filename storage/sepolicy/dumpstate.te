@@ -1,1 +1,7 @@
+# adb bugreport
 allow dumpstate sysfs_scsi_devices_0000:file r_file_perms;
+allow dumpstate persist_file:dir { getattr };
+allow dumpstate modem_efs_file:dir { getattr };
+allow dumpstate modem_userdata_file:dir { getattr };
+allow dumpstate vold:binder { call };
+

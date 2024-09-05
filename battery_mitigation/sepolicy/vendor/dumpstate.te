@@ -8,6 +8,7 @@ allow hal_dumpstate_default sysfs_cpu:file { read open getattr };
 allow hal_dumpstate_default sysfs_batteryinfo:dir { read open search };
 allow hal_dumpstate_default sysfs_batteryinfo:file { read open getattr };
 allow hal_dumpstate_default logbuffer_device:chr_file { read open getattr };
+allow hal_dumpstate_default mitigation_vendor_data_file:file { read open getattr };
 allow hal_dumpstate_default mitigation_vendor_data_file:dir { search };
 allow hal_dumpstate_default sysfs_bcl:dir { read open search };
 allow hal_dumpstate_default sysfs_bcl:file { read open getattr };

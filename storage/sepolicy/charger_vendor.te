@@ -1,0 +1,3 @@
+# fork from dcb05d13
+allow charger_vendor sysfs_scsi_devices_0000:file r_file_perms;
+

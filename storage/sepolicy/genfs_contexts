@@ -1,1 +1,3 @@
+# f2fs
 genfscon debugfs /f2fs     u:object_r:debugfs_f2fs:s0
+

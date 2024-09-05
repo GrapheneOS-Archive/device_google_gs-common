@@ -7,3 +7,4 @@ allowxperm e2fs { persist_block_device efs_block_device modem_userdata_block_dev
 };
 allow e2fs sysfs_scsi_devices_0000:dir r_dir_perms;
 allow e2fs sysfs_scsi_devices_0000:file r_file_perms;
+

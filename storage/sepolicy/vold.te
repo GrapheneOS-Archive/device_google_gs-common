@@ -5,9 +5,13 @@ allow vold sysfs_scsi_devices_0000:file rw_file_perms;
 allow vold userdata_exp_block_device:blk_file rw_file_perms;
 allowxperm vold userdata_exp_block_device:blk_file ioctl BLKSECDISCARD;
 
+# adb bugreport
 dontaudit vold dumpstate:fifo_file rw_file_perms;
 dontaudit vold dumpstate:fd use ;
 
 # fix idle-maint
 allow vold efs_block_device:blk_file { getattr };
 allow vold modem_userdata_block_device:blk_file { getattr };
+allow vold modem_efs_file:dir { read open ioctl };
+allow vold modem_userdata_file:dir { read open ioctl };
+

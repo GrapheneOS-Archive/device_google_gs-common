@@ -1,1 +1,6 @@
+# vendor_init
 allow vendor_init sg_device:chr_file r_file_perms;
+
+# dirty swappiness
+allow vendor_init proc_dirty:file w_file_perms;
+
