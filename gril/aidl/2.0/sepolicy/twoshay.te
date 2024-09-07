@@ -1,0 +1,2 @@
+# allow twoshay to binder call hal_aidl_radio_ext
+binder_call(twoshay, hal_aidl_radio_ext)

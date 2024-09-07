@@ -1,0 +1,2 @@
+# allow hal_camera_default to binder call hal_aidl_radio_ext
+binder_call(hal_camera_default, hal_aidl_radio_ext);

@@ -1,0 +1,2 @@
+# allow twoshay to binder call hal_radioext_default
+binder_call(twoshay, hal_radioext_default)
