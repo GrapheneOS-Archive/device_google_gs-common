@@ -1,0 +1,17 @@
+# GCARelease and GCADogfood.
+typeattribute google_camera_app coredomain;
+app_domain(google_camera_app)
+net_domain(google_camera_app)
+
+#allow google_camera_app app_api_service:service_manager find;
+#allow google_camera_app audioserver_service:service_manager find;
+#allow google_camera_app cameraserver_service:service_manager find;
+#allow google_camera_app mediaextractor_service:service_manager find;
+#allow google_camera_app mediametrics_service:service_manager find;
+#allow google_camera_app mediaserver_service:service_manager find;
+
+# Allows GCA to access the PowerHAL.
+hal_client_domain(google_camera_app, hal_power)
+
+# Library code may try to access vendor properties, but should be denied
+dontaudit google_camera_app vendor_default_prop:file { getattr map open };

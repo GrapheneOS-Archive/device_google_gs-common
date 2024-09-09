@@ -1,0 +1,16 @@
+# GCANext and GCAEng.
+userdebug_or_eng(`
+    # Allows GCA-Eng & GCA-Next access the GXP device and properties.
+    allow debug_camera_app gxp_device:chr_file rw_file_perms;
+    get_prop(debug_camera_app, vendor_gxp_prop)
+
+    # Allows GCA-Eng & GCA-Next to find and access the EdgeTPU.
+    allow debug_camera_app edgetpu_app_service:service_manager find;
+    allow debug_camera_app edgetpu_device:chr_file { read write ioctl };
+    # Cannot find avc evidence for below.
+    # allow debug_camera_app edgetpu_device:chr_file { getattr map };
+
+    # Allows GCA_Eng & GCA-Next to access the hw_jpeg /dev/video12.
+    # allow debug_camera_app hw_jpg_device:chr_file rw_file_perms;
+')
+

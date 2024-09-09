@@ -1,0 +1,13 @@
+# GCARelease and GCADogfood.
+
+# Allows GCA to acccess the GXP device & properties.
+#allow google_camera_app gxp_device:chr_file rw_file_perms;
+get_prop(google_camera_app, vendor_gxp_prop)
+
+# Allows GCA to find and access the EdgeTPU.
+#allow google_camera_app edgetpu_app_service:service_manager find;
+#allow google_camera_app edgetpu_device:chr_file { getattr read write ioctl map };
+
+# Allows GCA to access the hw_jpeg /dev/video12.
+#allow google_camera_app hw_jpg_device:chr_file rw_file_perms;
+

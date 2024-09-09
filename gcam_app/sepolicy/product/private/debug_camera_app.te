@@ -1,0 +1,29 @@
+# GCANext and GCAEng.
+# b/363018500
+typeattribute debug_camera_app coredomain;
+
+userdebug_or_eng(`
+	app_domain(debug_camera_app)
+	net_domain(debug_camera_app)
+
+	allow debug_camera_app activity_service:service_manager find;
+	allow debug_camera_app activity_task_service:service_manager find;
+	allow debug_camera_app audioserver_service:service_manager find;
+	allow debug_camera_app batterystats_service:service_manager find;
+	allow debug_camera_app cameraserver_service:service_manager find;
+	allow debug_camera_app device_policy_service:service_manager find;
+	allow debug_camera_app device_state_service:service_manager find;
+	allow debug_camera_app gpu_service:service_manager find;
+	allow debug_camera_app mediaextractor_service:service_manager find;
+	allow debug_camera_app mediametrics_service:service_manager find;
+	allow debug_camera_app mediaserver_service:service_manager find;
+	allow debug_camera_app powerstats_service:service_manager find;
+	allow debug_camera_app sensorservice_service:service_manager find;
+	allow debug_camera_app thermal_service:service_manager find;
+	allow debug_camera_app trust_service:service_manager find;
+	allow debug_camera_app vibrator_manager_service:service_manager find;
+	allow debug_camera_app virtual_device_native_service:service_manager find;
+
+	# Allows GCA_Eng & GCA-Next to access the PowerHAL.
+	hal_client_domain(debug_camera_app, hal_power)
+')

@@ -1,0 +1,7 @@
+# factory data reset
+recovery_only(`
+  allow recovery sysfs_ota:file rw_file_perms;
+  allow recovery sysfs_scsi_devices_0000:file r_file_perms;
+  allow recovery sysfs_scsi_devices_0000:dir r_dir_perms;
+')
+
