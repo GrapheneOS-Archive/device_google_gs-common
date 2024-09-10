@@ -1,3 +1,4 @@
+# Sepolicies for EdgeTPU
 type hal_neuralnetworks_darwinn, domain;
 hal_server_domain(hal_neuralnetworks_darwinn, hal_neuralnetworks)
 
@@ -62,3 +63,8 @@ get_prop(hal_neuralnetworks_darwinn, vendor_hetero_runtime_prop)
 # Allow DMA Buf access.
 allow hal_neuralnetworks_darwinn dmabuf_system_heap_device:chr_file r_file_perms;
 
+# Allows the NNAPI HAL to access the graphics_allocator_service.
+# This is required for shared memory buffer allocation.
+# Context:- b/361711471.
+hal_client_domain(hal_neuralnetworks_darwinn, hal_graphics_allocator);
+allow hal_neuralnetworks_darwinn hal_graphics_allocator_service:service_manager find;
