@@ -2,7 +2,7 @@
     <!-- Optional since older devices will not register any services. -->
     <hal format="aidl" optional="true">
         <name>com.google.pixel.shared_modem_platform</name>
-        <version>2</version>
+        <version>3</version>
         <interface>
             <name>ISharedModemPlatform</name>
             <instance>default</instance>
