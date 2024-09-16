@@ -1,0 +1,20 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+cc_binary {
+    name: "dump_gsa",
+    srcs: ["dump_gsa.cpp"],
+    init_rc: ["init.gsa.rc"],
+    cflags: [
+        "-Wall",
+        "-Wextra",
+        "-Werror",
+        "-pedantic",
+    ],
+    shared_libs: [
+        "libdump",
+    ],
+    vendor: true,
+    relative_install_path: "dump",
+}

@@ -1,0 +1,6 @@
+# GSA
+pixel_bugreport(dump_gsa)
+
+userdebug_or_eng(`
+  allow dump_gsa gsa_log_device:chr_file r_file_perms;
+')

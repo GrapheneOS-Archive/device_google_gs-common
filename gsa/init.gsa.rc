@@ -1,0 +1,6 @@
+on init
+    # Change GSA log group for dumpstate
+    chmod 660         /dev/gsa-log1
+    chmod 660         /dev/gsa-bl1-log2
+    chown root system /dev/gsa-log1
+    chown root system /dev/gsa-bl1-log2

@@ -1,0 +1,4 @@
+# GSA
+/dev/gsa-log1                                                               u:object_r:gsa_log_device:s0
+/dev/gsa-bl1-log2                                                           u:object_r:gsa_log_device:s0
+/vendor/bin/dump/dump_gsa                                                   u:object_r:dump_gsa_exec:s0
