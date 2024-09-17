@@ -1,0 +1,2 @@
+# type for gpu uevent
+type sysfs_gpu_uevent, sysfs_type, fs_type;

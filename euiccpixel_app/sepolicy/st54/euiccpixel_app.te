@@ -1,0 +1,8 @@
+# euiccpixel requires st54spi for firmware upgrade
+userdebug_or_eng(`
+    net_domain(euiccpixel_app)
+
+    # Access to directly upgrade firmware on st54spi_device used for engineering devices
+    typeattribute st54spi_device mlstrustedobject;
+    allow euiccpixel_app st54spi_device:chr_file rw_file_perms;
+')

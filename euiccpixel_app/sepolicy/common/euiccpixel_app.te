@@ -1,0 +1,27 @@
+# Euiccpixel_app
+type euiccpixel_app, domain;
+app_domain(euiccpixel_app)
+
+allow euiccpixel_app activity_service:service_manager find;
+allow euiccpixel_app netstats_service:service_manager find;
+allow euiccpixel_app content_capture_service:service_manager find;
+allow euiccpixel_app activity_task_service:service_manager find;
+allow euiccpixel_app gpu_service:service_manager find;
+allow euiccpixel_app voiceinteraction_service:service_manager find;
+allow euiccpixel_app autofill_service:service_manager find;
+allow euiccpixel_app sensitive_content_protection_service:service_manager find;
+allow euiccpixel_app hint_service:service_manager find;
+allow euiccpixel_app audio_service:service_manager find;
+allow euiccpixel_app batterystats_service:service_manager find;
+allow euiccpixel_app batteryproperties_service:service_manager find;
+allow euiccpixel_app permission_checker_service:service_manager find;
+allow euiccpixel_app radio_service:service_manager find;
+allow euiccpixel_app nfc_service:service_manager find;
+
+set_prop(euiccpixel_app, vendor_secure_element_prop)
+set_prop(euiccpixel_app, vendor_modem_prop)
+get_prop(euiccpixel_app, dck_prop)
+
+# b/265286368 framework UI rendering properties and file access
+dontaudit euiccpixel_app default_prop:file { read };
+dontaudit euiccpixel_app sysfs_gpu_uevent:file { read open getattr };

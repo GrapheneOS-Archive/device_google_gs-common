@@ -12,7 +12,7 @@ binder_call(hal_aidl_radio_ext, servicemanager)
 binder_call(hal_aidl_radio_ext, grilservice_app)
 binder_call(hal_aidl_radio_ext, hal_bluetooth_btlinux)
 
-add_service(hal_aidl_radio_ext, hal_aidl_radio_ext_service)
+add_service(hal_aidl_radio_ext, hal_radio_ext_service)
 
 # RW /dev/oem_ipc0
 allow hal_aidl_radio_ext radio_device:chr_file rw_file_perms;
