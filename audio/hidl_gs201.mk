@@ -32,6 +32,12 @@ PRODUCT_PACKAGES += \
 	audio_spk_35l41 \
 	sound_trigger.primary.$(TARGET_BOARD_PLATFORM)
 
+ifeq (,$(filter aosp_%,$(TARGET_PRODUCT)))
+# IAudioMetricExt HIDL
+PRODUCT_PACKAGES += \
+	vendor.google.audiometricext@1.0-service-vendor
+endif
+
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/audio/sepolicy/hidl
 
 include device/google/gs-common/audio/common.mk
