@@ -1,6 +1,6 @@
 # Dauntless
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/dauntless/sepolicy
-ifneq ($(wildcard vendor),)
+ifneq ($(wildcard vendor/google_nos),)
 PRODUCT_SOONG_NAMESPACES += vendor/google_nos/init/dauntless
 
 PRODUCT_PACKAGES += \
@@ -92,4 +92,4 @@ endif
 $(call dist-for-goals,droid,vendor/google_nos/prebuilts/dauntless/intermediate_images/d3m2_intermediate.ec.bin)
 endif
 
-endif # $(wildcard vendor)
+endif # $(wildcard vendor/google_nos)
