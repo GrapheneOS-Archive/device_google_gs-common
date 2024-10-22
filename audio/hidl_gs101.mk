@@ -32,6 +32,12 @@ PRODUCT_PACKAGES += \
 	libamcsextfile \
 	audio_amcs_ext \
 
+ifeq (,$(filter aosp_%,$(TARGET_PRODUCT)))
+# IAudioMetricExt HIDL
+PRODUCT_PACKAGES += \
+	vendor.google.audiometricext@1.0-service-vendor
+endif
+
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/audio/sepolicy/hidl
 
 include device/google/gs-common/audio/common.mk
