@@ -44,3 +44,13 @@ Example:
 $(call soong_config_set,google3a_config,target_device,oriole)
 ```
 A mixture of `camera_hardware` and `tuning_product` used by 3A.
+
+## `radioext_interface_type`
+
+Example:
+```
+$(call soong_config_set,lyric,radioext_interface_type,aidl)
+```
+Specifies which interface type to use in the RadioExt client when communicating
+with the RadioExt service. The possible values are "hidl" and "aidl".
+Devices launching with Android 15 no longer support HIDL.
