@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">opladning, grænse, optimering af opladning, opladningsgrænse</string>
+  <string name="charge_limit_mode_summary">Din telefon oplades kun til {batteryLimitLevel} %</string>
+  <string name="charge_limit_mode_title">Begræns til {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">For at forlænge batteritiden lærer Adaptiv opladning dine opladningsrutiner at kende, og funktionen sætter opladningen på pause, når batteriniveauet er {batteryLimitLevel} %. Opladningen gennemføres derefter til {batteryFullLevel}%, en time før du normalt tager opladningskablet ud.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">For at hjælpe med at forlænge batteritiden oplades din telefon kun til {batteryLimitLevel} %. Telefonen oplades lejlighedsvist til 100 % for at kalibrere den estimerede kapacitet.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Få flere oplysninger om Adaptiv opladning</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Få flere oplysninger om Begræns til {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">Få flere oplysninger om Optimering af opladning</string>
+  <string name="charging_optimization_footer_off">Aktivér optimering af opladning for at forlænge batteritiden</string>
+  <string name="charging_optimization_main_switch_title">Brug optimering af opladning</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Begræns til {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Adaptiv opladning</string>
+  <string name="charging_optimization_summary_charge_limit">Begræns til {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Deaktiveret</string>
+  <string name="charging_optimization_title">Optimering af opladning</string>
+</resources>

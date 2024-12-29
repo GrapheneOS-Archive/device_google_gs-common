@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Zapnúť</string>
+  <string name="charge_limit_discovery_notification_text">Vyskúšajte zapnúť funkciu 80 % limitu na ochranu stavu a životnosti batérie. Môžete ju kedykoľvek spravovať v nastaveniach.</string>
+  <string name="charge_limit_discovery_notification_title">Chráňte batériu počas nabíjania</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Nabíjanie bude dokončené do %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Nabité o %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Nabíjanie je ukončené</string>
+</resources>

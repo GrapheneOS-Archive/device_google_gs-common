@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">opladen, limiet, optimalisatie voor opladen, oplaadlimiet</string>
+  <string name="charge_limit_mode_summary">Je telefoon laadt op tot een batterijniveau van maximaal {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Beperken tot {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Aangepast opladen leert je oplaadroutine om de levensduur van de batterij te verlengen. De functie onderbreekt het opladen bij een batterijniveau van {batteryLimitLevel}% en stopt bij {batteryFullLevel}% een uur voordat je meestal de telefoon loskoppelt.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Je telefoon laadt op tot een batterijniveau van maximaal {batteryLimitLevel}% om de levensduur van de batterij te verlengen. De telefoon wordt af en toe helemaal opgeladen om de geschatte capaciteit opnieuw te kalibreren.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Meer informatie over Aangepast opladen</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Meer informatie over Beperken tot {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Meer informatie over Optimalisatie voor opladen</string>
+  <string name="charging_optimization_footer_off">Zet optimalisatie voor opladen aan om de levensduur van de batterij te verlengen</string>
+  <string name="charging_optimization_main_switch_title">Optimalisatie voor opladen gebruiken</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Beperken tot {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Aangepast opladen</string>
+  <string name="charging_optimization_summary_charge_limit">Beperken tot {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Uit</string>
+  <string name="charging_optimization_title">Optimalisatie voor opladen</string>
+</resources>

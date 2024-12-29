@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">karikim, kufi, optimizimi i karikimit, kufiri i karikimit</string>
+  <string name="charge_limit_mode_summary">Bateria e telefonit tënd do të karikohet vetëm deri në {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Kufiri në {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">"Për të zgjatur jetëgjatësinë e baterisë, \"Karikimi me përshtatje\" mëson rutinën tënde të karikimit, e vendos karikimin në pauzë në {batteryLimitLevel}% dhe e përfundon atë në {batteryFullLevel}% një orë para kohës kur ti e heq zakonisht nga priza."</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Për të ndihmuar në zgjatjen e jetëgjatësisë së baterisë, bateria e telefonit do të karikohet vetëm deri në {batteryLimitLevel}%. Telefoni do të karikohet herë pas here në 100% për të rikalibruar kapacitetin e përllogaritur.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">"Mëso më shumë rreth \"Karikimit me përshtatje\""</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">"Mëso më shumë rreth \"Kufizo deri në {batteryLimitLevel}%\""</string>
+  <string name="charging_optimization_footer_learn_more_default">"Mëso më shumë rreth \"Optimizimit të karikimit\""</string>
+  <string name="charging_optimization_footer_off">Për të ndihmuar në zgjatjen e jetëgjatësisë së baterisë, aktivizo optimizimin e karikimit</string>
+  <string name="charging_optimization_main_switch_title">Përdor optimizimin e karikimit</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Kufiri në {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Karikimi me përshtatje</string>
+  <string name="charging_optimization_summary_charge_limit">Kufiri në {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Joaktiv</string>
+  <string name="charging_optimization_title">Optimizimi i karikimit</string>
+</resources>

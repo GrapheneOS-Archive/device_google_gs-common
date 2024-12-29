@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">carga, límite, optimización da carga, límite de carga</string>
+  <string name="charge_limit_mode_summary">A batería do teléfono só se cargará ata o {batteryLimitLevel} %</string>
+  <string name="charge_limit_mode_title">Limitar ao {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Para aumentar a vida útil da batería, Carga intelixente aprende da túa rutina de carga, detense no {batteryLimitLevel} % e completa a carga ata o {batteryFullLevel} % unha hora antes do momento no que adoitas desconectar o dispositivo.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Para axudar a aumentar a vida útil da batería do teléfono, esta só se cargará ata o {batteryLimitLevel} %. Ocasionalmente, cargarase o teléfono ao 100 % para calibrar de novo a estimación da capacidade.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Máis información sobre a carga intelixente</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Máis información sobre o límite do {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">Máis información sobre a optimización da carga</string>
+  <string name="charging_optimization_footer_off">Para axudar a aumentar a vida útil da batería, activa a optimización da carga</string>
+  <string name="charging_optimization_main_switch_title">Usar optimización da carga</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limitar ao {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Carga intelixente</string>
+  <string name="charging_optimization_summary_charge_limit">Limitar ao {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Opción desactivada</string>
+  <string name="charging_optimization_title">Optimización da carga</string>
+</resources>

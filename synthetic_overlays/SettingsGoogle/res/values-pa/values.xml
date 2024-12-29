@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - %2$s ਤੱਕ ਚਾਰਜਿੰਗ ਦੀ ਪ੍ਰਕਿਰਿਆ ਪੂਰੀ ਹੋ ਜਾਵੇਗੀ</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - ਚਾਰਜਿੰਗ ਪੂਰੀ ਹੋ ਗਈ</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">ਚਾਰਜਿੰਗ ਪੂਰੀ ਹੋ ਗਈ</string>
+  <string name="charging_optimization_remaining_time_label">%1$s ਤੱਕ ਚਾਰਜਿੰਗ ਦੀ ਪ੍ਰਕਿਰਿਆ ਪੂਰੀ ਹੋ ਜਾਵੇਗੀ</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">ਵਾਇਰਲੈੱਸ ਚਾਰਜਿੰਗ ਪੂਰੀ ਹੋ ਗਈ •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">ਇੰਨੇ ਸਮੇਂ ਤੱਕ ਵਾਇਰਲੈੱਸ ਚਾਰਜਿੰਗ ਪੂਰੀ ਹੋ ਜਾਵੇਗੀ %1$s •</string>
+</resources>

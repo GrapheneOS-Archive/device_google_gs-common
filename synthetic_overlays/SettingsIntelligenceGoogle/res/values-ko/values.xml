@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">충전, 한도, 충전 최적화, 충전 한도</string>
+  <string name="charge_limit_mode_summary">휴대전화 배터리가 {batteryLimitLevel}%까지만 충전됩니다.</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}%로 제한</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">배터리 수명을 연장하기 위해 자동 조절 충전 기능은 사용자의 충전 루틴을 학습하여 {batteryLimitLevel}%에서 충전을 일시중지한 후 사용자가 보통 충전기에서 기기를 분리하는 시점 1시간 전에 {batteryFullLevel}%까지 완료합니다.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">배터리 수명을 연장하기 위해 휴대전화 배터리가 {batteryLimitLevel}%까지만 충전됩니다. 예상 용량을 재조정하기 위해 휴대전화가 가끔 100%까지 충전되기도 합니다.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">자동 조절 충전에 관해 자세히 알아보기</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}%로 제한에 관해 자세히 알아보기</string>
+  <string name="charging_optimization_footer_learn_more_default">충전 최적화에 관해 자세히 알아보기</string>
+  <string name="charging_optimization_footer_off">배터리 수명을 연장하려면 충전 최적화를 사용 설정하세요.</string>
+  <string name="charging_optimization_main_switch_title">충전 최적화 사용</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}%로 제한</string>
+  <string name="charging_optimization_summary_adaptive">자동 조절 충전</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%로 제한</string>
+  <string name="charging_optimization_summary_off">사용 안 함</string>
+  <string name="charging_optimization_title">충전 최적화</string>
+</resources>

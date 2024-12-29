@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Включить</string>
+  <string name="charge_limit_discovery_notification_text">Включите ограничение на уровень заряда, чтобы он не поднимался выше 80 %. Это защитит батарею и продлит срок ее службы. Изменить параметры функции можно в настройках.</string>
+  <string name="charge_limit_discovery_notification_title">Защитите батарею во время зарядки</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Зарядка завершится к %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Зарядка завершится через %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Зарядка завершена</string>
+</resources>

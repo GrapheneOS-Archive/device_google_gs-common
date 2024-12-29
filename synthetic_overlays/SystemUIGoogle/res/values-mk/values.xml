@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Овозможи сега</string>
+  <string name="charge_limit_discovery_notification_text">Обидете се да ја вклучите функцијата за ограничување на 80 % за да го заштитите работниот век и состојбата на батеријата. Со ова може да управувате во „Поставки“ кога сакате</string>
+  <string name="charge_limit_discovery_notification_title">Заштитете ја батеријата при полнење</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Ќе се наполни до %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Полнењето ќе заврши по %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Полнењето е завршено</string>
+</resources>

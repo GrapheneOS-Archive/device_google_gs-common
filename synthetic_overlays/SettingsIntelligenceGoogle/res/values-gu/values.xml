@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ચાર્જિંગ, મર્યાદા, ચાર્જિંગ ઑપ્ટિમાઇઝેશન, ચાર્જિંગની મર્યાદા</string>
+  <string name="charge_limit_mode_summary">તમારો ફોન માત્ર {batteryLimitLevel}% બૅટરી સુધી ચાર્જ થશે</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}% સુધી મર્યાદિત કરો</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">બૅટરીની આવરદા વધારવા માટે, અડૅપ્ટિવ ચાર્જિંગ તમારું ચાર્જિંગ રૂટિન શીખે છે અને તમે સામાન્ય રીતે અનપ્લગ કરો તેના એક કલાક પહેલાં {batteryLimitLevel}% પર ચાર્જિંગ થોભાવે છે અને {batteryFullLevel}% સુધી ચાર્જિંગ પૂર્ણ કરે છે.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">બૅટરીની આવરદા વધારવામાં સહાય કરવા માટે, તમારો ફોન માત્ર {batteryLimitLevel}% બૅટરી સુધી ચાર્જ થશે. અનુમાનિત ક્ષમતાને ફરીથી કૅલિબ્રેટ કરવા માટે ફોન પ્રસંગોપાત 100% સુધી ચાર્જ થશે.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">અડૅપ્ટિવ ચાર્જિંગ વિશે વધુ જાણો</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}% માટેની મર્યાદા વિશે વધુ જાણો</string>
+  <string name="charging_optimization_footer_learn_more_default">ચાર્જિંગ ઑપ્ટિમાઇઝેશન વિશે વધુ જાણો</string>
+  <string name="charging_optimization_footer_off">બૅટરીની આવરદા વધારવામાં સહાય કરવા માટે, ચાર્જિંગ ઑપ્ટિમાઇઝેશન ચાલુ કરો</string>
+  <string name="charging_optimization_main_switch_title">ચાર્જિંગ ઑપ્ટિમાઇઝેશનનો ઉપયોગ કરો</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% સુધી મર્યાદિત કરો</string>
+  <string name="charging_optimization_summary_adaptive">અડૅપ્ટિવ ચાર્જિંગ</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% સુધી મર્યાદિત કરો</string>
+  <string name="charging_optimization_summary_off">બંધ છે</string>
+  <string name="charging_optimization_title">ચાર્જિંગ ઑપ્ટિમાઇઝેશન</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">кубаттоо, чек, кубаттоону оптималдаштыруу, кубаттоо чеги</string>
+  <string name="charge_limit_mode_summary">Телефонуңуздун батареясы {batteryLimitLevel}% чейин гана кубатталат</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}% менен чектөө</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Батареяны пайдалануу мөөнөтүн узартуу үчүн Этият кубаттоо функциясы кубаттоо адаттарыңызды үйрөнүп, батареянын деңгээли {batteryLimitLevel}% жеткенде кубаттоону тындырат жана адатта кубаттагыч сууруларына бир саат калганда батарея {batteryFullLevel}% чейин кубатталган болот.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Батареяны пайдалануу мөөнөтүн узартуу үчүн телефонуңуздун батареясы {batteryLimitLevel}% чейин гана кубатталат. Батареянын болжолдуу сыйымдуулугун кайра тууралоо үчүн телефон маал-маалы менен 100% чейин кубатталып турат.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Этият кубаттоо жөнүндө кеңири маалымат</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}% чейин кубаттоо жөнүндө кеңири маалымат</string>
+  <string name="charging_optimization_footer_learn_more_default">Кубаттоону оптималдаштыруу жөнүндө кеңири маалымат</string>
+  <string name="charging_optimization_footer_off">Батареяны пайдалануу мөөнөтүн узартуу үчүн кубаттоону оптималдаштырууну күйгүзүңүз</string>
+  <string name="charging_optimization_main_switch_title">Кубаттоону оптималдаштырууга өтүү</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% менен чектөө</string>
+  <string name="charging_optimization_summary_adaptive">Этият кубаттоо</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% менен чектөө</string>
+  <string name="charging_optimization_summary_off">Өчүк</string>
+  <string name="charging_optimization_title">Кубаттоону оптималдаштыруу</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">зарадка, абмежаванне, аптымізацыя зарадкі, абмежаванне зарадкі</string>
+  <string name="charge_limit_mode_summary">Акумулятар тэлефона будзе зараджаны толькі да {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Зараджаць да {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Каб падоўжыць тэрмін службы акумулятара, функцыя адаптыўнай зарадкі адсочвае звычайны распарадак зарадкі, прыпыняе яе па дасягненні {batteryLimitLevel}% і потым завяршае зараджаць акумулятар да {batteryFullLevel}% за гадзіну да таго, як вы звычайна адключаеце зарадную прыладу.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">У мэтах падаўжэння тэрміну службы акумулятара тэлефон будзе зараджацца толькі да {batteryLimitLevel}%. Для каліброўкі разліковай ёмістасці акумулятара тэлефон будзе час ад часу зараджацца да 100%.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Даведацца больш пра адаптыўную зарадку</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Даведацца больш пра зарадку да {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Даведацца больш пра аптымізацыю зарадкі</string>
+  <string name="charging_optimization_footer_off">Каб падоўжыць тэрмін службы акумулятара, уключыце аптымізацыю зарадкі</string>
+  <string name="charging_optimization_main_switch_title">Выкарыстоўваць аптымізацыю зарадкі</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Зараджаць да {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Адаптыўная зарадка</string>
+  <string name="charging_optimization_summary_charge_limit">Зарадка да {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Выключана</string>
+  <string name="charging_optimization_title">Аптымізацыя зарадкі</string>
+</resources>

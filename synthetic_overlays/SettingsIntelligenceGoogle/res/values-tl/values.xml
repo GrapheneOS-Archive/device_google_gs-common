@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">pag-charge, limitasyon, pag-optimize ng pag-charge, limitasyon sa pag-charge</string>
+  <string name="charge_limit_mode_summary">Hanggang {batteryLimitLevel}% ng baterya lang magcha-charge ang iyong telepono</string>
+  <string name="charge_limit_mode_title">Limitahan sa {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Para mapahaba ang tagal ng baterya, tinatandaan ng Adaptive na Pag-charge ang iyong routine sa pag-charge at magpo-pause ito sa {batteryLimitLevel}% at matatapos ito sa {batteryFullLevel}% isang oras bago ka karaniwang mag-unplug.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Para makatulong na mapahaba ang tagal ng baterya, hanggang {batteryLimitLevel}% ng baterya lang magcha-charge ang iyong telepono Paminsan-minsan, magcha-charge ang telepono sa 100% para ma-recalibrate ang tinatayang kapasidad.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Matuto pa tungkol sa Adaptive na Pag-charge</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Matuto pa tungkol sa Limitahan sa {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Matuto pa tungkol sa Pag-optimize ng pag-charge</string>
+  <string name="charging_optimization_footer_off">Para makatulong na mapahaba ang tagal ng baterya, i-on ang pag-optimize ng pag-charge</string>
+  <string name="charging_optimization_main_switch_title">Gumamit ng pag-optimize ng pag-charge</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limitahan sa {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Adaptive na Pag-charge</string>
+  <string name="charging_optimization_summary_charge_limit">Limitahan sa {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Naka-off</string>
+  <string name="charging_optimization_title">Pag-optimize ng pag-charge</string>
+</resources>

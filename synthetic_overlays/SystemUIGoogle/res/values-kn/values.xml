@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">ಈಗ ಸಕ್ರಿಯಗೊಳಿಸಿ</string>
+  <string name="charge_limit_discovery_notification_text">ಬ್ಯಾಟರಿ ಹೆಲ್ತ್ ಹಾಗೂ ಅದರ ಬಾಳಿಕೆ ಅವಧಿಯನ್ನು ರಕ್ಷಿಸಲು 80% ಮಿತಿ ಫೀಚರ್ ಅನ್ನು ಆನ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿ. ನೀವು ಇದನ್ನು ಸೆಟ್ಟಿಂಗ್‌ಗಳಲ್ಲಿ ಯಾವಾಗ ಬೇಕಾದರೂ ನಿರ್ವಹಿಸಬಹುದು</string>
+  <string name="charge_limit_discovery_notification_title">ಚಾರ್ಜಿಂಗ್ ಮಾಡುವ ಸಮಯದಲ್ಲಿ ನಿಮ್ಮ ಬ್ಯಾಟರಿಯನ್ನು ರಕ್ಷಿಸಿ</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s ವೇಳೆಗೆ ಸಂಪೂರ್ಣವಾಗಿ ಚಾರ್ಜ್ ಆಗುತ್ತದೆ</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s ಸಮಯದಲ್ಲಿ ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಳ್ಳುತ್ತದೆ</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - Зарядка завершится к %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s, зарядка завершена</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Зарядка завершена</string>
+  <string name="charging_optimization_remaining_time_label">Зарядка завершится к %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Беспроводная зарядка завершена •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Беспроводная зарядка завершится к %1$s •</string>
+</resources>

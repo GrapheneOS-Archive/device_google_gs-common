@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s – Ќе се наполни до %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s – Полнењето е завршено</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Полнењето е завршено</string>
+  <string name="charging_optimization_remaining_time_label">Ќе се наполни до %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Безжичното полнење е завршено •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Безжичното полнење ќе заврши до %1$s •</string>
+</resources>

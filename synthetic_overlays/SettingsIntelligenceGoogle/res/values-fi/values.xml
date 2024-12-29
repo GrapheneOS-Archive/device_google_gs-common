@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">lataus, raja, latauksen optimointi, latausraja</string>
+  <string name="charge_limit_mode_summary">Puhelin latautuu vain {batteryLimitLevel} prosenttiin</string>
+  <string name="charge_limit_mode_title">Rajoita {batteryLimitLevel} prosenttiin</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Akunkäyttöiän pidentämiseksi Mukautuva lataus oppii, miten yleensä lataat, ja pysäyttää lataamisen {batteryLimitLevel} prosenttiin. Se viimeistelee latauksen {batteryFullLevel} prosenttiin tuntia ennen kuin yleensä irrotat laitteen.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Puhelin latautuu vain {batteryLimitLevel} prosenttiin asti akunkäyttöiän pidentämiseksi Puhelin latautuu toisinaan 100 %:iin arvioidun kapasiteetin uudelleenkalibroimiseksi.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Lue lisää mukautuvasta latauksesta</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Lue lisää rajoittamisesta {batteryLimitLevel}% prosenttiin</string>
+  <string name="charging_optimization_footer_learn_more_default">Lue lisää lataamisen optimoinnista</string>
+  <string name="charging_optimization_footer_off">Laita latauksen optimointi päälle akunkäyttöiän pidentämiseksi</string>
+  <string name="charging_optimization_main_switch_title">Käytä latauksen optimointia</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Rajoita {batteryLimitLevel} prosenttiin</string>
+  <string name="charging_optimization_summary_adaptive">Mukautuva lataus</string>
+  <string name="charging_optimization_summary_charge_limit">Rajoita {batteryLimitLevel} prosenttiin</string>
+  <string name="charging_optimization_summary_off">Pois päältä</string>
+  <string name="charging_optimization_title">Latauksen optimointi</string>
+</resources>

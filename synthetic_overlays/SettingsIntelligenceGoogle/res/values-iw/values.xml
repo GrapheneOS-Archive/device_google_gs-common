@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">טעינה, מגבלה, הגבלה, אופטימיזציה של טעינה, מגבלת הטעינה</string>
+  <string name="charge_limit_mode_summary">הטלפון ייטען רק עד רמת סוללה של %{batteryLimitLevel}</string>
+  <string name="charge_limit_mode_title">הגבלת הטעינה ל-%{batteryLimitLevel}</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">כדי לשפר את משך חיי הסוללה, הטעינה הדינמית לומדת את שגרת הטעינה שלך, משהה את הטעינה ב-%{batteryLimitLevel} ומסיימת אותה ב-%{batteryFullLevel}, שעה לפני הניתוק של המטען מהחשמל בדרך כלל.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">כדי לשפר את משך חיי הסוללה, הטלפון ייטען רק עד רמת סוללה של %{batteryLimitLevel} הטלפון ייטען לפעמים עד 100% כדי לכייל מחדש את הקיבולת המשוערת.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">מידע נוסף על טעינה דינמית</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">מידע נוסף על הגבלה ל-‎{batteryLimitLevel}%‎</string>
+  <string name="charging_optimization_footer_learn_more_default">מידע נוסף על אופטימיזציה של הטעינה</string>
+  <string name="charging_optimization_footer_off">כדי לשפר את משך חיי הסוללה, מומלץ להפעיל אופטימיזציה של הטעינה</string>
+  <string name="charging_optimization_main_switch_title">שימוש באופטימיזציה של הטעינה</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">הגבלת הטעינה ל-%{batteryLimitLevel}</string>
+  <string name="charging_optimization_summary_adaptive">טעינה דינמית</string>
+  <string name="charging_optimization_summary_charge_limit">הגבלת הטעינה ל-%{batteryLimitLevel}</string>
+  <string name="charging_optimization_summary_off">מושבתת</string>
+  <string name="charging_optimization_title">אופטימיזציה של הטעינה</string>
+</resources>

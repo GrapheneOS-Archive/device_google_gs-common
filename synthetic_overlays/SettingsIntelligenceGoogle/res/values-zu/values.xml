@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">iyashaja, umkhawulo, ukulinganisela ukushaja, umkhawulo wokushaja</string>
+  <string name="charge_limit_mode_summary">Ifoni yakho izoshaja kuphela ibhethri lifike ku-{batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Khawulela ku-{batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Ukuze unwebe ukuphila kwebhethri, Ukushaja Okusmathi kufunda isimiso sakho sokushaja futhi kume isikhashana ku-{batteryLimitLevel}% futhi kuqedele ku-{batteryFullLevel}% ihora ngaphambi kokuthi ukhiphe iplug ngokuvamile.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Ukusiza ukunweba ukuphila kwebhethri, ifoni yakho izoshaja ibhethri lifike ku-{batteryLimitLevel}% kuphela. Ifoni ngezikhathi ezithile izoshaja ifike ku-100% ukuze ilinganise kabusha umthamo olinganiselwe.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Funda kabanzi mayelana Nokushaja Okusmathi</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Funda kabanzi mayelana Nomkhawulo ku-{batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Funda kabanzi mayelana Nokulungiselela ukushaja</string>
+  <string name="charging_optimization_footer_off">Ukusiza ukunweba ukuphila kwebhethri, vula ukulungiselela kokushaja</string>
+  <string name="charging_optimization_main_switch_title">Sebenzisa ukulungiselela ukushaja</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Khawulela ku-{batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Ukushaja Okusmathi</string>
+  <string name="charging_optimization_summary_charge_limit">Khawulela ku-{batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Kuvaliwe</string>
+  <string name="charging_optimization_title">Ukulungiselela ukushaja</string>
+</resources>

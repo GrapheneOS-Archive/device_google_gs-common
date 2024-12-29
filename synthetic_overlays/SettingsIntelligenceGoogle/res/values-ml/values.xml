@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ചാർജിംഗ്, പരിധി, ചാർജിംഗ് ഒപ്റ്റിമൈസേഷൻ, ചാർജിംഗ് പരിധി</string>
+  <string name="charge_limit_mode_summary">നിങ്ങളുടെ ഫോൺ ബാറ്ററി {batteryLimitLevel}% വരെ മാത്രമേ ചാർജ് ചെയ്യൂ</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}% ആയി പരിമിതപ്പെടുത്തുക</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">ബാറ്ററിയുടെ ആയുസ് വർദ്ധിപ്പിക്കുന്നതിനായി, അഡാപ്റ്റീവ് ചാർജിംഗ് നിങ്ങളുടെ ചാർജിംഗ് ദിനചര്യ പഠിക്കുകയും {batteryLimitLevel}% എന്നതിൽ താൽക്കാലികമായി നിർത്തുകയും നിങ്ങൾ സാധാരണയായി അൺപ്ലഗ് ചെയ്യുന്നതിന് ഒരു മണിക്കൂർ മുമ്പ് {batteryFullLevel}% വരെ പൂർത്തിയാക്കുകയും ചെയ്യുന്നു.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">ബാറ്ററിയുടെ ആയുസ് വർദ്ധിപ്പിക്കാൻ സഹായിക്കുന്നതിനായി, നിങ്ങളുടെ ഫോൺ ബാറ്ററി {batteryLimitLevel}% വരെ മാത്രമേ ചാർജ് ചെയ്യൂ. കണക്കാക്കിയ ശേഷി വീണ്ടും കാലിബ്രേറ്റ് ചെയ്യാൻ ഫോൺ ഇടയ്ക്കിടെ 100% വരെ ചാർജ് ചെയ്യും.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">അഡാപ്റ്റീവ് ചാർജിംഗിനെ കുറിച്ച് കൂടുതലറിയുക</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}% എന്നതിന്റെ പരിധിയെ കുറിച്ച് കൂടുതലറിയുക</string>
+  <string name="charging_optimization_footer_learn_more_default">ചാർജിംഗ് ഒപ്‌റ്റിമൈസേഷനെ കുറിച്ച് കൂടുതലറിയുക</string>
+  <string name="charging_optimization_footer_off">ബാറ്ററിയുടെ ആയുസ് വർദ്ധിപ്പിക്കാൻ സഹായിക്കുന്നതിനായി, ചാർജിംഗ് ഒപ്റ്റിമൈസേഷൻ ഓണാക്കുക</string>
+  <string name="charging_optimization_main_switch_title">ചാർജിംഗ് ഒപ്റ്റിമൈസേഷൻ ഉപയോഗിക്കുക</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% ആയി പരിമിതപ്പെടുത്തുക</string>
+  <string name="charging_optimization_summary_adaptive">അഡാപ്റ്റീവ് ചാർജിംഗ്</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% ആയി പരിമിതപ്പെടുത്തുക</string>
+  <string name="charging_optimization_summary_off">ഓഫാണ്</string>
+  <string name="charging_optimization_title">ചാർജിംഗ് ഒപ്റ്റിമൈസേഷൻ</string>
+</resources>

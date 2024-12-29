@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">اکنون فعال شود</string>
+  <string name="charge_limit_discovery_notification_text">برای حفظ سلامت باتری و افزایش عمر آن، حداکثر شارژ را روی ۸۰٪ تنظیم کنید. هر زمان بخواهید می‌توانید این ویژگی را در تنظیمات مدیریت کنید</string>
+  <string name="charge_limit_discovery_notification_title">از باتری‌تان درحین شارژ شدن محافظت کنید</string>
+  <string name="keyguard_indication_charging_time_charge_limit">‫%2$s • شارژ تا %1$s کامل می‌شود</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">‫%2$s • %1$s تا شارژ کامل مانده است</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">‫%1$s • شارژ کامل شد</string>
+</resources>

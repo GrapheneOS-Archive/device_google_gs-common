@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ładowanie, limit, optymalizacja ładowania, limit ładowania</string>
+  <string name="charge_limit_mode_summary">Telefon będzie się ładował tylko do {batteryLimitLevel}% baterii</string>
+  <string name="charge_limit_mode_title">Ograniczaj ładowanie do {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Aby wydłużyć żywotność baterii, ładowanie adaptacyjne uczy się Twoich zwyczajów ładowania telefonu. Ładowanie będzie wstrzymywane na poziomie {batteryLimitLevel}%, a następnie wznawiane do poziomu {batteryFullLevel}% na godzinę przed czasem, w którym zwykle odłączasz ładowarkę.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Aby wydłużyć żywotność baterii, telefon będzie się ładował tylko do {batteryLimitLevel}%. Telefon będzie się czasami ładować do 100%, aby przekalibrować szacowaną pojemność.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Więcej informacji o ładowaniu adaptacyjnym</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Więcej informacji o ograniczeniu ładowania do {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Więcej informacji o optymalizacji ładowania</string>
+  <string name="charging_optimization_footer_off">Aby wydłużyć żywotność baterii, włącz optymalizację ładowania</string>
+  <string name="charging_optimization_main_switch_title">Stosuj optymalizację ładowania</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Ograniczaj ładowanie do {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Ładowanie adaptacyjne</string>
+  <string name="charging_optimization_summary_charge_limit">Ograniczaj ładowanie do {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Wyłączono</string>
+  <string name="charging_optimization_title">Optymalizacja ładowania</string>
+</resources>

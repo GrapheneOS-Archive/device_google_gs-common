@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">quvvatlash, cheklov, quvvatlashni optimallash, quvvatlash cheklovi</string>
+  <string name="charge_limit_mode_summary">Telefon faqat {batteryLimitLevel}% quvvatlanadi</string>
+  <string name="charge_limit_mode_title">Quvvat cheklovi: {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Batareyaning ishlash muddatini kengaytirish maqsadida Adaptiv quvvatlash rejimi quvvatlash jadvalini oʻrganadi va quvvatlashni {batteryLimitLevel}% holatda pauza qiladi va kabel uzilishidan bir soat avval {batteryFullLevel}% holatda yakunlaydi.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Batareyaning ishlash muddatini uzaytirish uchun telefon faqat {batteryLimitLevel}% quvvatlanadi. Batareyaning taxminiy sigʻimini qayta hisoblash uchun vaqt-vaqti bilan telefon toʻliq quvvatlanadi.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Moslashuvchan quvvatlash haqida batafsil</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}% cheklovi haqida batafsil</string>
+  <string name="charging_optimization_footer_learn_more_default">Optimal quvvatlash haqida batafsil</string>
+  <string name="charging_optimization_footer_off">Batareyaning ishlash muddatini uzaytirish uchun optimal quvvatlashni yoqing</string>
+  <string name="charging_optimization_main_switch_title">Optimal quvvatlansin</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Quvvat cheklovi: {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Adaptiv quvvatlash</string>
+  <string name="charging_optimization_summary_charge_limit">Quvvat cheklovi: {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Oʻchiq</string>
+  <string name="charging_optimization_title">Optimal quvvatlash</string>
+</resources>

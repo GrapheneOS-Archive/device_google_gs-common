@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Увімкнути</string>
+  <string name="charge_limit_discovery_notification_text">Щоб захистити акумулятор і подовжити строк його служби, увімкніть обмеження заряджання на рівні 80%. Цей параметр можна будь-коли змінити в налаштуваннях.</string>
+  <string name="charge_limit_discovery_notification_title">Захистіть свій акумулятор під час заряджання</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Заряджання завершиться до %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Заряджання завершиться через %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Заряджання завершено</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">ప్రారంభించండి</string>
+  <string name="charge_limit_discovery_notification_text">బ్యాటరీ హెల్త్‌ను సంరక్షించడానికి, దీని జీవితకాలాన్ని పొడిగించడానికి 80% పరిమితి ఫీచర్‌ను ఆన్ చేయడానికి ట్రై చేయండి. ఈ ఫీచర్‌ను సెట్టింగ్స్‌లో ఏ సమయంలోనైనా మేనేజ్ చేయవచ్చు</string>
+  <string name="charge_limit_discovery_notification_title">ఛార్జింగ్ సమయంలో మీ బ్యాటరీని సంరక్షించుకోండి</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s సమయానికి ఛార్జింగ్ పూర్తయింది</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s సమయంలో ఛార్జింగ్ పూర్తవుతుంది</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • సమయానికి ఛార్జింగ్ పూర్తయింది</string>
+</resources>

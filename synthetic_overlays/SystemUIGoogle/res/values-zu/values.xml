@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Vula manje</string>
+  <string name="charge_limit_discovery_notification_text">Zama ukuvula isakhi somkhawulo ongu-80% ukuze uvikele impilo yebhethri nokuphila. Ungaphatha lokhu kumasethingi noma kunini</string>
+  <string name="charge_limit_discovery_notification_title">Vikela ibhethri lakho ngesikhathi sokushaja</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Iqede ukushaja ngo-%1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Iqedile ukushaja ngo-%1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Iqedile ukushaja</string>
+</resources>

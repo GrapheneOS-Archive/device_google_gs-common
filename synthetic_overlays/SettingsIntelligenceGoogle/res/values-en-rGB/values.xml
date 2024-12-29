@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">charging, limit, charging optimisation, charge limit</string>
+  <string name="charge_limit_mode_summary">Your phone will only charge to {batteryLimitLevel}% battery</string>
+  <string name="charge_limit_mode_title">Limit to {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">To extend battery lifespan, Adaptive Charging learns your charging routine and pauses at {batteryLimitLevel}% and finishes to {batteryFullLevel}% an hour before you usually unplug.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">To help extend battery lifespan, your phone will only charge to {batteryLimitLevel}% battery. Phone will occasionally charge to 100% to recalibrate estimated capacity.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Learn more about Adaptive Charging</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Learn more about limit to {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Learn more about charging optimisation</string>
+  <string name="charging_optimization_footer_off">To help extend battery lifespan, turn on charging optimisation</string>
+  <string name="charging_optimization_main_switch_title">Use charging optimisation</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limit to {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Adaptive Charging</string>
+  <string name="charging_optimization_summary_charge_limit">Limit to {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Off</string>
+  <string name="charging_optimization_title">Charging optimisation</string>
+</resources>

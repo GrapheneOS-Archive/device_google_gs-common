@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Aktifkan sekarang</string>
+  <string name="charge_limit_discovery_notification_text">Coba aktifkan fitur batas 80% untuk melindungi kesehatan baterai dan masa pakai baterai. Anda dapat mengelolanya di setelan kapan saja</string>
+  <string name="charge_limit_discovery_notification_title">Melindungi baterai Anda selama pengisian daya</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Selesai mengisi daya pukul %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Selesai mengisi daya dalam %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Selesai mengisi daya</string>
+</resources>

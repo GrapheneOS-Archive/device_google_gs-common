@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s: la carga terminará a las %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s: carga completada</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Carga completada</string>
+  <string name="charging_optimization_remaining_time_label">La carga terminará a las %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Carga inalámbrica completada •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">La carga inalámbrica terminará a las %1$s •</string>
+</resources>
