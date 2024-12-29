@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">अहिले नै अन गर्नुहोस्</string>
+  <string name="charge_limit_discovery_notification_text">ब्याट्रीको अवस्था र आयु जोगाउन ८०% को सीमा लागू गर्ने सुविधा प्रयोग गरी हेर्नुहोस्। तपाईं जुनसुकै बेला सेटिङमा गई यो कुरा व्यवस्थापन गर्न सक्नुहुन्छ</string>
+  <string name="charge_limit_discovery_notification_title">डिभाइस चार्ज भइरहेका बेला ब्याट्री सुरक्षित राख्नुहोस्</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s बजेसम्ममा पूरा चार्ज हुन्छ</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s मा पूरा चार्ज हुने छ</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • चार्ज पूरा भयो</string>
+</resources>

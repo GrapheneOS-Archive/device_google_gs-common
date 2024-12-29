@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - Саат %2$s кубатталып бүтөт</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - Кубатталып бүттү</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Кубатталып бүттү</string>
+  <string name="charging_optimization_remaining_time_label">Саат %1$s кубатталып бүтөт</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Зымсыз кубатталып бүттү •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Саат %1$s зымсыз кубатталып бүттү •</string>
+</resources>

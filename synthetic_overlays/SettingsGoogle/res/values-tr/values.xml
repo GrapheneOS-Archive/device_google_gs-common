@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - Saat %2$s olduğunda şarjı dolacak</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - Şarj doldu</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Şarj doldu</string>
+  <string name="charging_optimization_remaining_time_label">Saat %1$s olduğunda şarjı dolacak</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Kablosuz şarj doldu •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Saat %1$s olduğunda kablosuz şarj dolacak •</string>
+</resources>

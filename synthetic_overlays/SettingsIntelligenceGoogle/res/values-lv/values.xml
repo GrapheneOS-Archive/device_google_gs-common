@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">uzlāde, ierobežojums, uzlādes optimizācija, uzlādes ierobežojums</string>
+  <string name="charge_limit_mode_summary">Jūsu tālrunis tiks uzlādēts tikai līdz šādam akumulatora uzlādes līmenim: {batteryLimitLevel}%.</string>
+  <string name="charge_limit_mode_title">Veikt uzlādi tikai līdz {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Lai paildzinātu akumulatora darbmūžu, funkcija “Adaptīvā uzlāde” apgūst jūsu uzlādes paradumus un aptur uzlādi, kad akumulatora uzlādes līmenis sasniedz {batteryLimitLevel}%, kā arī pabeidz uzlādi līdz {batteryFullLevel}% stundu pirms brīža, kad jūs parasti atvienojat lādētāju.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Lai paildzinātu akumulatora darbmūžu, jūsu tālrunis tiks uzlādēts tikai līdz šādam akumulatora uzlādes līmenim: {batteryLimitLevel}%. Tālrunis laiku pa laikam tiks uzlādēts līdz 100% uzlādes līmenim, lai atkārtoti kalibrētu aptuveno ietilpību.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Uzzināt vairāk par adaptīvo uzlādi</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Uzzināt vairāk par {batteryLimitLevel}% uzlādes ierobežojumu</string>
+  <string name="charging_optimization_footer_learn_more_default">Uzzināt vairāk par uzlādes optimizāciju</string>
+  <string name="charging_optimization_footer_off">Lai paildzinātu akumulatora darbmūžu, ieslēdziet uzlādes optimizāciju.</string>
+  <string name="charging_optimization_main_switch_title">Izmantot uzlādes optimizāciju</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Veikt uzlādi tikai līdz {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Adaptīvā uzlāde</string>
+  <string name="charging_optimization_summary_charge_limit">Veikt uzlādi tikai līdz {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Izslēgta</string>
+  <string name="charging_optimization_title">Uzlādes optimizācija</string>
+</resources>

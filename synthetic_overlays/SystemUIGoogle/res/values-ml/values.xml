@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">ഇപ്പോൾ പ്രവർത്തനക്ഷമമാക്കുക</string>
+  <string name="charge_limit_discovery_notification_text">ബാറ്ററി ക്ഷമതയും ബാറ്ററിയുടെ ആയുസ്സും പരിരക്ഷിക്കാൻ 80% പരിധി ഫീച്ചർ ഓണാക്കാൻ ശ്രമിക്കുക. നിങ്ങൾക്ക് ഇത് ക്രമീകരണത്തിൽ ഏതുസമയത്തും മാനേജ് ചെയ്യാം</string>
+  <string name="charge_limit_discovery_notification_title">ചാർജ് ചെയ്യുമ്പോൾ നിങ്ങളുടെ ബാറ്ററി പരിരക്ഷിക്കുക</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s-നകം ചാർജ് ചെയ്യൽ പൂർത്തിയാകും</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s-നുള്ളിൽ പൂർണ്ണമായി ചാർജ് ചെയ്യും</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • ചാർജ്ജ് ചെയ്യൽ പൂർത്തിയായി</string>
+</resources>

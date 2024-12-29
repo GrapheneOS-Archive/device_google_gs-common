@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Activer</string>
+  <string name="charge_limit_discovery_notification_text">"Essayez d'activer la fonctionnalité de limitation de la charge à 80 % pour protéger l'état de la batterie et sa durée de vie. Vous pouvez gérer cela à tout moment dans les paramètres."</string>
+  <string name="charge_limit_discovery_notification_title">Protégez votre batterie pendant la charge</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Fin de la recharge à %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Fin de la recharge dans %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Fin de la recharge</string>
+</resources>

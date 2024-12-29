@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - නිමයි, %2$s වන විට ආරෝපිතයි</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - ආරෝපණය අවසන්</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">ආරෝපණය අවසන්</string>
+  <string name="charging_optimization_remaining_time_label">%1$s වන විට ආරෝපණය නිමයි</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">රැහැන් රහිත ආරෝපණය අවසන් •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">%1$s වන විට රැහැන් රහිතව ආරෝපණ කිරීම අවසන් •</string>
+</resources>

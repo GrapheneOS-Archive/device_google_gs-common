@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">充電, 限制, 充電最佳化, 充電限制</string>
+  <string name="charge_limit_mode_summary">手機只會充到 {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">最多充到 {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">為延長電池壽命，自動調節充電功能會記住你的充電習慣，電量達 {batteryLimitLevel}% 時就會暫停，並在習慣的電源拔除時間前一小時完成充電 (充到 {batteryFullLevel}%)。</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">為延長電池壽命，手機只會充到 {batteryLimitLevel}%。但偶爾也會充到 100%，以重新校準預估容量。</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">進一步瞭解自動調節充電功能</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">進一步瞭解最多充到 {batteryLimitLevel}% 的限制</string>
+  <string name="charging_optimization_footer_learn_more_default">進一步瞭解充電最佳化功能</string>
+  <string name="charging_optimization_footer_off">為延長電池壽命，請開啟充電最佳化功能</string>
+  <string name="charging_optimization_main_switch_title">使用充電最佳化功能</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">最多充到 {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">自動調節充電</string>
+  <string name="charging_optimization_summary_charge_limit">最多充到 {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">關閉</string>
+  <string name="charging_optimization_title">充電最佳化</string>
+</resources>

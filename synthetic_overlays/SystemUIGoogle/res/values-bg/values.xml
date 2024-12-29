@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Активиране сега</string>
+  <string name="charge_limit_discovery_notification_text">Включете функцията за ограничаване до 80% с цел защита на състоянието и живота на батерията. По всяко време можете да управлявате това от настройките</string>
+  <string name="charge_limit_discovery_notification_title">Защита на батерията ви по време на зареждане</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Ще се зареди до %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Зареждането ще завърши след %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • зареждането завърши</string>
+</resources>

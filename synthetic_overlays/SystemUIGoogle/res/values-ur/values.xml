@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">ابھی فعال کریں</string>
+  <string name="charge_limit_discovery_notification_text">بیٹری کی صحت اور عمر کی حفاظت کے لیے %80 کی حد والی خصوصیت کو آن کرنے کی کوشش کریں۔ آپ ترتیبات میں کبھی بھی اس کا نظم کر سکتے ہیں</string>
+  <string name="charge_limit_discovery_notification_title">چارجنگ کے دوران اپنی بیٹری کی حفاظت کریں</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • چارجنگ %1$s تک مکمل ہو جائے گا</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s میں مکمل چارج ہو جائے گی</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • چارجنگ مکمل ہو گئی</string>
+</resources>

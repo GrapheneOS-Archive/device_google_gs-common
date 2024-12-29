@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">încărcare, limită, optimizarea încărcării, limită de încărcare</string>
+  <string name="charge_limit_mode_summary">Telefonul se va încărca numai până la {batteryLimitLevel} %%</string>
+  <string name="charge_limit_mode_title">Limitează la {batteryLimitLevel} %%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Pentru a extinde durata de viață a bateriei, Încărcarea adaptabilă îți învață rutina de încărcare și se întrerupe la {batteryLimitLevel} %%, oprindu-se la {batteryFullLevel} %% cu o oră înainte de deconectarea obișnuită.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Pentru a extinde durata de viață a bateriei, telefonul se va încărca numai până la {batteryLimitLevel} %. Telefonul se va încărca ocazional la 100 % pentru a recalibra capacitatea estimată.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Află mai multe despre încărcarea adaptabilă</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Află mai multe despre limitarea la {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Află mai multe despre optimizarea încărcării</string>
+  <string name="charging_optimization_footer_off">Pentru a extinde durata de viață a bateriei, activează optimizarea încărcării</string>
+  <string name="charging_optimization_main_switch_title">Folosește optimizarea încărcării</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limitează la {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Încărcare adaptabilă</string>
+  <string name="charging_optimization_summary_charge_limit">Limitează la {batteryLimitLevel} %%</string>
+  <string name="charging_optimization_summary_off">Dezactivată</string>
+  <string name="charging_optimization_title">Optimizarea încărcării</string>
+</resources>

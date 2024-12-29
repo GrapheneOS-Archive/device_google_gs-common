@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">የኃይል መሙያ፣ ገደብ፣ የኃይል መሙያ ማመቻቸት፣ የኃይል መሙያ ገደብ</string>
+  <string name="charge_limit_mode_summary">ስልክዎ ኃይል የሚሞላው እስከ {batteryLimitLevel}% ባትሪ ድረስ ብቻ ነው</string>
+  <string name="charge_limit_mode_title">ወደ {batteryLimitLevel}% ገድበው</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">የባትሪ የዕድሜ ዘመንን ለማራዘም ተስማሚ ባትሪ መሙያ የእርስዎን የኃይል መሙላት የዕለት ተዕለት ተግባር ይማራል እና {batteryLimitLevel}% ላይ ባለበት ያቆማል እና እርስዎ በተለምዶ ከሚነቅሉበት ከአንድ ሰዓት በፊት እስከ {batteryFullLevel}% ይጨርሳል።</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">የባትሪ የዕድሜ ዘመንን ለማራዘም እንዲያግዝ የእርስዎ ስልክ ኃይል የሚሞላው እስከ {batteryLimitLevel}% ባትሪ ድረስ ብቻ ነው። የሚገመተውን አቅም እንደገና ለማስተካከል ስልኩ አልፎ አልፎ እስከ 100% ኃይል ይሞላል።</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">ስለተስማሚ ኃይል መሙላት የበለጠ ይወቁ</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">ስለ {batteryLimitLevel}% ገደብ የበለጠ ይወቁ</string>
+  <string name="charging_optimization_footer_learn_more_default">ስለ ኃይል መሙላት ማትባት የበለጠ ይወቁ</string>
+  <string name="charging_optimization_footer_off">የባትሪ የዕድሜ ዘመንን ለማራዘም እንዲያግዝ የኃይል መሙላት ማትባትን ያብሩ</string>
+  <string name="charging_optimization_main_switch_title">የኃይል መሙላት ማትባትን ይጠቀሙ</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">ወደ {batteryLimitLevel}% ገድበው</string>
+  <string name="charging_optimization_summary_adaptive">ተስማሚ ባትሪ መሙያ</string>
+  <string name="charging_optimization_summary_charge_limit">ወደ {batteryLimitLevel}% ገድበው</string>
+  <string name="charging_optimization_summary_off">አጥፋ</string>
+  <string name="charging_optimization_title">የኃይል መሙላት ማትባት</string>
+</resources>

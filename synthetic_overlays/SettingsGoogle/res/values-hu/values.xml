@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s – a töltés befejeződik eddig: %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - Töltés kész</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Töltés kész</string>
+  <string name="charging_optimization_remaining_time_label">A töltés befejeződik eddig: %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Vezeték nélküli töltés kész •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">A vezeték nélküli töltés ekkor lesz kész: %1$s •</string>
+</resources>

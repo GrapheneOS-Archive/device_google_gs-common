@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Nu aanzetten</string>
+  <string name="charge_limit_discovery_notification_text">Probeer de functie voor begrenzing tot 80% aan te zetten om de batterijconditie en -levensduur te beschermen. Je kunt dit altijd beheren via de instellingen.</string>
+  <string name="charge_limit_discovery_notification_title">Bescherm je batterij tijdens het opladen</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Opladen klaar om %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Opladen klaar over %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Helemaal opgeladen</string>
+</resources>

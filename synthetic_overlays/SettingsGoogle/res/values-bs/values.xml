@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s – Punjenje će biti gotovo do %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s – punjenje je gotovo</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Punjenje je gotovo</string>
+  <string name="charging_optimization_remaining_time_label">Punjenje će biti gotovo do %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Bežično punjenje je gotovo •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Bežično punjenje će biti gotovo do %1$s •</string>
+</resources>

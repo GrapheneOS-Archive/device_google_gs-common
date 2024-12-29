@@ -1,0 +1,4 @@
+runtime_resource_overlay {
+    name: "SettingsGoogleSyntheticOverlay",
+    product_specific: true
+}

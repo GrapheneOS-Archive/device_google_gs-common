@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">nabíjanie, limit, optimalizácia nabíjania, limit nabíjania</string>
+  <string name="charge_limit_mode_summary">Batéria telefónu sa nabije iba na {batteryLimitLevel} %</string>
+  <string name="charge_limit_mode_title">Obmedziť na {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Adaptívne nabíjanie sa učí váš postup nabíjania s cieľom predĺžiť životnosť batérie. Pozastaví nabíjanie na {batteryLimitLevel} % a hodinu predtým, ako zariadenie zvyčajne odpájate, ho dokončí na {batteryFullLevel} %.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Batéria vášho telefónu sa nabije iba na {batteryLimitLevel} %, čo pomôže predĺžiť jej životnosť. Telefón sa občas nabije na 100 %, aby sa prekalibrovala odhadovaná kapacita.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Ďalšie informácie o adaptívnom nabíjaní</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Ďalšie informácie o obmedzení na úroveň {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">Ďalšie informácie o optimalizácii nabíjania</string>
+  <string name="charging_optimization_footer_off">Ak chcete pomôcť predĺžiť životnosť batérie, zapnite optimalizáciu nabíjania</string>
+  <string name="charging_optimization_main_switch_title">Používať optimalizáciu nabíjania</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Obmedziť na {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Adaptívne nabíjanie</string>
+  <string name="charging_optimization_summary_charge_limit">Obmedzenie na {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Vypnutá</string>
+  <string name="charging_optimization_title">Optimalizácia nabíjania</string>
+</resources>

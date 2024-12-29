@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">চাৰ্জিং, সীমা, চাৰ্জিং অপ্টিমাইজেশ্বন, চাৰ্জৰ সীমা</string>
+  <string name="charge_limit_mode_summary">আপোনাৰ ফ’নটো কেৱল {batteryLimitLevel}% বেটাৰীলৈ চাৰ্জ হ’ব</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}%লৈ সীমিত কৰক</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰিবলৈ এডাপ্টিভ চাৰ্জিঙে আপোনাৰ চাৰ্জিঙৰ ৰুটিন শিকে আৰু {batteryLimitLevel}%ত পজ কৰে আৰু আপুনি সাধাৰণতে আনপ্লাগ কৰাৰ এঘণ্টা পূৰ্বে {batteryFullLevel}%লৈ সম্পূৰ্ণ কৰে।</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰাত সহায় কৰিবলৈ, আপোনাৰ ফ’নটো কেৱল {batteryLimitLevel}% বেটাৰীলৈ চাৰ্জ হ’ব। আনুমানিক ক্ষমতা পুনৰ কেলিব্ৰেট কৰিবলৈ ফ’নটো মাজে মাজে ১০০%লৈ চাৰ্জ হ’ব।</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">এডাপ্টিভ চাৰ্জিঙৰ বিষয়ে অধিক জানক</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}%লৈ সীমিত কৰাৰ বিষয়ে অধিক জানক</string>
+  <string name="charging_optimization_footer_learn_more_default">চাৰ্জিং অপ্টিমাইজেশ্বনৰ বিষয়ে অধিক জানক</string>
+  <string name="charging_optimization_footer_off">বেটাৰীৰ জীৱনকাল বৃদ্ধি কৰাত সহায় কৰিবলৈ, চাৰ্জিং অপ্টিমাইজেশ্বন অন কৰক</string>
+  <string name="charging_optimization_main_switch_title">চাৰ্জিং অপ্টিমাইজেশ্বন ব্যৱহাৰ কৰক</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}%লৈ সীমিত কৰক</string>
+  <string name="charging_optimization_summary_adaptive">এডাপ্টিভ চাৰ্জিং</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%লৈ সীমিত কৰক</string>
+  <string name="charging_optimization_summary_off">অফ আছে</string>
+  <string name="charging_optimization_title">চাৰ্জিং অপ্টিমাইজেশ্বন</string>
+</resources>

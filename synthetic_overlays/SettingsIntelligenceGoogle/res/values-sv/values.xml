@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">laddning, gräns, laddningsoptimering, laddningsgräns</string>
+  <string name="charge_limit_mode_summary">Telefonen laddas bara till {batteryLimitLevel} % batteri</string>
+  <string name="charge_limit_mode_title">Begränsa till {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Smart laddning lär sig din laddningsrutin och pausar laddningen vid {batteryLimitLevel} % och laddar upp till {batteryFullLevel} % en timme innan du vanligtvis drar ur sladden, så att batteriet räcker längre.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Telefonen laddas endast till {batteryLimitLevel} % för att förlänga batteriets livslängd. Telefonen laddas ibland till 100 % för att kalibrera om den beräknade kapaciteten.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Läs mer om smart laddning</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Läs mer om Begränsa till {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">Läs mer om Laddningsoptimering</string>
+  <string name="charging_optimization_footer_off">Aktivera laddningsoptimering så att batteriet räcker längre</string>
+  <string name="charging_optimization_main_switch_title">Använd laddningsoptimering</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Begränsa till {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Smart laddning</string>
+  <string name="charging_optimization_summary_charge_limit">Begränsa till {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Av</string>
+  <string name="charging_optimization_title">Laddningsoptimering</string>
+</resources>

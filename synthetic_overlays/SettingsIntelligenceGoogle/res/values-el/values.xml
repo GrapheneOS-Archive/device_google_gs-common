@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">φόρτιση, όριο, βελτιστοποίηση φόρτισης, όριο φόρτισης</string>
+  <string name="charge_limit_mode_summary">Η μπαταρία του τηλεφώνου σας θα φορτίζει μόνο έως το {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Περιορισμός στο {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Για την επέκταση της διάρκειας ζωής της μπαταρίας, η Προσαρμοστική φόρτιση μαθαίνει τις συνήθειές σας στη φόρτιση, τη θέτει σε παύση στο {batteryLimitLevel}% και την ολοκληρώνει στο {batteryFullLevel}% μία ώρα πριν από τη στιγμή που συνήθως αποσυνδέετε τη συσκευή από την πρίζα.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Για την επέκταση της διάρκειας ζωής της μπαταρίας, η μπαταρία του τηλεφώνου σας θα φορτίζει μόνο έως το {batteryLimitLevel}%. Το τηλέφωνο θα φορτίζεται περιστασιακά στο 100%, για την εκ νέου βαθμονόμηση της εκτιμώμενης χωρητικότητας.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Μάθετε περισσότερα σχετικά με την Προσαρμοστική φόρτιση</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Μάθετε περισσότερα σχετικά με τον Περιορισμό στο {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Μάθετε περισσότερα σχετικά με τη βελτιστοποίηση της φόρτισης</string>
+  <string name="charging_optimization_footer_off">Για να συμβάλλετε στην επέκταση της διάρκειας ζωής της μπαταρίας, ενεργοποιήστε τη βελτιστοποίηση φόρτισης</string>
+  <string name="charging_optimization_main_switch_title">Χρήση βελτιστοποίησης φόρτισης</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Περιορισμός στο {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Προσαρμοστική φόρτιση</string>
+  <string name="charging_optimization_summary_charge_limit">Περιορισμός στο {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Ανενεργή</string>
+  <string name="charging_optimization_title">Βελτιστοποίηση φόρτισης</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">şarj etme, sınır, şarj optimizasyonu, şarj sınırı</string>
+  <string name="charge_limit_mode_summary">Telefonunuz yalnızca %{batteryLimitLevel} seviyesine kadar şarj edilir</string>
+  <string name="charge_limit_mode_title">%{batteryLimitLevel} olarak sınırla</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Uyarlanabilir Şarj özelliği, pil kullanım ömrünü uzatmak için şarj alışkanlıklarınızı öğrenip şarj işlemini %{batteryLimitLevel} seviyesinde duraklatır ve cihazı normalde fişten çekeceğiniz zamandan bir saat önce pili %{batteryFullLevel} doldurur.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">"Telefonunuz, pil kullanım ömrünü uzatmak için yalnızca %{batteryLimitLevel} seviyesine kadar şarj edilir. Telefon, tahmini kapasiteyi yeniden kalibre etmek için zaman zaman %100'e kadar şarj olur."</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Uyarlanabilir Şarj hakkında daha fazla bilgi edinin</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">%{batteryLimitLevel} olarak sınırla hakkında daha fazla bilgi edinin</string>
+  <string name="charging_optimization_footer_learn_more_default">Şarj optimizasyonu hakkında daha fazla bilgi edinin</string>
+  <string name="charging_optimization_footer_off">Pil kullanım ömrünüzü uzatmak için şarj optimizasyonunu açın</string>
+  <string name="charging_optimization_main_switch_title">Şarj optimizasyonunu kullanın</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">%{batteryLimitLevel} olarak sınırla</string>
+  <string name="charging_optimization_summary_adaptive">Uyarlanabilir Şarj</string>
+  <string name="charging_optimization_summary_charge_limit">%{batteryLimitLevel} olarak sınırla</string>
+  <string name="charging_optimization_summary_off">Kapalı</string>
+  <string name="charging_optimization_title">Şarj optimizasyonu</string>
+</resources>

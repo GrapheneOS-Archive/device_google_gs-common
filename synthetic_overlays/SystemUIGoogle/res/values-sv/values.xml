@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Aktivera nu</string>
+  <string name="charge_limit_discovery_notification_text">Testa att aktivera begränsningsfunktionen på 80 % för att skydda batterihälsan och batteriets livslängd. Du kan hantera detta i inställningarna.</string>
+  <string name="charge_limit_discovery_notification_title">Skydda batteriet under laddning</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Har laddats klart kl. %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Laddas klart om %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • har laddats</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ਚਾਰਜ ਹੋ ਰਹੀ ਹੈ, ਸੀਮਾ, ਚਾਰਜਿੰਗ ਔਪਟੀਮਾਈਜ਼ੇਸ਼ਨ, ਚਾਰਜ ਕਰਨ ਦੀ ਤੈਅ ਸੀਮਾ</string>
+  <string name="charge_limit_mode_summary">ਤੁਹਾਡੇ ਫ਼ੋਨ ਦੀ ਬੈਟਰੀ ਸਿਰਫ਼ {batteryLimitLevel}% ਤੱਕ ਚਾਰਜ ਹੋਵੇਗੀ</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}% ਤੱਕ ਸੀਮਤ ਕਰੋ</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">"ਬੈਟਰੀ ਦੀ ਮਿਆਦ ਨੂੰ ਵਧਾਉਣ ਲਈ, ਅਡੈਪਟਿਵ ਚਾਰਜਿੰਗ ਵਿਸ਼ੇਸ਼ਤਾ ਤੁਹਾਡੀ ਨਿਯਮਬੱਧ ਚਾਰਜਿੰਗ ਨੂੰ ਯਾਦ ਰੱਖਦੀ ਹੈ ਅਤੇ {batteryLimitLevel}% ਬੈਟਰੀ 'ਤੇ ਚਾਰਜਿੰਗ ਰੋਕ ਦਿੰਦੀ ਹੈ ਅਤੇ ਤੁਹਾਡੇ ਵੱਲੋਂ ਆਮ ਤੌਰ 'ਤੇ ਅਣਪਲੱਗ ਕਰਨ ਤੋਂ ਇੱਕ ਘੰਟਾ ਪਹਿਲਾਂ ਚਾਰਜਿੰਗ ਨੂੰ {batteryFullLevel}% ਤੱਕ ਪੂਰਾ ਕਰ ਦਿੰਦੀ ਹੈ।"</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">ਬੈਟਰੀ ਦੀ ਮਿਆਦ ਨੂੰ ਵਧਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ, ਤੁਹਾਡੇ ਫ਼ੋਨ ਦੀ ਬੈਟਰੀ ਸਿਰਫ਼ {batteryLimitLevel}% ਤੱਕ ਚਾਰਜ ਹੋਵੇਗੀ। ਅੰਦਾਜ਼ਨ ਸਮਰੱਥਾ ਨੂੰ ਮੁੜ-ਕੈਲੀਬਰੇਟ ਕਰਨ ਲਈ ਫ਼ੋਨ ਨੂੰ ਕਦੇ-ਕਦੇ 100% ਤੱਕ ਚਾਰਜ ਕੀਤਾ ਜਾਵੇਗਾ।</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">ਅਡੈਪਟਿਵ ਚਾਰਜਿੰਗ ਬਾਰੇ ਹੋਰ ਜਾਣੋ</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">"'{batteryLimitLevel}% ਤੱਕ ਸੀਮਤ ਕਰੋ' ਬਾਰੇ ਹੋਰ ਜਾਣੋ"</string>
+  <string name="charging_optimization_footer_learn_more_default">ਚਾਰਜਿੰਗ ਔਪਟੀਮਾਈਜ਼ੇਸ਼ਨ ਬਾਰੇ ਹੋਰ ਜਾਣੋ</string>
+  <string name="charging_optimization_footer_off">ਬੈਟਰੀ ਦੀ ਮਿਆਦ ਨੂੰ ਵਧਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਨ ਲਈ, ਚਾਰਜਿੰਗ ਔਪਟੀਮਾਈਜ਼ੇਸ਼ਨ ਨੂੰ ਚਾਲੂ ਕਰੋ</string>
+  <string name="charging_optimization_main_switch_title">ਚਾਰਜਿੰਗ ਔਪਟੀਮਾਈਜ਼ੇਸ਼ਨ ਵਰਤੋ</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% ਤੱਕ ਸੀਮਤ ਕਰੋ</string>
+  <string name="charging_optimization_summary_adaptive">ਅਡੈਪਟਿਵ ਚਾਰਜਿੰਗ</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% ਤੱਕ ਸੀਮਤ ਕਰੋ</string>
+  <string name="charging_optimization_summary_off">ਬੰਦ ਹੈ</string>
+  <string name="charging_optimization_title">ਚਾਰਜਿੰਗ ਔਪਟੀਮਾਈਜ਼ੇਸ਼ਨ</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">polnjenje, omejitev, optimizacija polnjenja, meja polnjenja</string>
+  <string name="charge_limit_mode_summary">Baterija telefona se bo napolnila samo na {batteryLimitLevel} %</string>
+  <string name="charge_limit_mode_title">Omeji na {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Zaradi podaljšanja življenjske dobe baterije se prilagodljivo polnjenje nauči vaše rutine polnjenja in začasno zaustavi polnjenje pri {batteryLimitLevel} % ter zaključi polnjenje baterije telefona na {batteryFullLevel} % eno uro, preden ga običajno odklopite.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Zaradi podaljšanja življenjske dobe baterije se bo baterija telefona napolnila samo na {batteryLimitLevel} %. Baterija telefona se bo občasno napolnila na 100 %, da se znova umeri njena ocenjena zmogljivost.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Preberite več o prilagodljivem polnjenju</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Preberite več o omejitvi na {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">Preberite več o optimizaciji polnjenja</string>
+  <string name="charging_optimization_footer_off">Če želite podaljšati življenjsko dobo baterije, vklopite optimizacijo polnjenja</string>
+  <string name="charging_optimization_main_switch_title">Uporabi optimizacijo polnjenja</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Omeji na {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Prilagodljivo polnjenje</string>
+  <string name="charging_optimization_summary_charge_limit">Omeji na {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Izklopljeno</string>
+  <string name="charging_optimization_title">Optimizacija polnjenja</string>
+</resources>

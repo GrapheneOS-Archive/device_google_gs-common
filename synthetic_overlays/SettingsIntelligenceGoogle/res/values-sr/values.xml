@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">пуњење, ограничење, оптимизација пуњења, ограничење пуњења</string>
+  <string name="charge_limit_mode_summary">Батерија телефона ће се пунити само до {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Ограничи на {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Да би се продужио век трајања батерије, Прилагодљиво пуњење учи рутину пуњења, паузира пуњење на {batteryLimitLevel}% и завршава га на {batteryFullLevel}% један сат пре уобичајеног времена искључивања.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Да би се продужио век трајања батерије, батерија телефона се пуни само до {batteryLimitLevel}%. Телефон ће се повремено пунити до 100% како би се поново калибрисао процењени капацитет.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Сазнајте више о прилагодљивом пуњењу</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Сазнајте више о ограничењу на {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Сазнајте више о оптимизацији пуњења</string>
+  <string name="charging_optimization_footer_off">Да би се продужио век трајања батерије, укључите оптимизацију пуњења</string>
+  <string name="charging_optimization_main_switch_title">Користи оптимизацију пуњења</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Ограничи на {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Прилагодљиво пуњење</string>
+  <string name="charging_optimization_summary_charge_limit">Ограничено на {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Искључено</string>
+  <string name="charging_optimization_title">Оптимизација пуњења</string>
+</resources>

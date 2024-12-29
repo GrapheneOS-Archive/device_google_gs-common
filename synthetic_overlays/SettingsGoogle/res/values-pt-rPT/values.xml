@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s: carregamento concluído à(s) %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s: carregamento concluído</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Carregamento concluído</string>
+  <string name="charging_optimization_remaining_time_label">Carregamento concluído à(s) %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Carregamento sem fios concluído •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Carregamento sem fios concluído à(s) %1$s •</string>
+</resources>

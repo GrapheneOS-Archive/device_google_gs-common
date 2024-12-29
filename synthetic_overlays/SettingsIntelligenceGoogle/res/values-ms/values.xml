@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">Pengecasan, had, pengoptimuman pengecasan, had pengecasan</string>
+  <string name="charge_limit_mode_summary">Telefon anda hanya akan mengecas hingga tahap bateri {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Hadkan kepada {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Untuk melanjutkan jangka hayat bateri, Pengecasan Boleh Suai mempelajari rutin pengecasan anda dan menjeda pengecasan pada tahap {batteryLimitLevel}% dan menyelesaikan pengecasan kepada {batteryFullLevel}% satu jam sebelum waktu biasa anda mencabut palam.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Untuk melanjutkan jangka hayat bateri, telefon anda hanya akan mengecas hingga tahap bateri {batteryLimitLevel}%. Telefon akan mengecas sekali-sekala hingga 100% untuk menentukur semula anggaran kapasiti.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Ketahui lebih lanjut tentang Pengecasan Boleh Suai</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Ketahui lebih lanjut tentang Hadkan kepada {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Ketahui lebih lanjut tentang Pengoptimuman pengecasan</string>
+  <string name="charging_optimization_footer_off">Untuk melanjutkan jangka hayat bateri, hidupkan pengoptimuman pengecasan</string>
+  <string name="charging_optimization_main_switch_title">Gunakan pengoptimuman pengecasan</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Hadkan kepada {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Pengecasan Boleh Suai</string>
+  <string name="charging_optimization_summary_charge_limit">Hadkan kepada {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Mati</string>
+  <string name="charging_optimization_title">Pengoptimuman pengecasan</string>
+</resources>

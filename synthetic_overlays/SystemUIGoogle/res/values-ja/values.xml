@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">今すぐ有効にする</string>
+  <string name="charge_limit_discovery_notification_text">バッテリーの健全性を守り、長持ちさせるため、充電を 80% に制限する機能を有効にしてみましょう。これはいつでも [設定] で管理できます。</string>
+  <string name="charge_limit_discovery_notification_title">充電時にバッテリーを保護</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$sまでに充電完了</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s後に充電完了</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • 充電完了</string>
+</resources>

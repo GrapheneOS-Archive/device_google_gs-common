@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Ota käyttöön nyt</string>
+  <string name="charge_limit_discovery_notification_text">Kokeile suojata akun kuntoa ja kestoa laittamalla 80 prosentin latausrajoitusominaisuus päälle. Voit muuttaa valintaa asetuksista milloin vain.</string>
+  <string name="charge_limit_discovery_notification_title">Suojaa akkua latauksen aikana</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Lataus valmis klo %1$s mennessä</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Latausaikaa jäljellä %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Lataus valmis</string>
+</resources>

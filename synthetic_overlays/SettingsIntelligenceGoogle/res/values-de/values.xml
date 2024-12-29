@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">Laden, Aufladen, Limit, Begrenzung, Ladeoptimierung, Optimierung, Ladelimit, Ladebegrenzung, Begrenzung beim Aufladen</string>
+  <string name="charge_limit_mode_summary">Der Akku deines Smartphones wird nur bis zu {batteryLimitLevel} % geladen</string>
+  <string name="charge_limit_mode_title">Limit fürs Aufladen: {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Die Einstellung „Adaptives Laden“ merkt sich deine Ladegewohnheiten, sodass das Laden bei {batteryLimitLevel} % pausiert und bei {batteryFullLevel} % beendet wird – eine Stunde bevor du normalerweise den Stecker ziehst. Dadurch wird die Lebensdauer des Akkus verlängert.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Der Akku deines Smartphones wird nur bis zu {batteryLimitLevel} % geladen, um seine Lebensdauer zu verlängern. Von Zeit zu Zeit wird das Smartphone aber auf 100 % aufgeladen, um die geschätzte Kapazität neu zu kalibrieren.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Weitere Informationen zum adaptiven Laden</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Weitere Informationen zum Limit fürs Aufladen: {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">Weitere Informationen zum optimierten Laden</string>
+  <string name="charging_optimization_footer_off">Aktiviere das optimierte Laden, um die Lebensdauer des Akkus zu verlängern</string>
+  <string name="charging_optimization_main_switch_title">Optimiertes Laden verwenden</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limit fürs Aufladen: {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Adaptives Laden</string>
+  <string name="charging_optimization_summary_charge_limit">Limit fürs Aufladen: {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Aus</string>
+  <string name="charging_optimization_title">Optimiertes Laden</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">အားသွင်းခြင်း၊ ကန့်သတ်ချက်၊ အားသွင်းမှု ပိုကောင်းအောင်လုပ်ခြင်း၊ အားသွင်းခြင်း ကန့်သတ်ချက်</string>
+  <string name="charge_limit_mode_summary">သင့်ဖုန်းသည် ဘက်ထရီ {batteryLimitLevel}% အထိသာ အားသွင်းပါမည်</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}% သို့ ကန့်သတ်ခြင်း</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">ဘက်ထရီသက်တမ်း ပိုရှည်စေရန် ‘အလိုက်သင့်အားသွင်းခြင်း’ သည် သင်၏အားသွင်းမှု ပုံမှန်အစီအစဉ်ကို လေ့လာပြီး {batteryLimitLevel}% ၌ ခဏရပ်ကာ ပုံမှန်အားဖြင့် ပလတ်မဖြုတ်မီ တစ်နာရီအလိုတွင် {batteryFullLevel}% အထိ အားသွင်းပါမည်။</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">ဘက်ထရီသက်တမ်း ပိုရှည်စေရန် သင့်ဖုန်းကို ဘက်ထရီ {batteryLimitLevel}% အထိသာ အားသွင်းပါမည်။ ခန့်မှန်းသိုလှောင်နိုင်စွမ်း ပြန်လည်စံကိုက်ညှိရန် ဖုန်းကို ၁၀၀% အထိ ရံဖန်ရံခါအားသွင်းပါမည်။</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">‘အလိုက်သင့်အားသွင်းခြင်း’ အကြောင်း ပိုမိုလေ့လာရန်</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">‘{batteryLimitLevel}% သို့ ကန့်သတ်ခြင်း’ အကြောင်း ပိုမိုလေ့လာရန်</string>
+  <string name="charging_optimization_footer_learn_more_default">‘အားသွင်းမှု ပိုကောင်းအောင်လုပ်ခြင်း’ အကြောင်း ပိုမိုလေ့လာရန်</string>
+  <string name="charging_optimization_footer_off">ဘက်ထရီသက်တမ်း ပိုရှည်စေရန် အားသွင်းမှု ပိုကောင်းအောင်လုပ်ခြင်းကို ဖွင့်ပါ</string>
+  <string name="charging_optimization_main_switch_title">အားသွင်းမှု ပိုကောင်းအောင်လုပ်ခြင်း သုံးရန်</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% သို့ ကန့်သတ်နိုင်သည်</string>
+  <string name="charging_optimization_summary_adaptive">အလိုက်သင့်အားသွင်းနေသည်</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% သို့ ကန့်သတ်နိုင်သည်</string>
+  <string name="charging_optimization_summary_off">ပိတ်</string>
+  <string name="charging_optimization_title">အားသွင်းမှု ပိုကောင်းအောင်လုပ်ခြင်း</string>
+</resources>

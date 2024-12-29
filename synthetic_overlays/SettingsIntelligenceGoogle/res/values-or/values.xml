@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ଚାର୍ଜିଂ, ସୀମା, ଚାର୍ଜିଂ ଅପ୍ଟିମାଇଜେସନ, ଚାର୍ଜ ସୀମା</string>
+  <string name="charge_limit_mode_summary">ଆପଣଙ୍କ ଫୋନ କେବଳ {batteryLimitLevel}% ବେଟେରୀ ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ ହେବ</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}%ରେ ସୀମିତ</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">ବେଟେରୀ ଲାଇଫସ୍ପାନକୁ ବଢ଼ାଇବା ପାଇଁ ଆଡେପ୍ଟିଭ ଚାର୍ଜିଂ ଆପଣଙ୍କ ଚାର୍ଜିଂ ରୁଟିନ ଜାଣିଥାଏ ଓ {batteryLimitLevel}%ରେ ବିରତ ହୁଏ ଏବଂ ଆପଣ ସାଧାରଣତଃ ଅନପ୍ଲଗ କରିବାର ଏକ ଘଣ୍ଟା ପୂର୍ବରୁ {batteryFullLevel}%ରେ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଥାଏ।</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">ବେଟେରୀ ଲାଇଫସ୍ପାନକୁ ବଢ଼ାଇବାରେ ସାହାଯ୍ୟ କରିବା ପାଇଁ ଆପଣଙ୍କ ଫୋନ କେବଳ {batteryLimitLevel}% ବେଟେରୀ ପର୍ଯ୍ୟନ୍ତ ଚାର୍ଜ ହେବ। ଆନୁମାନିକ କ୍ଷମତାକୁ ପୁଣି କାଲିବ୍ରେଟ କରିବା ପାଇଁ ଫୋନ ବେଳେବେଳେ 100% ଚାର୍ଜ ହେବ।</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">ଆଡେପ୍ଟିଭ ଚାର୍ଜିଂ ବିଷୟରେ ଅଧିକ ଜାଣନ୍ତୁ</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}%ରେ ସୀମିତ ବିଷୟରେ ଅଧିକ ଜାଣନ୍ତୁ</string>
+  <string name="charging_optimization_footer_learn_more_default">ଚାର୍ଜିଂ ଅପ୍ଟିମାଇଜେସନ ବିଷୟରେ ଅଧିକ ଜାଣନ୍ତୁ</string>
+  <string name="charging_optimization_footer_off">ବେଟେରୀ ଲାଇଫସ୍ପାନକୁ ବଢ଼ାଇବାରେ ସାହାଯ୍ୟ କରିବା ପାଇଁ ଚାର୍ଜିଂ ଅପ୍ଟିମାଇଜେସନକୁ ଚାଲୁ କରନ୍ତୁ</string>
+  <string name="charging_optimization_main_switch_title">ଚାର୍ଜିଂ ଅପ୍ଟିମାଇଜେସନକୁ ବ୍ୟବହାର କରନ୍ତୁ</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}%ରେ ସୀମିତ</string>
+  <string name="charging_optimization_summary_adaptive">ଆଡେପ୍ଟିଭ ଚାର୍ଜିଂ</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%ରେ ସୀମିତ</string>
+  <string name="charging_optimization_summary_off">ବନ୍ଦ ଅଛି</string>
+  <string name="charging_optimization_title">ଚାର୍ଜିଂ ଅପ୍ଟିମାଇଜେସନ</string>
+</resources>

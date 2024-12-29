@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Aktivizo tani</string>
+  <string name="charge_limit_discovery_notification_text">Provo të aktivizosh veçorinë e kufirit të karikimit në 80% për të mbrojtur gjendjen e baterisë dhe jetëgjatësinë e saj. Mund ta menaxhosh këtë te cilësimet në çdo kohë</string>
+  <string name="charge_limit_discovery_notification_title">Mbro baterinë tënde gjatë karikimit</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Karikimi përfundon në %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Karikimi përfundoi për %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Karikimi përfundoi</string>
+</resources>
