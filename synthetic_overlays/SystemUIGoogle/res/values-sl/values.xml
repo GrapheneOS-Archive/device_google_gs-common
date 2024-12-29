@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Omogoči</string>
+  <string name="charge_limit_discovery_notification_text">Poskusite vklopiti omejitev polnjenja na 80 %, da zaščitite zmogljivost in življenjsko dobo baterije. To lahko kadar koli upravljate v nastavitvah.</string>
+  <string name="charge_limit_discovery_notification_title">Zaščita baterije med polnjenjem</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Polnjenje bo končano do %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Polnjenje bo končano čez %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Polnjenje je končano</string>
+</resources>

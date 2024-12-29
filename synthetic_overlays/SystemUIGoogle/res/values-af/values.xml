@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Aktiveer nou</string>
+  <string name="charge_limit_discovery_notification_text">Probeer om die 80%-limietkenmerk aan te skakel om battterygesondheid en -lewensduur te beskerm. Jy kan dit enige tyd in Instellings bestuur.</string>
+  <string name="charge_limit_discovery_notification_title">Beskerm jou battery terwyl dit laai</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Sal teen %1$s klaar gelaai wees</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Sal oor %1$s klaar gelaai wees</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Klaar gelaai</string>
+</resources>

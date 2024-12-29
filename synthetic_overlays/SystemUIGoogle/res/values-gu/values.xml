@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">હવે ચાલુ કરો</string>
+  <string name="charge_limit_discovery_notification_text">બૅટરીની ક્ષમતા અને તેની આવરદાને સુરક્ષિત રાખવા માટે, 80% સુધી ચાર્જ થવાની મર્યાદા ધરાવતી સુવિધા ચાલુ કરી જુઓ. તમે સેટિંગમાં જઈને કોઈપણ સમયે આને મેનેજ કરી શકો છો</string>
+  <string name="charge_limit_discovery_notification_title">ચાર્જિંગ દરમિયાન તમારી બૅટરીને સુરક્ષિત રાખો</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s - %1$s સુધીમાં પૂરું ચાર્જિંગ થઈ જશે</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$sમાં સંપૂર્ણ ચાર્જ થઈ જશે</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • પૂરું ચાર્જિંગ થઈ ગયું</string>
+</resources>

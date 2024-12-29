@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">càrrega, límit, optimització de la càrrega, límit de càrrega</string>
+  <string name="charge_limit_mode_summary">El telèfon només es carregarà fins al {batteryLimitLevel} % de bateria</string>
+  <string name="charge_limit_mode_title">Limita al {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Per allargar la vida útil de la bateria, Càrrega intel·ligent aprèn la teva rutina de càrrega; es posa en pausa al {batteryLimitLevel} % i finalitza al {batteryFullLevel} % una hora abans de quan sols desendollar el dispositiu.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Per ajudar-te a allargar la vida útil de la bateria, el telèfon només es carregarà fins al {batteryLimitLevel} % de bateria De tant en tant, el telèfon es carregarà fins al 100 % per recalibrar la capacitat estimada.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Més informació sobre Càrrega intel·ligent</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Més informació sobre Limita al {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">"Més informació sobre l'optimització de la càrrega"</string>
+  <string name="charging_optimization_footer_off">"Per ajudar-te a allargar la vida útil de la bateria, activa l'optimització de la càrrega"</string>
+  <string name="charging_optimization_main_switch_title">"Utilitza l'optimització de la càrrega"</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limita al {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Càrrega intel·ligent</string>
+  <string name="charging_optimization_summary_charge_limit">Limita al {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Desactivat</string>
+  <string name="charging_optimization_title">Optimització de la càrrega</string>
+</resources>

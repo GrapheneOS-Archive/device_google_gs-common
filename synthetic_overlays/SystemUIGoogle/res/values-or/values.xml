@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">ବର୍ତ୍ତମାନ ସକ୍ଷମ କରନ୍ତୁ</string>
+  <string name="charge_limit_discovery_notification_text">ବେଟେରୀ ହେଲ୍ଥ ଏବଂ ଲାଇଫସ୍ପାନକୁ ସୁରକ୍ଷିତ ରଖିବା ପାଇଁ 80% ସୀମା ଫିଚର ଚାଲୁ କରିବାକୁ ଚେଷ୍ଟା କରନ୍ତୁ। ଆପଣ ଯେ କୌଣସି ସମୟରେ ସେଟିଂସରେ ଏହାକୁ ପରିଚାଳନା କରିପାରିବେ</string>
+  <string name="charge_limit_discovery_notification_title">ଚାର୍ଜିଂ ସମୟରେ ଆପଣଙ୍କ ବେଟେରୀକୁ ସୁରକ୍ଷିତ ରଖନ୍ତୁ</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s ସୁଦ୍ଧା ଚାର୍ଜିଂ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$sରେ ଚାର୍ଜିଂ ଶେଷ ହୋଇଛି</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • ଚାର୍ଜିଂ ସମ୍ପୂର୍ଣ୍ଣ ହୋଇଛି</string>
+</resources>

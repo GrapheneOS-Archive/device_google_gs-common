@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Bật ngay</string>
+  <string name="charge_limit_discovery_notification_text">Hãy thử bật tính năng giới hạn ở mức 80% để bảo vệ tình trạng và tuổi thọ của pin. Bạn có thể quản lý tính năng này trong phần Cài đặt bất cứ lúc nào.</string>
+  <string name="charge_limit_discovery_notification_title">Bảo vệ pin của bạn trong quá trình sạc</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Đến %1$s sẽ sạc xong</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Sạc xong sau %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Sạc xong</string>
+</resources>

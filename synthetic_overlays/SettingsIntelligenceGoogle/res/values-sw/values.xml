@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">kuchaji, kikomo, kuboresha hali ya kuchaji, kikomo cha chaji</string>
+  <string name="charge_limit_mode_summary">Betri ya simu yako itachajiwa hadi asilimia {batteryLimitLevel}</string>
+  <string name="charge_limit_mode_title">Huchaji hadi asilimia {batteryLimitLevel}</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Ili kuongeza muda wa matumizi ya betri, kipengele cha Hali ya Kuchaji Inayojirekebisha hujifunza ratiba yako ya kuchaji na kusitisha kuchaji betri ikifika asilimia {batteryLimitLevel} kisha kumaliza kuchaji hadi asimilia {batteryFullLevel} saa moja kabla muda wako wa kawaida wa kuiondoa kwenye chaja.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Ili kusaidia kuongeza muda wa matumizi ya betri, simu yako itachajiwa hadi ifike asilimia {batteryLimitLevel}. Simu itachaji mara kwa mara hadi asilimia 100 ili kurekebisha kiwango kinachokadiriwa.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Pata maelezo zaidi kuhusu kipengele cha Hali ya Kuchaji Inayojirekebisha</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Pata maelezo zaidi kuhusu mipangilio ya Chaji isizidi asilimia {batteryLimitLevel}</string>
+  <string name="charging_optimization_footer_learn_more_default">Pata maelezo zaidi kuhusu kipengele cha Kuboresha hali ya kuchaji</string>
+  <string name="charging_optimization_footer_off">Ili kusaidia kuongeza muda wa matumizi ya betri, washa kipengele cha kuboresha hali ya kuchaji</string>
+  <string name="charging_optimization_main_switch_title">Tumia kipengele cha kuboresha hali ya kuchaji</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Huchaji hadi asilimia {batteryLimitLevel}</string>
+  <string name="charging_optimization_summary_adaptive">Hali ya Kuchaji Inayojirekebisha</string>
+  <string name="charging_optimization_summary_charge_limit">Huchaji hadi asilimia {batteryLimitLevel}</string>
+  <string name="charging_optimization_summary_off">Kimezimwa</string>
+  <string name="charging_optimization_title">Kuboresha hali ya kuchaji</string>
+</resources>

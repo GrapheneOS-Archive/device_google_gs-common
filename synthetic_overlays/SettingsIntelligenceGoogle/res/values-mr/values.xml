@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">चार्जिंग, मर्यादा, चार्जिंग ऑप्टिमायझेशन, चार्जिंगची मर्यादा</string>
+  <string name="charge_limit_mode_summary">तुमचा फोन फक्त {batteryLimitLevel}% बॅटरीपर्यंत चार्ज होईल</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}% पर्यंत मर्यादित करा</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">बॅटरीचा कालावधी वाढवण्यासाठी, अडॅप्टिव्ह चार्जिंग हे तुमच्या चार्जिंगबद्दलच्या दिनक्रमाबद्दल माहिती मिळवते आणि तुमच्या अनप्लग करण्याच्या सामान्य वेळेपूर्वी एक तास आधी {batteryLimitLevel}% ला थांबते आणि {batteryFullLevel}% पर्यंत समाप्त होते.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">बॅटरीचा कालावधी वाढवण्यात मदत करण्यासाठी, तुमचा फोन फक्त {batteryLimitLevel}% बॅटरीपर्यंत चार्ज होईल. अंदाजे क्षमता पुन्हा कॅलिबरेट करण्यासाठी फोन अधूनमधून १००% पर्यंत चार्ज होईल.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">अडॅप्टिव्ह चार्जिंगविषयी अधिक जाणून घ्या</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}% पर्यंत मर्यादित करण्याविषयी अधिक जाणून घ्या</string>
+  <string name="charging_optimization_footer_learn_more_default">चार्जिंग ऑप्टिमायझेशनविषयी अधिक जाणून घ्या</string>
+  <string name="charging_optimization_footer_off">बॅटरीचा कालावधी वाढवण्यात मदत करण्यासाठी, चार्जिंग ऑप्टिमायझेशन सुरू करा</string>
+  <string name="charging_optimization_main_switch_title">चार्जिंग ऑप्टिमायझेशन वापरा</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% पर्यंत मर्यादित करा</string>
+  <string name="charging_optimization_summary_adaptive">अडॅप्टिव्ह चार्जिंग</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% पर्यंत मर्यादित करा</string>
+  <string name="charging_optimization_summary_off">बंद आहे</string>
+  <string name="charging_optimization_title">चार्जिंग ऑप्टिमायझेशन</string>
+</resources>

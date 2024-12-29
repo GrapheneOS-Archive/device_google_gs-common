@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Įgalinti dabar</string>
+  <string name="charge_limit_discovery_notification_text">Pabandykite įjungti 80 proc. apribojimo funkciją, kad apsaugotumėte akumuliatoriaus būseną ir naudojimo trukmę. Galite bet kada tvarkyti tai nustatymuose.</string>
+  <string name="charge_limit_discovery_notification_title">Akumuliatoriaus apsauga įkraunant</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Įkrovimas bus baigtas %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Įkrovimas bus baigtas po %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Įkrovimas baigtas</string>
+</resources>

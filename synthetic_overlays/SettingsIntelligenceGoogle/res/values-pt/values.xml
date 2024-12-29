@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">carregamento, limite, otimização de carregamento, limite de carregamento</string>
+  <string name="charge_limit_mode_summary">A bateria do smartphone vai carregar até {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Limitar a {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Para prolongar a vida útil da bateria, o Carregamento adaptável aprende sua rotina de carregamento, pausa em {batteryLimitLevel}% e carrega até {batteryFullLevel}% uma hora antes de você desconectar o dispositivo.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Para prolongar a vida útil da bateria do smartphone, ela será carregada até {batteryLimitLevel}%. O dispositivo vai carregar até 100% de vez em quando para recalibrar a capacidade estimada.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">"Saiba mais sobre o recurso \"Carregamento adaptável\""</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">"Saiba mais sobre o recurso \"Limitar a {batteryLimitLevel}%\""</string>
+  <string name="charging_optimization_footer_learn_more_default">"Saiba mais sobre o recurso \"Otimização de carregamento\""</string>
+  <string name="charging_optimization_footer_off">Para ajudar a prolongar a vida útil da bateria, ative a otimização de carregamento</string>
+  <string name="charging_optimization_main_switch_title">Usar otimização de carregamento</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limitar a {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Carregamento adaptável</string>
+  <string name="charging_optimization_summary_charge_limit">Limitar a {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Desativada</string>
+  <string name="charging_optimization_title">Otimização de carregamento</string>
+</resources>

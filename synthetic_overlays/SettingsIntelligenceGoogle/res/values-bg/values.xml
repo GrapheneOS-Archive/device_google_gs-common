@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">зареждане, ограничение, оптимизиране на зареждането, ограничение за зареждане</string>
+  <string name="charge_limit_mode_summary">Батерията на телефона ви ще се зарежда само до {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Ограничаване до {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">С цел удължаване на живота на батерията „Адаптивно зареждане“ научава модела ви за зареждане, за да постави зареждането на пауза при {batteryLimitLevel}% и да го завърши до {batteryFullLevel}% един час преди часа, в който обикновено изключвате устройството от електрическата мрежа.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">С цел удължаване на живота на батерията телефонът ви ще се зарежда само до {batteryLimitLevel}%. Понякога той ще се зарежда до 100%, за да се извърши повторно калибриране на прогнозния капацитет.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Научете повече за адаптивното зареждане</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Научете повече за ограничението до {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Научете повече за оптимизирането на зареждането</string>
+  <string name="charging_optimization_footer_off">С цел удължаване на живота на батерията включете функцията за оптимизиране на зареждането</string>
+  <string name="charging_optimization_main_switch_title">Използване на функцията за оптимизиране на зареждането</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Ограничаване до {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Адаптивно зареждане</string>
+  <string name="charging_optimization_summary_charge_limit">Ограничаване до {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Изкл.</string>
+  <string name="charging_optimization_title">Оптимизиране на зареждането</string>
+</resources>

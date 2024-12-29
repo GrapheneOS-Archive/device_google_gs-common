@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Iespējot tūlīt</string>
+  <string name="charge_limit_discovery_notification_text">Ieslēdziet 80% uzlādes ierobežojuma funkciju, lai saudzētu akumulatora stāvokli un pagarinātu tā darbmūžu. Jebkurā laikā varat to pārvaldīt sadaļā Iestatījumi.</string>
+  <string name="charge_limit_discovery_notification_title">Aizsargājiet akumulatoru uzlādes laikā</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Uzlāde tiks pabeigta līdz plkst. %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Uzlāde tiks pabeigta pēc šāda laika: %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Uzlāde pabeigta</string>
+</resources>

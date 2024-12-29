@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">pengisian daya, batas, pengoptimalan pengisian daya, batas pengisian daya</string>
+  <string name="charge_limit_mode_summary">Ponsel Anda hanya akan diisi dayanya sampai baterai {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Batasi sampai {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Untuk memperpanjang masa pakai baterai, Pengisian Daya Adaptif mempelajari rutinitas pengisian daya serta berhenti di {batteryLimitLevel}% dan selesai sampai {batteryFullLevel}%, satu jam sebelum Anda biasa mencabut kabel.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Untuk membantu memperpanjang masa pakai baterai, ponsel Anda hanya akan diisi dayanya sampai daya baterai mencapai {batteryLimitLevel}%. Ponsel akan sesekali diisi dayanya hingga 100% untuk melakukan kalibrasi ulang perkiraan kapasitas.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Pelajari lebih lanjut Pengisian Daya Adaptif</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Pelajari lebih lanjut Batasi sampai {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Pelajari lebih lanjut Pengoptimalan pengisian daya</string>
+  <string name="charging_optimization_footer_off">Untuk membantu memperpanjang masa pakai baterai, aktifkan pengoptimalan pengisian daya</string>
+  <string name="charging_optimization_main_switch_title">Gunakan pengoptimalan pengisian daya</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Batasi sampai {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Pengisian Daya Adaptif</string>
+  <string name="charging_optimization_summary_charge_limit">Batasi sampai {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Nonaktif</string>
+  <string name="charging_optimization_title">Pengoptimalan pengisian daya</string>
+</resources>

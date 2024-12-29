@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">цэнэглэх, хязгаар, цэнэглэх оновчлол, цэнэглэх хязгаар</string>
+  <string name="charge_limit_mode_summary">Таны утас зөвхөн {batteryLimitLevel}%-ийн цэнэгтэй болтол цэнэглэгдэнэ</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}%-иар хязгаарлах</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Батарейн эдэлгээг уртасгахын тулд Орчинтой тохируулан цэнэглэх таны цэнэглэх хэвшлийг сурах бөгөөд {batteryLimitLevel}%-д түр зогсоож, таны ихэвчлэн салгадаг хугацаанаас нэг цагийн өмнө {batteryFullLevel}% хүртэл цэнэглэж дуусгана.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Батарейн эдэлгээг уртасгахад туслахын тулд таны утас зөвхөн {batteryLimitLevel}%-ийн цэнэгтэй болтол цэнэглэгдэнэ. Утас үе үе 100% хүртэл цэнэглэгдэж, тооцоолсон багтаамжийг дахин тохируулна.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Орчинтой тохируулан цэнэглэх талаар нэмэлт мэдээлэл авах</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}%-р хязгаарлах талаар нэмэлт мэдээлэл авах</string>
+  <string name="charging_optimization_footer_learn_more_default">Цэнэглэхийг оновчлох талаар нэмэлт мэдээлэл авах</string>
+  <string name="charging_optimization_footer_off">Батарейн эдэлгээг уртасгахад туслахын тулд цэнэглэх оновчлолыг асаана уу</string>
+  <string name="charging_optimization_main_switch_title">Цэнэглэх оновчлолыг ашиглах</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}%-иар хязгаарлах</string>
+  <string name="charging_optimization_summary_adaptive">Орчинтой тохируулан цэнэглэх</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%-иар хязгаарласан</string>
+  <string name="charging_optimization_summary_off">Унтраалттай</string>
+  <string name="charging_optimization_title">Цэнэглэх оновчлол</string>
+</resources>

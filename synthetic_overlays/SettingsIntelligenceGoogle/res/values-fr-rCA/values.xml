@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">recharge, limite, optimisation de recharge, limite de recharge</string>
+  <string name="charge_limit_mode_summary">La pile de votre téléphone se rechargera uniquement à {batteryLimitLevel} %</string>
+  <string name="charge_limit_mode_title">Limiter à {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Pour prolonger la durée de vie de la pile, la fonctionnalité Recharge adaptative apprend vos habitudes et suspend la recharge à {batteryLimitLevel} %. Elle termine ensuite la recharge à {batteryFullLevel} % une heure avant le moment auquel vous débranchez normalement votre appareil.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Pour prolonger la durée de vie de la pile de votre téléphone, elle se rechargera uniquement à {batteryLimitLevel} %. Le téléphone se chargera occasionnellement à 100 % pour recalibrer la capacité estimée.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">En savoir plus sur la recharge adaptative</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">En savoir plus sur Limiter à {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">"En savoir plus sur l'optimisation de la recharge"</string>
+  <string name="charging_optimization_footer_off">"Pour prolonger la durée de vie de la pile, activez l'optimisation de la recharge"</string>
+  <string name="charging_optimization_main_switch_title">"Utiliser l'optimisation de la recharge"</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limiter à {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Recharge adaptative</string>
+  <string name="charging_optimization_summary_charge_limit">Limiter à {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Désactivée</string>
+  <string name="charging_optimization_title">Optimisation de la recharge</string>
+</resources>

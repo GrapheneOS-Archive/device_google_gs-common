@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">İndi aktivləşdirin</string>
+  <string name="charge_limit_discovery_notification_text">Batareya tutumu və istifadə müddətini qorumaq üçün 80% limit funksiyasını aktiv edin. Bunu ayarlarda idarə edə bilərsiniz</string>
+  <string name="charge_limit_discovery_notification_title">Şarj zamanı batareyanı qoruyun</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Şarjetmə %1$s radələrində bitəcək</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s sonra şarjetmə tamamlanır</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Şarjetmə bitib</string>
+</resources>

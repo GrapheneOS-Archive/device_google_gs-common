@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s – laadimine lõpeb %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s – laadimine on lõppenud</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Laadimine on lõppenud</string>
+  <string name="charging_optimization_remaining_time_label">Laadimine lõpeb %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Juhtmeta laadimine on lõppenud •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Juhtmeta laadimine lõpeb %1$s •</string>
+</resources>

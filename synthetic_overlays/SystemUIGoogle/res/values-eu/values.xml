@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Gaitu</string>
+  <string name="charge_limit_discovery_notification_text">Aktibatu % 80ko mugaren eginbidea, bateriaren egoera eta balio-bizitza babesteko. Hori kudeatzeko, joan ezarpenetara.</string>
+  <string name="charge_limit_discovery_notification_title">Babestu bateria hura kargatu bitartean</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Ordu honetan egongo da guztiz kargatuta: %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s barru amaituko da kargatzen</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Guztiz kargatu da</string>
+</resources>

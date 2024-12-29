@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ការសាកថ្ម, ដែនកំណត់, ការបង្កើនប្រសិទ្ធភាពការសាកថ្ម, ដែនកំណត់ការសាកថ្ម</string>
+  <string name="charge_limit_mode_summary">ទូរសព្ទរបស់អ្នកនឹងសាកថ្មដល់ {batteryLimitLevel}% តែប៉ុណ្ណោះ</string>
+  <string name="charge_limit_mode_title">កំណត់ត្រឹម {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">ដើម្បីបង្កើនអាយុកាលថ្ម ការសាកថ្ម​ដែលមាន​ភាពបត់បែនស្វែងយល់អំពីទម្លាប់សាកថ្មរបស់អ្នក និងផ្អាកនៅ {batteryLimitLevel}% និងបញ្ចប់ដល់ {batteryFullLevel}% មួយម៉ោងមុនពេលអ្នកដកឌុយតាមធម្មតា។</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">ដើម្បីជួយបង្កើនអាយុកាលថ្ម ទូរសព្ទរបស់អ្នកនឹងសាកថ្មដល់ {batteryLimitLevel}% តែប៉ុណ្ណោះ។ ទូរសព្ទនឹងសាកថ្មដល់ 100% ម្ដងម្កាលដើម្បីកែសម្រួលកាប៉ាស៊ីតេដែលបានប៉ាន់ស្មានឡើងវិញ។</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">ស្វែងយល់បន្ថែមអំពីការសាកថ្ម​ដែលមាន​ភាពបត់បែន</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">ស្វែងយល់បន្ថែមអំពីការកំណត់ត្រឹម {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">ស្វែងយល់បន្ថែមអំពីការបង្កើនប្រសិទ្ធភាពការសាកថ្ម</string>
+  <string name="charging_optimization_footer_off">ដើម្បីជួយបង្កើនអាយុកាលថ្ម សូមបើកការបង្កើនប្រសិទ្ធភាពការសាកថ្ម</string>
+  <string name="charging_optimization_main_switch_title">ប្រើការបង្កើនប្រសិទ្ធភាពការសាកថ្ម</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">កំណត់ត្រឹម {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">ការសាកថ្ម​ដែលមាន​ភាពបត់បែន</string>
+  <string name="charging_optimization_summary_charge_limit">កំណត់ត្រឹម {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">បិទ</string>
+  <string name="charging_optimization_title">ការបង្កើនប្រសិទ្ធភាពការសាកថ្ម</string>
+</resources>

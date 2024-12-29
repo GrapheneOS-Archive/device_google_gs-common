@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - %2$sলৈকে চাৰ্জিং সম্পূৰ্ণ হ’ব</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s • চাৰ্জিং সম্পূৰ্ণ হৈছে</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">চাৰ্জিং সম্পূৰ্ণ হৈছে</string>
+  <string name="charging_optimization_remaining_time_label">%1$sলৈকে চাৰ্জিং সম্পূৰ্ণ হ’ব</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">বেতাঁৰ চাৰ্জিং সম্পূৰ্ণ হৈছে •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">%1$sলৈকে বেতাঁৰ চাৰ্জিং সম্পূৰ্ণ হ’ব •</string>
+</resources>

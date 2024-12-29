@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s – har laddat klart kl. %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s – Har laddats</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Färdigladdat</string>
+  <string name="charging_optimization_remaining_time_label">Har laddat klart kl. %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Laddas färdigt trådlöst •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Laddas färdigt trådlöst %1$s •</string>
+</resources>

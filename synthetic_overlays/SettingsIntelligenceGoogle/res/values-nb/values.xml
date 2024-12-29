@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">lading, grense, ladeoptimalisering, ladegrense</string>
+  <string name="charge_limit_mode_summary">Telefonen lades bare til {batteryLimitLevel} % batteri</string>
+  <string name="charge_limit_mode_title">Begrens til {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">For å utvide brukstiden for batteriet lærer Tilpasset lading laderutinen din. Ladingen settes på pause på {batteryLimitLevel} % og fullfører oppladingen til {batteryFullLevel} % en time før du vanligvis kobler fra laderen.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">For å øke brukstiden for batteriet lades telefonen bare til {batteryLimitLevel} % batteri. Telefonen lader iblant til 100 % for å kalibrere den anslåtte kapasiteten på nytt.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Finn ut mer om tilpasset lading</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Finn ut mer om Begrens til {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">Finn ut mer om ladeoptimalisering</string>
+  <string name="charging_optimization_footer_off">For å bidra til å utvide brukstiden for batteriet, slå på ladeoptimalisering</string>
+  <string name="charging_optimization_main_switch_title">Bruk ladeoptimalisering</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Begrens til {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Tilpasset lading</string>
+  <string name="charging_optimization_summary_charge_limit">Begrens til {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Av</string>
+  <string name="charging_optimization_title">Ladeoptimalisering</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">شحن، حدّ أقصى، تحسين الشحن، حدّ أقصى للشحن</string>
+  <string name="charge_limit_mode_summary">الحدّ الأقصى لشحن بطارية هاتفك هو %{batteryLimitLevel}</string>
+  <string name="charge_limit_mode_title">الحدّ الأقصى للشحن: %{batteryLimitLevel}</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">"لإطالة عمر البطارية، تتعرّف ميزة \"الشحن الذكي\" على عادات الشحن التي تتّبعها وتوقِف الشحن مؤقتًا عند %{batteryLimitLevel}، ثم تُكمل الشحن حتى %{batteryFullLevel} قبل ساعة واحدة من الموعد الذي تفصل فيه الجهاز عن مصدر الطاقة عادةً."</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">للمساعدة في إطالة عمر البطارية، سيتم شحن هاتفك حتى نسبة %{batteryLimitLevel} فقط. وسيتم شحنه بنسبة %100 من حين لآخر لإعادة معايرة السعة المقدَّرة.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">"مزيد من المعلومات حول ميزة \"الشحن الذكي\""</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">مزيد من المعلومات حول ميزة ضبط الحدّ الأقصى للشحن على %{batteryLimitLevel}</string>
+  <string name="charging_optimization_footer_learn_more_default">"مزيد من المعلومات حول ميزة \"تحسين الشحن\""</string>
+  <string name="charging_optimization_footer_off">"للمساعدة في إطالة عمر البطارية، عليك تفعيل الإعداد \"تحسين الشحن\""</string>
+  <string name="charging_optimization_main_switch_title">"استخدام الإعداد \"تحسين الشحن\""</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">الحدّ الأقصى للشحن: %{batteryLimitLevel}</string>
+  <string name="charging_optimization_summary_adaptive">الشحن الذكي</string>
+  <string name="charging_optimization_summary_charge_limit">الحدّ الأقصى للشحن: %{batteryLimitLevel}</string>
+  <string name="charging_optimization_summary_off">غير مفعّل</string>
+  <string name="charging_optimization_title">تحسين الشحن</string>
+</resources>

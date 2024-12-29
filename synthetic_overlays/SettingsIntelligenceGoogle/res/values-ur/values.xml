@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">چارجنگ، حد، چارجنگ کی بہتری، چارج کی حد</string>
+  <string name="charge_limit_mode_summary">آپ کے فون کی بیٹری صرف {batteryLimitLevel} فیصد تک چارج ہوگی</string>
+  <string name="charge_limit_mode_title">بیٹری کو {batteryLimitLevel} فیصد تک چارج کریں</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">بیٹری کی عمر بڑھانے کے لیے، اڈاپٹیو چارجنگ آپ کی چارجنگ کی روٹین سیکھتی ہے اور {batteryLimitLevel} فیصد پر چارجنگ رک جاتی ہے۔ ساتھ ہی، آپ کے عام طور پر ان پلگ کرنے سے ایک گھنٹہ پہلے بیٹری {batteryFullLevel} فیصد تک پوری چارج ہو جاتی ہے۔</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">بیٹری کی عمر بڑھانے میں مدد کے لیے، آپ کا فون صرف {batteryLimitLevel} فیصد تک چارج ہوگا۔ تخمینہ شدہ گنجائش کو دوبارہ کیلیبریٹ کرنے کے لیے فون کبھی کبھار 100 فیصد تک چارج ہوگا۔</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">اڈاپٹیو چارجنگ کے بارے میں مزید جانیں</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">‫%{batteryLimitLevel} کی حد کے بارے میں مزید جانیں</string>
+  <string name="charging_optimization_footer_learn_more_default">چارجنگ کی بہتری کے بارے میں مزید جانیں</string>
+  <string name="charging_optimization_footer_off">بیٹری کی عمر بڑھانے میں مدد کے لیے، چارجنگ کی بہتری کو آن کریں</string>
+  <string name="charging_optimization_main_switch_title">چارجنگ کی بہتری کا استعمال کریں</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">بیٹری کو {batteryLimitLevel} فیصد تک چارج کریں</string>
+  <string name="charging_optimization_summary_adaptive">اڈاپٹیو چارجنگ</string>
+  <string name="charging_optimization_summary_charge_limit">بیٹری کو {batteryLimitLevel} فیصد تک چارج کریں</string>
+  <string name="charging_optimization_summary_off">آف ہے</string>
+  <string name="charging_optimization_title">چارجنگ کی بہتری</string>
+</resources>

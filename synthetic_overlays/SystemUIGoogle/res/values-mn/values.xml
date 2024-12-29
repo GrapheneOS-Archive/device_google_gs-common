@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Одоо идэвхжүүлэх</string>
+  <string name="charge_limit_discovery_notification_text">Цэнэг барилт болон эдэлгээг хамгаалахын тулд 80%-ийн хязгаар онцлогийг асааж үзнэ үү. Та үүнийг тохиргоонд хүссэн үедээ удирдах боломжтой</string>
+  <string name="charge_limit_discovery_notification_title">Цэнэглэх үеэр батарейгаа хамгаалах</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s гэхэд цэнэглэж дуусна</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s-н дараа цэнэглэж дуусна</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Цэнэглэж дууссан</string>
+</resources>

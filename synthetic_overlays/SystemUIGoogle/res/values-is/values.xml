@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Kveikja núna</string>
+  <string name="charge_limit_discovery_notification_text">Prófaðu að kveikja á 80% takmörkunarvirkni til að verja ástand og líftíma rafhlöðunnar. Þú getur stjórnað þessu í stillingum hvenær sem er</string>
+  <string name="charge_limit_discovery_notification_title">Verndaðu rafhlöðuna þína meðan þú hleður</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Hleðslu lýkur kl. %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Hleðslu lokið eftir %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Hleðslu lokið</string>
+</resources>

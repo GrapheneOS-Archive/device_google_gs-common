@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">заряджання, ліміт, оптимізація заряджання, ліміт заряду</string>
+  <string name="charge_limit_mode_summary">Телефон заряджатиметься лише до {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Обмежити до {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">"Щоб продовжити строк служби акумулятора, функція \"Адаптивне заряджання\" аналізує звичний час заряджання, призупиняє його на рівні {batteryLimitLevel}% і завершує до {batteryFullLevel}% за годину до того часу, коли ви зазвичай відключаєте пристрій від джерела живлення."</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Щоб продовжити строк служби акумулятора, телефон заряджатиметься лише до {batteryLimitLevel}%. Час від часу телефон заряджатиметься до 100%, щоб можна було знову визначити приблизну ємність акумулятора.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Докладніше про адаптивне заряджання</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Докладніше про обмеження до {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Докладніше про оптимізацію заряджання</string>
+  <string name="charging_optimization_footer_off">Щоб продовжити строк служби акумулятора, увімкніть оптимізацію заряджання</string>
+  <string name="charging_optimization_main_switch_title">Використовувати оптимізацію заряджання</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Обмежено до {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Адаптивне заряджання</string>
+  <string name="charging_optimization_summary_charge_limit">Обмежено до {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Вимкнено</string>
+  <string name="charging_optimization_title">Оптимізація заряджання</string>
+</resources>

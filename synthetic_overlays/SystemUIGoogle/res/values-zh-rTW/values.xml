@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">立即啟用</string>
+  <string name="charge_limit_discovery_notification_text">嘗試啟用 80% 充電上限功能，維護電池健康度和壽命。你可以在「設定」中管理這個選項。</string>
+  <string name="charge_limit_discovery_notification_title">在充電時保護電池</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s 前充電完成</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • 離充電完成還有 %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • 充電完成</string>
+</resources>
