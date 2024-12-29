@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Enable now</string>
+  <string name="charge_limit_discovery_notification_help_url">"https://support.google.com/pixelphone?p=eu_ecodesign_charging"</string>
+  <string name="charge_limit_discovery_notification_text">Try turning on the 80% limit feature to protect battery health and lifespan. You can manage this in settings anytime</string>
+  <string name="charge_limit_discovery_notification_title">Protect your battery during charging</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Done charging by %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Done charging in %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Done charging</string>
+</resources>

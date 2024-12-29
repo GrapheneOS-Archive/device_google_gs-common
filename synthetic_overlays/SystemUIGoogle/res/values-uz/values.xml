@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Yoqish</string>
+  <string name="charge_limit_discovery_notification_text">Xizmat davrini uzaytirish va himoyalash uchun batareyani 80% quvvat bilan cheklang. Buni istalgan vaqt sozlamalar orqali boshqarish mumkin.</string>
+  <string name="charge_limit_discovery_notification_title">Quvvatlashda batareyani himoyalang</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Quvvatlanishiga %1$s qoldi</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Quvvatlanishiga %1$s qoldi</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Quvvatlandi</string>
+</resources>

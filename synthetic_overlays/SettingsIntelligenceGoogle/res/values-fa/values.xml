@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">شارژ، سطح، بهینه‌سازی شارژ، میزان شارژ</string>
+  <string name="charge_limit_mode_summary">تلفن شما باتری را فقط تا {batteryLimitLevel}٪ شارژ می‌کند</string>
+  <string name="charge_limit_mode_title">محدود کردن تا {batteryLimitLevel}٪</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">برای افزایش طول عمر باتری، «شارژ تطبیقی» روال شارژ شما را یاد می‌گیرد و در {batteryLimitLevel}٪ موقتاً متوقف می‌شود و یک ساعت قبل‌از زمانی‌که معمولاً دستگاه را از پریز جدا می‌کنید، شارژ را تا {batteryFullLevel}٪ به‌پایان می‌رساند.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">برای کمک به افزایش طول عمر باتری، تلفن شما باتری را فقط تا {batteryLimitLevel}٪ شارژ می‌کند. تلفن گاهی اوقات تا ۱۰۰٪ شارژ می‌شود تا ظرفیت تخمینی دوباره واسنجی شود.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">درباره «شارژ تطبیقی» بیشتر بدانید</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">درباره «محدود کردن تا {batteryLimitLevel}٪» بیشتر بدانید</string>
+  <string name="charging_optimization_footer_learn_more_default">درباره «بهینه‌سازی شارژ» بیشتر بدانید</string>
+  <string name="charging_optimization_footer_off">برای کمک به افزایش طول عمر باتری، «بهینه‌سازی شارژ» را روشن کنید</string>
+  <string name="charging_optimization_main_switch_title">استفاده از «بهینه‌سازی شارژ»</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">محدود کردن تا {batteryLimitLevel}٪</string>
+  <string name="charging_optimization_summary_adaptive">شارژ تطبیقی</string>
+  <string name="charging_optimization_summary_charge_limit">محدود کردن تا {batteryLimitLevel}٪</string>
+  <string name="charging_optimization_summary_off">خاموش</string>
+  <string name="charging_optimization_title">بهینه‌سازی شارژ</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">চার্জিং, সীমা, চার্জিং অপ্টিমাইজেশন, চার্জের সীমা</string>
+  <string name="charge_limit_mode_summary">আপনার ফোনে শুধুমাত্র {batteryLimitLevel}% ব্যাটারি চার্জ করা হবে</string>
+  <string name="charge_limit_mode_title">চার্জের সীমা {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">ব্য়াটারির আয়ু বাড়াতে, অ্যাডাপ্টিভ চার্জিং আপনার চার্জিংয়ের রুটিন সম্পর্কে শিখে নেয় এবং {batteryLimitLevel}%-এ পজ হয়ে যায়। আপনি সাধারণত যে সময়ে চার্জিং কেবেল আনপ্লাগ করেন, তার এক ঘণ্টা আগে {batteryFullLevel}% চার্জ সম্পূর্ণ হয়ে যায়।</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">ব্যাটারির আয়ু বাড়াতে, আপনার ফোনের শুধুমাত্র {batteryLimitLevel}% ব্যাটারি চার্জ হবে। আনুমানিক ক্যাপাসিটি আবার পরিমাপ করতে, ফোন মাঝে মাঝে ১০০% চার্জ হবে।</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">অ্যাডাপ্টিভ চার্জিং সম্পর্কে আরও জানুন</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}%-এর সীমা সম্পর্কে আরও জানুন</string>
+  <string name="charging_optimization_footer_learn_more_default">চার্জিং অপ্টিমাইজেশন সম্পর্কে আরও জানুন</string>
+  <string name="charging_optimization_footer_off">ব্য়াটারির আয়ু বাড়াতে, চার্জিং অপ্টিমাইজেশন চালু করুন</string>
+  <string name="charging_optimization_main_switch_title">চার্জিং অপ্টিমাইজেশন ব্যবহার করুন</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% অবধি চার্জ করা যাবে</string>
+  <string name="charging_optimization_summary_adaptive">অ্যাডাপ্টিভ চার্জিং</string>
+  <string name="charging_optimization_summary_charge_limit">চার্জের সীমা {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">বন্ধ আছে</string>
+  <string name="charging_optimization_title">চার্জিং অপ্টিমাইজেশন</string>
+</resources>

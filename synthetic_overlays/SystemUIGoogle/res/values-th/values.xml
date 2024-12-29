@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">เปิดใช้เลย</string>
+  <string name="charge_limit_discovery_notification_text">ลองเปิดฟีเจอร์จำกัดการชาร์จที่ 80% เพื่อปกป้องประสิทธิภาพแบตเตอรี่และยืดอายุการใช้งาน คุณจัดการฟีเจอร์นี้ได้ทุกเมื่อในการตั้งค่า</string>
+  <string name="charge_limit_discovery_notification_title">ปกป้องแบตเตอรี่ในระหว่างการชาร์จ</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • ชาร์จเสร็จภายใน %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • ชาร์จเสร็จภายใน %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • ชาร์จแล้ว</string>
+</resources>

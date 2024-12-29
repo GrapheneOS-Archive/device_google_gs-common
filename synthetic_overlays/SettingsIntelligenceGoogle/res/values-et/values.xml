@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">laadimine, piirang, laadimise optimeerimine, laadimise piirang</string>
+  <string name="charge_limit_mode_summary">Teie telefon laadib ainult akutasemeni {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Piira tasemeni {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Aku eluea pikendamiseks jätab Adaptiivne laadimine meelde teie laadimisrutiini ja peatab laadimise {batteryLimitLevel}% juures, viies laadimise tasemeni {batteryFullLevel}% lõpule tund enne seda, kui seadme tavaliselt vooluvõrgust eemaldate.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Aku eluea pikendamiseks laeb telefon aku ainult tasemeni {batteryLimitLevel}%. Aeg-ajalt laeb telefon aku 100% täis, et selle hinnangulist mahtuvust uuesti kalibreerida.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Lisateave adaptiivse laadimise kohta</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Lisateave valiku Piira tasemeni {batteryLimitLevel}% kohta</string>
+  <string name="charging_optimization_footer_learn_more_default">Lisateave laadimise optimeerimise kohta</string>
+  <string name="charging_optimization_footer_off">Aku eluea pikendamiseks lülitage sisse laadimise optimeerimine</string>
+  <string name="charging_optimization_main_switch_title">Laadimise optimeerimise kasutamine</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Piiratud tasemeni {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Adaptiivne laadimine</string>
+  <string name="charging_optimization_summary_charge_limit">Piiratud tasemeni {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Väljas</string>
+  <string name="charging_optimization_title">Laadimise optimeerimine</string>
+</resources>

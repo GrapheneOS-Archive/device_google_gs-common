@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">зарядка, ограничение, оптимизация зарядки, ограничение уровня заряда</string>
+  <string name="charge_limit_mode_summary">Заряжать батарею только до {batteryLimitLevel} %</string>
+  <string name="charge_limit_mode_title">Зарядка до {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Чтобы продлить срок службы батареи, адаптивная зарядка анализирует, как вы заряжаете телефон, приостанавливается на уровне {batteryLimitLevel} % и завершается на {batteryFullLevel} % за час до момента, когда вы обычно отключаете зарядное устройство.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Чтобы продлить срок службы батареи, телефон будет заряжаться только до {batteryLimitLevel} %. Иногда устройство будет полностью заряжаться. Это нужно, чтобы переопределить приблизительную емкость батареи.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Подробнее об адаптивной зарядке…</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Подробнее о зарядке до {batteryLimitLevel} %…</string>
+  <string name="charging_optimization_footer_learn_more_default">Подробнее об оптимизации зарядки…</string>
+  <string name="charging_optimization_footer_off">Чтобы продлить срок службы батареи, включите оптимизацию зарядки.</string>
+  <string name="charging_optimization_main_switch_title">Оптимизировать зарядку</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Зарядка до {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Адаптивная зарядка</string>
+  <string name="charging_optimization_summary_charge_limit">Зарядка до {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Отключена</string>
+  <string name="charging_optimization_title">Оптимизация зарядки</string>
+</resources>

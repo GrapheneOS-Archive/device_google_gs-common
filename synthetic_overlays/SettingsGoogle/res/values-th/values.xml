@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - ชาร์จเสร็จภายใน %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - ชาร์จแล้ว</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">ชาร์จแล้ว</string>
+  <string name="charging_optimization_remaining_time_label">ชาร์จเสร็จภายใน %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">ชาร์จแบบไร้สายแล้ว •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">ชาร์จแบบไร้สายเสร็จภายใน %1$s •</string>
+</resources>

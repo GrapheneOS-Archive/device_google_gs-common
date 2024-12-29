@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">การชาร์จ, ขีดจำกัด, การเพิ่มประสิทธิภาพการชาร์จ, ขีดจำกัดการชาร์จ</string>
+  <string name="charge_limit_mode_summary">โทรศัพท์ของคุณจะชาร์จแบตเตอรี่ถึงแค่ {batteryLimitLevel}% เท่านั้น</string>
+  <string name="charge_limit_mode_title">ชาร์จไม่เกิน {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">การชาร์จแบบปรับอัตโนมัติจะเรียนรู้กิจวัตรการชาร์จของคุณและหยุดชั่วคราวที่ {batteryLimitLevel}% จากนั้นจะชาร์จจนถึง {batteryFullLevel}% 1 ชั่วโมงก่อนที่คุณจะถอดปลั๊กตามปกติเพื่อช่วยยืดอายุการใช้งานแบตเตอรี่</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">โทรศัพท์ของคุณจะชาร์จแบตเตอรี่ถึงแค่ {batteryLimitLevel}% เท่านั้นเพื่อช่วยยืดอายุการใช้งานแบตเตอรี่ โทรศัพท์จะชาร์จให้ถึง 100% เป็นครั้งคราวเพื่อปรับเทียบค่าความจุโดยประมาณใหม่</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">ดูข้อมูลเพิ่มเติมเกี่ยวกับการชาร์จแบบปรับอัตโนมัติ</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">ดูข้อมูลเพิ่มเติมเกี่ยวกับการชาร์จไม่เกิน {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">ดูข้อมูลเพิ่มเติมเกี่ยวกับการเพิ่มประสิทธิภาพการชาร์จ</string>
+  <string name="charging_optimization_footer_off">เปิดการเพิ่มประสิทธิภาพการชาร์จเพื่อช่วยยืดอายุการใช้งานแบตเตอรี่</string>
+  <string name="charging_optimization_main_switch_title">ใช้การเพิ่มประสิทธิภาพการชาร์จ</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">ชาร์จไม่เกิน {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">การชาร์จแบบปรับอัตโนมัติ</string>
+  <string name="charging_optimization_summary_charge_limit">ชาร์จไม่เกิน {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">ปิด</string>
+  <string name="charging_optimization_title">การเพิ่มประสิทธิภาพการชาร์จ</string>
+</resources>

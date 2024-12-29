@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Уключыць</string>
+  <string name="charge_limit_discovery_notification_text">Абмяжуйце зарад акумулятара да 80%, каб абараніць яго стан і прадоўжыць тэрмін службы. Кіраваць гэтай функцыяй можна ў наладах.</string>
+  <string name="charge_limit_discovery_notification_title">Абараніце акумулятар падчас зарадкі</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Зарадка будзе завершана да %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Зарадка будзе завершана праз %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Зарадка завершана</string>
+</resources>

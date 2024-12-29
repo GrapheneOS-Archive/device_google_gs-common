@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">දැන් සබල කරන්න</string>
+  <string name="charge_limit_discovery_notification_text">බැටරි සෞඛ්‍යය සහ ආයු කාලය ආරක්ෂා කිරීමට 80% සීමා කිරීමේ විශේෂාංගය ක්‍රියාත්මක කිරීමට උත්සාහ කරන්න. ඔබට මෙය ඕනෑම වේලාවක සැකසීම් තුළ කළමනාකරණය කළ හැක</string>
+  <string name="charge_limit_discovery_notification_title">ආරෝපණය කිරීමේ දී ඔබේ බැටරිය ආරක්ෂා කරන්න</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • නිමයි, %1$s වන විට ආරෝපිතයි</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$sකින් ආරෝපණය කර නිමයි</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • ආරෝපණය අවසන්</string>
+</resources>

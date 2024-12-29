@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Ativar agora</string>
+  <string name="charge_limit_discovery_notification_text">Experimente ativar a funcionalidade de limite de 80% para proteger a vida útil e o estado da bateria. Pode gerir esta opção nas definições em qualquer altura</string>
+  <string name="charge_limit_discovery_notification_title">Proteja a sua bateria durante o carregamento</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Carregamento concluído até à(s) %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Carregamento concluído em %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Carregamento concluído</string>
+</resources>

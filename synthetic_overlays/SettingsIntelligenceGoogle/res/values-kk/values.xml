@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">зарядтау, шек, зарядтауды оңтайландыру, зарядтау шегі</string>
+  <string name="charge_limit_mode_summary">Телефоныңыз тек {batteryLimitLevel}%-ға дейін зарядталады.</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}% деңгейінде шектеу</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Батареяның қызмет мерзімін ұзарту үшін, бейімдеп зарядтау функциясы сіздің зарядтау режиміңізді есте сақтайды, {batteryLimitLevel}% деңгейінде кідіреді және розеткадан тікелей ажыратқанға дейін 1 сағат бұрын {batteryFullLevel}% деңгейінде зарядтауды аяқтайды.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Батареяның қызмет мерзімін ұзарту үшін телефоныңыз тек {batteryLimitLevel}%-ға дейін зарядталады. Болжалды сыйымдылықты қайта калибрлеу үшін телефон арагідік 100%-ға дейін зарядталып тұрады.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Бейімдеп зарядтау туралы толық ақпарат</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}%-ға дейін шектеу туралы толық ақпарат</string>
+  <string name="charging_optimization_footer_learn_more_default">Зарядтауды оңтайландыру туралы толық ақпарат</string>
+  <string name="charging_optimization_footer_off">Батареяның қызмет мерзімін ұзарту үшін зарядтауды оңтайландыру функциясын қосыңыз.</string>
+  <string name="charging_optimization_main_switch_title">Зарядтауды оңтайландыру функциясын пайдаланыңыз</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% деңгейінде шектеу</string>
+  <string name="charging_optimization_summary_adaptive">Бейімдеп зарядтау</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% деңгейінде шектеу</string>
+  <string name="charging_optimization_summary_off">Өшірулі</string>
+  <string name="charging_optimization_title">Зарядтауды оңтайландыру</string>
+</resources>

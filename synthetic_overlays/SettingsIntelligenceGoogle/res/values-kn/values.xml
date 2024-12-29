@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ಚಾರ್ಜಿಂಗ್, ಮಿತಿ, ಚಾರ್ಜಿಂಗ್ ಆಪ್ಟಿಮೈಸೇಷನ್‌, ಚಾರ್ಜ್ ಮಿತಿ</string>
+  <string name="charge_limit_mode_summary">ಫೋನ್ ಬ್ಯಾಟರಿಯ {batteryLimitLevel}% ರವರೆಗೆ ಮಾತ್ರ ಚಾರ್ಜ್ ಆಗುತ್ತದೆ</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}% ಕ್ಕೆ ಮಿತಿಗೊಳಿಸಿ</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು, ಅಡಾಪ್ಟಿವ್ ಚಾರ್ಜಿಂಗ್ ನಿಮ್ಮ ಚಾರ್ಜಿಂಗ್ ದಿನಚರಿಯನ್ನು ತಿಳಿದುಕೊಳ್ಳುತ್ತದೆ ಮತ್ತು {batteryLimitLevel}% ಕ್ಕೆ ವಿರಾಮಗೊಳಿಸುತ್ತದೆ ಮತ್ತು ನೀವು ಸಾಮಾನ್ಯವಾಗಿ ಅನ್‌ಪ್ಲಗ್ ಮಾಡುವ ಒಂದು ಗಂಟೆ ಮೊದಲು {batteryFullLevel}% ಕ್ಕೆ ಕೊನೆಗೊಳ್ಳುತ್ತದೆ.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">ನಿಮ್ಮ ಫೋನ್‌ನ ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ಬ್ಯಾಟರಿಯು {batteryLimitLevel}% ರವರೆಗೆ ಮಾತ್ರ ಚಾರ್ಜ್ ಆಗುತ್ತದೆ. ಅಂದಾಜು ಸಾಮರ್ಥ್ಯವನ್ನು ಮರುಕ್ಯಾಲಿಬ್ರೇಟ್ ಮಾಡಲು ಫೋನ್ ಕೆಲವೊಮ್ಮೆ 100% ವರೆಗೆ ಚಾರ್ಜ್ ಆಗುತ್ತದೆ.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">ಅಡಾಪ್ಟಿವ್ ಚಾರ್ಜಿಂಗ್ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}% ಗೆ ಮಿತಿಗೊಳಿಸುವ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
+  <string name="charging_optimization_footer_learn_more_default">ಚಾರ್ಜಿಂಗ್ ಆಪ್ಟಿಮೈಸೇಷನ್‌ ಕುರಿತು ಇನ್ನಷ್ಟು ತಿಳಿಯಿರಿ</string>
+  <string name="charging_optimization_footer_off">ಬ್ಯಾಟರಿ ಬಾಳಿಕೆಯನ್ನು ವಿಸ್ತರಿಸಲು ಸಹಾಯ ಮಾಡಲು, ಚಾರ್ಜಿಂಗ್ ಆಪ್ಟಿಮೈಸೇಷನ್‌ ಅನ್ನು ಆನ್ ಮಾಡಿ</string>
+  <string name="charging_optimization_main_switch_title">ಚಾರ್ಜಿಂಗ್ ಆಪ್ಟಿಮೈಸೇಷನ್‌ ಅನ್ನು ಬಳಸಿ</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% ಕ್ಕೆ ಮಿತಿಗೊಳಿಸಿ</string>
+  <string name="charging_optimization_summary_adaptive">ಅಡಾಪ್ಟಿವ್ ಚಾರ್ಜಿಂಗ್</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% ಕ್ಕೆ ಮಿತಿಗೊಳಿಸಿ</string>
+  <string name="charging_optimization_summary_off">ಆಫ್ ಆಗಿದೆ</string>
+  <string name="charging_optimization_title">ಚಾರ್ಜಿಂಗ್ ಆಪ್ಟಿಮೈಸೇಷನ್‌</string>
+</resources>

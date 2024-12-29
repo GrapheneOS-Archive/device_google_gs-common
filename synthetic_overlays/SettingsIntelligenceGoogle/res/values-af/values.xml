@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">laai, limiet, laai-optimering, laailimiet</string>
+  <string name="charge_limit_mode_summary">Jou foon sal die battery net tot {batteryLimitLevel}% laai</string>
+  <string name="charge_limit_mode_title">Beperk tot {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Om batteryleeftyd te verleng, leer Aanpasbare laai jou laairoetine en hou op laai teen {batteryFullLevel}% en laai dan klaar tot by {batteryFullLevel}% ’n uur voor jy gewoonlik die prop uittrek.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Om batteryleeftyd te help verleng, sal jou foon se battery net tot {batteryLimitLevel}% gelaai word. Foon sal soms tot 100% gelaai word om geskatte kapasiteit te herkalibreer.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Meer inligting oor Aanpasbare Laai</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Meer inligting oor Beperk tot {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Meer inligting oor Laai-optimering</string>
+  <string name="charging_optimization_footer_off">Skakel laai-optimering aan om te help om die batteryleeftyd te verleng</string>
+  <string name="charging_optimization_main_switch_title">Gebruik laai-optimering</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Beperk tot {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Aanpasbare Laai</string>
+  <string name="charging_optimization_summary_charge_limit">Beperk tot {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Af</string>
+  <string name="charging_optimization_title">Laai-optimering</string>
+</resources>

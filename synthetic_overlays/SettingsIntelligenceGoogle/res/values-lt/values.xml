@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">įkrovimas, apribojimas, įkrovimo optimizavimas, įkrovimo apribojimas</string>
+  <string name="charge_limit_mode_summary">Telefono akumuliatorius bus įkraunamas tik iki {batteryLimitLevel} %</string>
+  <string name="charge_limit_mode_title">Apriboti iki {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Kad akumuliatorius veiktų ilgiau, prisitaikančio įkrovimo funkcija išmoksta jūsų įkrovimo veiksmų seką, pristabdo įkrovus iki {batteryLimitLevel} % ir baigia įkrauti iki {batteryFullLevel} % likus valandai iki tada, kai paprastai atjungiate.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Kad akumuliatorius veiktų ilgiau, telefono akumuliatorius bus įkrautas tik iki {batteryLimitLevel} %. Telefonas retkarčiais bus įkraunamas iki 100 proc., kad būtų iš naujo sukalibruota apskaičiuota akumuliatoriaus talpa.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Sužinokite daugiau apie prisitaikantį įkrovimą</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Sužinokite daugiau apie apribojimą iki {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">Sužinokite daugiau apie įkrovimo optimizavimą</string>
+  <string name="charging_optimization_footer_off">Kad akumuliatorius veiktų ilgiau, įjunkite įkrovimo optimizavimą</string>
+  <string name="charging_optimization_main_switch_title">Naudoti įkrovimo optimizavimą</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Apriboti iki {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Prisitaikantis įkrovimas</string>
+  <string name="charging_optimization_summary_charge_limit">Apriboti iki {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Išjungta</string>
+  <string name="charging_optimization_title">Įkrovimo optimizavimas</string>
+</resources>

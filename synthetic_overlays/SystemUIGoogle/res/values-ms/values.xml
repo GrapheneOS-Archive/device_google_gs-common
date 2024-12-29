@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Dayakan sekarang</string>
+  <string name="charge_limit_discovery_notification_text">Cuba hidupkan ciri had 80% untuk melindungi kesihatan dan jangka hayat bateri. Anda boleh mengurus pilihan ini dalam tetapan pada bila-bila masa</string>
+  <string name="charge_limit_discovery_notification_title">Lindungi bateri anda semasa pengecasan</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Pengecasan selesai selewat-lewatnya pada %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Pengecasan selesai selepas %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Pengecasan selesai</string>
+</resources>

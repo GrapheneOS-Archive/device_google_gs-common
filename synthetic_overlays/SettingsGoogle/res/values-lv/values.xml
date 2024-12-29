@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s — uzlāde tiks pabeigta līdz plkst. %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s — uzlāde pabeigta.</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Uzlāde pabeigta.</string>
+  <string name="charging_optimization_remaining_time_label">Uzlāde tiks pabeigta līdz plkst. %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Bezvadu uzlāde pabeigta •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Bezvadu uzlāde tiks pabeigta līdz plkst. %1$s •</string>
+</resources>

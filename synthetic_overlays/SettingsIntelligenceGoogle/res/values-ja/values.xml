@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">充電, 制限, 充電の最適化, 充電の制限</string>
+  <string name="charge_limit_mode_summary">スマートフォンのバッテリーを {batteryLimitLevel}% まで充電します</string>
+  <string name="charge_limit_mode_title">充電の上限: {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">バッテリーを長持ちさせるために、アダプティブ充電機能は充電の習慣を学習し、{batteryLimitLevel}% で充電を一時停止し、電源から普段取り外す時間の 1 時間前に {batteryFullLevel}% になるように充電します。</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">バッテリーを長持ちさせるために、スマートフォンのバッテリーを {batteryLimitLevel}% まで充電します。推定容量を再調整するため、スマートフォンは 100% まで充電されることがあります。</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">アダプティブ充電の詳細</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">充電の上限: {batteryLimitLevel}% の詳細</string>
+  <string name="charging_optimization_footer_learn_more_default">充電の最適化の詳細</string>
+  <string name="charging_optimization_footer_off">バッテリーを長持ちさせるには、充電の最適化を有効にしてください</string>
+  <string name="charging_optimization_main_switch_title">充電の最適化を使用する</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">充電の上限: {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">アダプティブ充電</string>
+  <string name="charging_optimization_summary_charge_limit">充電の上限: {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">OFF</string>
+  <string name="charging_optimization_title">充電の最適化</string>
+</resources>

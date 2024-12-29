@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ricarica, limite, ottimizzazione ricarica, limite di ricarica</string>
+  <string name="charge_limit_mode_summary">Il tuo smartphone si caricherà solo al livello di batteria {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Limita a {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">"Per prolungare la durata della batteria, la ricarica adattiva apprende la tua routine di ricarica, fa una pausa al livello {batteryLimitLevel}% e termina al livello {batteryFullLevel}% un'ora prima di quando scollegheresti normalmente il caricatore."</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Per prolungare la durata della batteria, il tuo smartphone si ricaricherà solo fino al livello di batteria {batteryLimitLevel}%. Lo smartphone si ricaricherà occasionalmente fino al 100% per ricalibrare la capacità stimata.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">"Scopri di più sull'opzione Ricarica adattiva"</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">"Scopri di più sull'opzione Limita a {batteryLimitLevel}%"</string>
+  <string name="charging_optimization_footer_learn_more_default">"Scopri di più sull'opzione Ottimizzazione ricarica"</string>
+  <string name="charging_optimization_footer_off">"Per prolungare la durata della batteria, attiva l'ottimizzazione ricarica"</string>
+  <string name="charging_optimization_main_switch_title">Usa ottimizzazione ricarica</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limita a {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Ricarica adattiva</string>
+  <string name="charging_optimization_summary_charge_limit">Limita a {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Off</string>
+  <string name="charging_optimization_title">Ottimizzazione ricarica</string>
+</resources>

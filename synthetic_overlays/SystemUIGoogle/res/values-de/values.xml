@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Jetzt aktivieren</string>
+  <string name="charge_limit_discovery_notification_text">Aktiviere den Lade-Grenzwert von 80 %, um den Akku zu pflegen und seine Lebensdauer zu verlängern. Du kannst den Grenzwert jederzeit in den Einstellungen ändern.</string>
+  <string name="charge_limit_discovery_notification_title">Akku beim Laden schonen</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Um %1$s geladen</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Vollständig geladen in %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • vollständig geladen</string>
+</resources>

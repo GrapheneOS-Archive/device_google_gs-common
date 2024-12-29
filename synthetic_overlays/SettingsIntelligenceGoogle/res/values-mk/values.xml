@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">полнење, ограничување, оптимизација на полнење, ограничување за полнење</string>
+  <string name="charge_limit_mode_summary">Батеријата на телефонот ќе се наполни само до {batteryLimitLevel} %</string>
+  <string name="charge_limit_mode_title">Ограничување на {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">За да го продолжи работниот век на батеријата, „Адаптивно полнење“ ја учи вашата рутина на полнење и паузира на {batteryLimitLevel} %, а завршува на {batteryFullLevel} %, еден час пред нормално да го исклучите телефонот од струја.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">За да помогне да се продолжи работниот век на батеријата, телефонот ќе се наполни само до {batteryLimitLevel} %. Повремено, телефонот ќе се полни до 100 % за да се рекалибрира проценетиот капацитет.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Дознајте повеќе за „Адаптивно полнење“</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Дознајте повеќе за „Ограничување на {batteryLimitLevel} %“</string>
+  <string name="charging_optimization_footer_learn_more_default">Дознајте повеќе за „Оптимизација на полнење“</string>
+  <string name="charging_optimization_footer_off">За да го продолжите работниот век на батеријата, вклучете оптимизација на полнењето</string>
+  <string name="charging_optimization_main_switch_title">Користење оптимизација на полнењето</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Ограничување на {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Адаптивно полнење</string>
+  <string name="charging_optimization_summary_charge_limit">Ограничување на {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Исклучено</string>
+  <string name="charging_optimization_title">Оптимизација на полнењето</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">karga, muga, kargaren optimizazioa, kargaren muga</string>
+  <string name="charge_limit_mode_summary">Telefonoaren bateria % {batteryLimitLevel} arte soilik kargatuko da</string>
+  <string name="charge_limit_mode_title">Kargatu % {batteryLimitLevel} arte</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Bateriaren balio-bizitza luzatzeko, karga egokituak zure kargatze-ohiturak ikasten ditu. Horrela, % {batteryLimitLevel} kargatzean pausatu egiten da, telefonoa deskonektatzeko ohiko ordua baino ordubete lehenago % {batteryFullLevel} arte kargatzen amaitzeko.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Bateriaren balio-bizitza luzatzeko, bateriaren % {batteryLimitLevel} arte soilik kargatuko da telefonoa. Estimatutako edukiera berriro kalibratzeko, telefonoa % 100era kargatuko da aldizka.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Lortu karga egokituari buruzko informazio gehiago</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Lortu % {batteryLimitLevel} arte kargatzeari buruzko informazio gehiago</string>
+  <string name="charging_optimization_footer_learn_more_default">Lortu kargaren optimizazioari buruzko informazio gehiago</string>
+  <string name="charging_optimization_footer_off">Bateriaren balio-bizitza luzatzeko, aktibatu kargaren optimizazioa</string>
+  <string name="charging_optimization_main_switch_title">Erabili kargaren optimizazioa</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Kargatu % {batteryLimitLevel} arte</string>
+  <string name="charging_optimization_summary_adaptive">Karga egokitua</string>
+  <string name="charging_optimization_summary_charge_limit">Kargatu % {batteryLimitLevel} arte</string>
+  <string name="charging_optimization_summary_off">Desaktibatuta</string>
+  <string name="charging_optimization_title">Kargaren optimizazioa</string>
+</resources>

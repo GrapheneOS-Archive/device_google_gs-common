@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Activa ara</string>
+  <string name="charge_limit_discovery_notification_text">"Prova d'activar la funció de límit de càrrega del 80 % per protegir l'estat i la vida útil de la bateria. Pots gestionar-ho a la configuració en qualsevol moment."</string>
+  <string name="charge_limit_discovery_notification_title">Protegeix la bateria durant la càrrega</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • La càrrega es completarà a les %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">"%2$s • La càrrega es completarà d'aquí a %1$s"</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">"%1$s • La càrrega s'ha completat"</string>
+</resources>

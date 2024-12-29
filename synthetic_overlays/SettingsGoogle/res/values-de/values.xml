@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s – spätestens um %2$s vollständig geladen</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s – vollständig geladen</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Vollständig geladen</string>
+  <string name="charging_optimization_remaining_time_label">Spätestens um %1$s vollständig geladen</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Kabelloses Laden vollständig •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Kabelloses Laden spätestens um %1$s vollständig •</string>
+</resources>

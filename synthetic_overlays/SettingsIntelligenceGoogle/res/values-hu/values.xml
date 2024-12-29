@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">töltés, korlát, töltésoptimalizálás, töltési korlát</string>
+  <string name="charge_limit_mode_summary">A telefon akkumulátora csak {batteryLimitLevel}%-ra töltődik</string>
+  <string name="charge_limit_mode_title">Korlátozás {batteryLimitLevel}%-ra</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Az akkumulátor élettartamának növelése érdekében az Adaptív töltés megtanulja az Ön töltési rutinját, szünetelteti a töltést {batteryLimitLevel}%-nál, és {batteryFullLevel}%-on fejezi be a töltést egy órával azelőtt, hogy általában kihúzná a töltőt.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Az akkumulátor élettartamának meghosszabbítása érdekében a telefon akkumulátora csak {batteryLimitLevel}%-ra töltődik. A telefon időnként 100%-ra töltődik fel a becsült kapacitás újrakalibrálása érdekében.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">További információ az Adaptív töltésről</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">További információ a Korlátozás {batteryLimitLevel}%-ra funkcióról</string>
+  <string name="charging_optimization_footer_learn_more_default">További információ a töltésoptimalizálásról</string>
+  <string name="charging_optimization_footer_off">Az akkumulátor élettartamának meghosszabbítása érdekében kapcsolja be a töltésoptimalizálást</string>
+  <string name="charging_optimization_main_switch_title">Töltésoptimalizálás használata</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Korlátozás {batteryLimitLevel}%-ra</string>
+  <string name="charging_optimization_summary_adaptive">Adaptív töltés</string>
+  <string name="charging_optimization_summary_charge_limit">Korlátozás {batteryLimitLevel}%-ra</string>
+  <string name="charging_optimization_summary_off">Ki</string>
+  <string name="charging_optimization_title">Töltésoptimalizálás</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Ενεργοποίηση τώρα</string>
+  <string name="charge_limit_discovery_notification_text">Ενεργοποιήστε τη λειτουργία ορίου 80% για να προστατέψετε την υγεία και τη διάρκεια ζωής της μπαταρίας. Μπορείτε να διαχειριστείτε αυτή την επιλογή στις Ρυθμίσεις ανά πάσα στιγμή</string>
+  <string name="charge_limit_discovery_notification_title">Προστατέψτε την μπαταρία σας κατά τη διάρκεια της φόρτισης</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Η φόρτιση θα ολοκληρωθεί έως τις %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Η φόρτιση θα ολοκληρωθεί σε %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Η φόρτιση ολοκληρώθηκε</string>
+</resources>
