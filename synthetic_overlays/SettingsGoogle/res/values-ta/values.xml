@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - சார்ஜிங் ஆன நேரம் %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - சார்ஜாகிவிட்டது</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">சார்ஜாகிவிட்டது</string>
+  <string name="charging_optimization_remaining_time_label">சார்ஜிங் ஆன நேரம் %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">வயர்லெஸ் முறையில் சார்ஜாகிவிட்டது •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">%1$sக்கு வயர்லெஸ் முறையில் சார்ஜாகிவிட்டது •</string>
+</resources>

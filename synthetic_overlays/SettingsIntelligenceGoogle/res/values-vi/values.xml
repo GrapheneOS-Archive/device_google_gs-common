@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">sạc, giới hạn, tối ưu hoá quá trình sạc, giới hạn sạc</string>
+  <string name="charge_limit_mode_summary">Điện thoại sẽ chỉ sạc đến {batteryLimitLevel}% pin</string>
+  <string name="charge_limit_mode_title">Giới hạn còn {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Để kéo dài thời lượng pin, tính năng Sạc thích ứng sẽ tìm hiểu thói quen sạc của bạn và tạm ngưng sạc khi pin ở mức {batteryLimitLevel}% rồi sạc tiếp đến {batteryFullLevel}% một giờ trước khi bạn thường rút sạc.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Để giúp kéo dài thời lượng pin, điện thoại của bạn sẽ chỉ sạc đến {batteryLimitLevel}% pin. Điện thoại sẽ thỉnh thoảng sạc đến 100% để điều chỉnh dung lượng ước tính.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Tìm hiểu thêm về tính năng Sạc thích ứng</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Tìm hiểu về chế độ Giới hạn ở {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Tìm hiểu thêm về tính năng Tối ưu hoá sạc pin</string>
+  <string name="charging_optimization_footer_off">Để giúp kéo dài thời lượng pin, hãy bật tính năng tối ưu hoá sạc pin</string>
+  <string name="charging_optimization_main_switch_title">Dùng tính năng tối ưu hoá sạc pin</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Giới hạn còn {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Sạc thích ứng</string>
+  <string name="charging_optimization_summary_charge_limit">Giới hạn còn {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Đang tắt</string>
+  <string name="charging_optimization_title">Tối ưu hoá sạc pin</string>
+</resources>

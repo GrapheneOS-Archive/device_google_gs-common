@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ආරෝපණය, සීමාව, ආරෝපණ ප්‍රශස්තකරණය, ආරෝපණ සීමාව</string>
+  <string name="charge_limit_mode_summary">ඔබේ දුරකථනය ආරෝපණය වන්නේ {batteryLimitLevel}% බැටරියකට පමණි</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}% දක්වා සීමාව</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">බැටරි ආයු කාලය දීර්ඝ කිරීම සඳහා, අනුවර්තන ආරෝපණය ඔබේ ආරෝපණ ක්‍රියාවලිය ඉගෙන ගන්නා අතර {batteryLimitLevel}% හි විරාමයක් ඇති කර ඔබ සාමාන්‍යයෙන් විසන්ධි කිරීමට පැයකට පෙර {batteryFullLevel}% දක්වා අවසන් කරයි.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">බැටරි ආයු කාලය දීර්ඝ කිරීමට උදවු කිරීමට, ඔබේ දුරකථනය ආරෝපණය කරනු ලබන්නේ {batteryLimitLevel}% බැටරියකට පමණි. ඇස්තමේන්තුගත ධාරිතාව නැවත ක්‍රමාංකනය කිරීමට දුරකථනය ඉඳහිට 100% දක්වා ආරෝපණය කරනු ඇත.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">අනුවර්තන ආරෝපණය පිළිබඳව තව දැන ගන්න</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}% සීමාව ගැන තව දැන ගන්න</string>
+  <string name="charging_optimization_footer_learn_more_default">ආරෝපණ ප්‍රශස්තකරණය ගැන තව දැන ගන්න</string>
+  <string name="charging_optimization_footer_off">බැටරි ආයු කාලය දීර්ඝ කිරීමට උදවු කිරීමට, ආරෝපණ ප්‍රශස්තකරණය ක්‍රියාත්මක කරන්න</string>
+  <string name="charging_optimization_main_switch_title">ආරෝපණ ප්‍රශස්තකරණය භාවිතා කරන්න</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}% දක්වා සීමාව</string>
+  <string name="charging_optimization_summary_adaptive">අනුවර්තන ආරෝපණය</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}% දක්වා සීමාව</string>
+  <string name="charging_optimization_summary_off">ක්‍රියාවිරහිතයි</string>
+  <string name="charging_optimization_title">ආරෝපණ ප්‍රශස්තකරණය</string>
+</resources>

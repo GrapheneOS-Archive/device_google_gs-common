@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">ယခုဖွင့်ရန်</string>
+  <string name="charge_limit_discovery_notification_text">ဘက်ထရီအခြေအနေနှင့် သက်တမ်းကို ကာကွယ်ရန် ၈၀% ကန့်သတ်ဝန်ဆောင်မှု ဖွင့်ကြည့်ပါ။ ၎င်းကို ဆက်တင်များတွင် အချိန်မရွေး စီမံနိုင်ပါသည်</string>
+  <string name="charge_limit_discovery_notification_title">အားသွင်းနေစဉ် သင့်ဘက်ထရီကို ကာကွယ်ခြင်း</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s တွင် အားသွင်းမှုပြီးမည်</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s တွင် အားသွင်းမှုပြီးမည်</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • အားသွင်းပြီးပါပြီ</string>
+</resources>

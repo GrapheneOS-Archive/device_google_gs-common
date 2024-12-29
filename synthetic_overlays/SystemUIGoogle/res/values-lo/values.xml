@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">ເປີດການນຳໃຊ້ດຽວນີ້</string>
+  <string name="charge_limit_discovery_notification_text">ລອງເປີດຄຸນສົມບັດຂີດຈຳກັດ 80% ເພື່ອປົກປ້ອງສຸຂະພາບແບັດເຕີຣີ ແລະ ອາຍຸການນຳໃຊ້. ທ່ານສາມາດຈັດການສິ່ງນີ້ໄດ້ທຸກເວລາໃນການຕັ້ງຄ່າ</string>
+  <string name="charge_limit_discovery_notification_title">ປົກປ້ອງແບັດເຕີຣີຂອງທ່ານໃນລະຫວ່າງການສາກ</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • ສາກສຳເລັດພາຍໃນ %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • ສາກສຳເລັດພາຍໃນ %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • ສາກສຳເລັດແລ້ວ</string>
+</resources>

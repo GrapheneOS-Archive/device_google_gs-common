@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">आता सुरू करा</string>
+  <string name="charge_limit_discovery_notification_text">बॅटरीची स्थिती संरक्षित करण्यासाठी आणि तिचा कालावधी वाढवण्यासाठी ८०% मर्यादेचे वैशिष्‍ट्य सुरू करून पहा. तुम्ही हे सेटिंग्जमध्ये कधीही व्यवस्थापित करू शकता</string>
+  <string name="charge_limit_discovery_notification_title">तुमच्या बॅटरीचे चार्जिंगदरम्यान संरक्षण करा</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • चार्जिंग %1$s पर्यंत पूर्ण होईल</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s पर्यंत चार्जिंग पूर्ण होईल</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • चार्जिंग पूर्ण झाले आहे</string>
+</resources>

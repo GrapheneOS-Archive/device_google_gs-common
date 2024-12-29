@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">এতিয়াই সক্ষম কৰক</string>
+  <string name="charge_limit_discovery_notification_text">বেটাৰীৰ অৱস্থা আৰু জীৱনকাল সুৰক্ষিত কৰিবলৈ ৮০% সীমাৰ সুবিধাটো অন কৰি চাওক। আপুনি ছেটিঙত এইটো যিকোনো সময়তে পৰিচালনা কৰিব পাৰে</string>
+  <string name="charge_limit_discovery_notification_title">চাৰ্জ কৰি থকাৰ সময়ত আপোনাৰ বেটাৰী সুৰক্ষিত কৰি ৰাখক</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$sলৈকে চাৰ্জিং সম্পূৰ্ণ হ’ব</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$sত চার্জিং সম্পূর্ণ হৈছে</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • চাৰ্জিং সম্পূৰ্ণ হৈছে</string>
+</resources>

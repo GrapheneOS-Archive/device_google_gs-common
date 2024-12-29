@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">चार्जिङ, सीमा, चार्जिङ अप्टिमाइजेसन, चार्जको सीमा</string>
+  <string name="charge_limit_mode_summary">तपाईंको फोनको ब्याट्री केवल {batteryLimitLevel}% सम्म चार्ज हुने छ</string>
+  <string name="charge_limit_mode_title">ब्याट्री केवल {batteryLimitLevel}% सम्म चार्ज गर्नुहोस्</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">ब्याट्रीको आयु बढाउन एड्याप्टिभ चार्जिङले तपाईंको चार्जिङ रुटिनका बारेमा बुझ्छ, ब्याट्री {batteryLimitLevel}% चार्ज भएपछि चार्ज गर्ने कार्य रोक्छ र सामान्यतया चार्जर निकाल्नुभन्दा एक घण्टाअघि नै ब्याट्री {batteryFullLevel}% सम्म चार्ज गरिसक्छ।</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">तपाईंको फोनको ब्याट्रीको आयु बढाउन उक्त ब्याट्री केवल {batteryLimitLevel}% सम्म चार्ज हुने छ। अनुमानित क्षमता पुनः क्यालिब्रेट गर्न कहिलेकाहीँ फोन १००% चार्ज हुने छ।</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">एड्याप्टिभ चार्जिङका बारेमा थप जान्नुहोस्</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">ब्याट्री केवल {batteryLimitLevel}% सम्म चार्ज गर्ने सुविधाका बारेमा थप जान्नुहोस्</string>
+  <string name="charging_optimization_footer_learn_more_default">चार्जिङ अप्टिमाइजेसनका बारेमा थप जान्नुहोस्</string>
+  <string name="charging_optimization_footer_off">ब्याट्रीको आयु बढाउन चार्जिङ अप्टिमाइजेसन अन गर्नुहोस्</string>
+  <string name="charging_optimization_main_switch_title">चार्जिङ अप्टिमाइजेसन प्रयोग गर्नुहोस्</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">ब्याट्री केवल {batteryLimitLevel}% सम्म चार्ज गर्नुहोस्</string>
+  <string name="charging_optimization_summary_adaptive">एड्याप्टिभ चार्जिङ</string>
+  <string name="charging_optimization_summary_charge_limit">ब्याट्री केवल {batteryLimitLevel}% सम्म चार्ज गर्नुहोस्</string>
+  <string name="charging_optimization_summary_off">अफ छ</string>
+  <string name="charging_optimization_title">चार्जिङ अप्टिमाइजेसन</string>
+</resources>

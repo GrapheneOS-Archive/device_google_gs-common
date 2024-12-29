@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">এখনই চালু করুন</string>
+  <string name="charge_limit_discovery_notification_text">আপনার ব্যাটারির আয়ু বজায় রাখতে ও সেটি যাতে আরও বেশিদিন চলে তার জন্য ৮০% সীমাবদ্ধতার ফিচার চালু করে দেখুন। যেকোনও সময় আপনি সেটিংস থেকে এটি ম্যানেজ করতে পারবেন</string>
+  <string name="charge_limit_discovery_notification_title">চার্জ করার সময় আপনার ব্যাটারি সুরক্ষিত রাখুন</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s-এর মধ্যে চার্জিং সম্পূর্ণ হবে</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s-এর মধ্যে চার্জ হয়ে যাবে</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • চার্জিং সম্পূর্ণ হয়েছে</string>
+</resources>

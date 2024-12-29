@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">充电, 限制, 充电优化, 充电限制, charging, limit, charging optimization, charge limit</string>
+  <string name="charge_limit_mode_summary">您的手机将只会充电至 {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">充电上限为 {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">为了延长电池寿命，自适应充电功能会记住您的充电习惯，在电池电量达到 {batteryLimitLevel}% 时暂停充电，并会比您平常拔下充电插头的时间早一小时完成充电（充至 {batteryFullLevel}%）。</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">为了延长电池寿命，您的手机将只会充电至 {batteryLimitLevel}%。不过，手机会不定期充电至 100%，以便重新校准估算容量。</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">详细了解自适应充电</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">详细了解最多只能充到 {batteryLimitLevel}% 的充电限制</string>
+  <string name="charging_optimization_footer_learn_more_default">详细了解充电优化</string>
+  <string name="charging_optimization_footer_off">为了延长电池寿命，请开启充电优化功能</string>
+  <string name="charging_optimization_main_switch_title">使用充电优化功能</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">充电上限为 {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">自适应充电</string>
+  <string name="charging_optimization_summary_charge_limit">充电上限为 {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">已关闭</string>
+  <string name="charging_optimization_title">充电优化</string>
+</resources>

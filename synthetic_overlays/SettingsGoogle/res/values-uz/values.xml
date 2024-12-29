@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - Quvvatlanishiga %2$s qoldi</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - Quvvatlandi</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Quvvatlandi</string>
+  <string name="charging_optimization_remaining_time_label">Quvvatlanishiga %1$s qoldi</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Simsiz quvvatlandi •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Simsiz quvvatlash %1$s da tugaydi •</string>
+</resources>

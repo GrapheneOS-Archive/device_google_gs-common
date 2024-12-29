@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ການສາກໄຟ, ຂີດຈຳກັດ, ການປັບປຸງການສາກໄຟ, ຂີດຈຳກັດການສາກໄຟ</string>
+  <string name="charge_limit_mode_summary">ໂທລະສັບຂອງທ່ານຈະສາກແບັດເຕີຣີຮອດ {batteryLimitLevel}% ເທົ່ານັ້ນ</string>
+  <string name="charge_limit_mode_title">ຈຳກັດໄວ້ຢູ່ທີ່ {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">ເພື່ອຍືດອາຍຸການນຳໃຊ້ແບັດເຕີຣີ, ການສາກໄຟແບບປັບອັດຕະໂນມັດຮຽນຮູ້ການສາກແບບປົກກະຕິຂອງທ່ານ ແລະ ຢຸດຊົ່ວຄາວຢູ່ທີ່ {batteryLimitLevel}% ແລະ ຈະຢຸດຢູ່ {batteryFullLevel}% ໜຶ່ງຊົ່ວໂມງກ່ອນທີ່ທ່ານຈະຖອດປລັກຕາມປົກກະຕິ.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">ເພື່ອຊ່ວຍຍືດອາຍຸການນຳໃຊ້ແບັດເຕີຣີ, ໂທລະສັບຂອງທ່ານຈະສາກແບັດເຕີຣີຮອດ {batteryLimitLevel}% ເທົ່ານັ້ນ. ໂທລະສັບຈະສາກໃຫ້ຮອດ 100% ເປັນບາງຄັ້ງເພື່ອປັບທຽບຄ່າຄວາມຈຸໂດຍປະມານ.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບການສາກໄຟແບບປັບອັດຕະໂນມັດ</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບການສາກໄຟບໍ່ເກີນ {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">ສຶກສາເພີ່ມເຕີມກ່ຽວກັບການເພີ່ມປະສິດທິພາບການສາກໄຟ</string>
+  <string name="charging_optimization_footer_off">ເພື່ອຊ່ວຍຍືດອາຍຸການນຳໃຊ້ແບັດເຕີຣີ, ໃຫ້ເປີດການເພີ່ມປະສິດທິພາບການສາກໄຟ</string>
+  <string name="charging_optimization_main_switch_title">ໃຊ້ການເພີ່ມປະສິດທິພາບການສາກໄຟ</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">ຈຳກັດໄວ້ຢູ່ທີ່ {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">ການສາກໄຟແບບປັບອັດຕະໂນມັດ</string>
+  <string name="charging_optimization_summary_charge_limit">ຈຳກັດໄວ້ຢູ່ທີ່ {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">ປິດ</string>
+  <string name="charging_optimization_title">ການເພີ່ມປະສິດທິພາບການສາກໄຟ</string>
+</resources>

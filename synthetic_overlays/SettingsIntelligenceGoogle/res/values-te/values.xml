@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">ఛార్జింగ్, పరిమితి, ఛార్జింగ్ ఆప్టిమైజేషన్, ఛార్జ్ పరిమితి</string>
+  <string name="charge_limit_mode_summary">మీ ఫోన్ {batteryLimitLevel}% బ్యాటరీకి మాత్రమే ఛార్జ్ అవుతుంది</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}%కు పరిమితం చేయండి</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">బ్యాటరీ లైఫ్‌ను ఎక్స్‌టెండ్ చేయడానికి, అనుకూల ఛార్జింగ్ మీ ఛార్జింగ్ రొటీన్‌ను తెలుసుకుని, {batteryLimitLevel}% వద్ద పాజ్ చేసి మీరు సాధారణంగా అన్‌ప్లగ్ చేయడానికి ఒక గంట ముందు {batteryFullLevel}% వద్ద ముగుస్తుంది.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">బ్యాటరీ లైఫ్ ఎక్స్‌టెండ్ చేయడంలో సహాయపడటానికి, మీ ఫోన్ {batteryLimitLevel}% బ్యాటరీకి మాత్రమే ఛార్జ్ చేయబడుతుంది. అంచనా వేయబడిన కెపాసిటీని రీకాలిబ్రేట్ చేయడానికి ఫోన్ అప్పుడప్పుడు 100%కు ఛార్జ్ చేయబడుతుంది.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">అనుకూల ఛార్జింగ్ గురించి మరింత తెలుసుకోండి</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}% పరిమితి గురించి మరింత తెలుసుకోండి</string>
+  <string name="charging_optimization_footer_learn_more_default">ఛార్జింగ్ ఆప్టిమైజేషన్ గురించి మరింత తెలుసుకోండి</string>
+  <string name="charging_optimization_footer_off">బ్యాటరీ లైఫ్‌ను ఎక్స్‌టెండ్ చేయడంలో సహాయపడటానికి, ఛార్జింగ్ ఆప్టిమైజేషన్‌ను ఆన్ చేయండి</string>
+  <string name="charging_optimization_main_switch_title">ఛార్జింగ్ ఆప్టిమైజేషన్‌ను ఉపయోగించండి</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}%కు పరిమితం చేయండి</string>
+  <string name="charging_optimization_summary_adaptive">అనుకూల ఛార్జింగ్</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%కు పరిమితం చేయండి</string>
+  <string name="charging_optimization_summary_off">ఆఫ్ చేయండి</string>
+  <string name="charging_optimization_title">ఛార్జింగ్ ఆప్టిమైజేషన్</string>
+</resources>

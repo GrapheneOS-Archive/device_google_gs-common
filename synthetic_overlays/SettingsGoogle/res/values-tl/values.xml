@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - Matatapos mag-charge nang %2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - Tapos nang mag-charge</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Tapos nang mag-charge</string>
+  <string name="charging_optimization_remaining_time_label">Matatapos mag-charge nang %1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Tapos na ang wireless na pag-charge •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Matatapos ang wireless na pag-charge nang %1$s •</string>
+</resources>

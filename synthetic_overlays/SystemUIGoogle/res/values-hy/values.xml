@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Միացնել հիմա</string>
+  <string name="charge_limit_discovery_notification_text">Փորձեք միացնել 80%-ով սահմանափակման գործառույթը՝ մարտկոցի վիճակը բարելավելու և աշխատաժամանակը երկարացնելու համար։ Սա կարող եք ցանկացած ժամանակ փոխել կարգավորումներում</string>
+  <string name="charge_limit_discovery_notification_title">Պաշտպանեք մարտկոցը լիցքավորման ժամանակ</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Լիցքավորումը կավարտվի %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Լիցքավորումը կավարտվի %1$s հետո</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Լիցքավորումն ավարտված է</string>
+</resources>

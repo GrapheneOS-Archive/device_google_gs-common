@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - %2$s 前完成充電</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - 完成充電</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">完成充電</string>
+  <string name="charging_optimization_remaining_time_label">%1$s 前充電完成</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">完成無線充電 •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">%1$s前完成無線充電 •</string>
+</resources>

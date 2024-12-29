@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">지금 사용하기</string>
+  <string name="charge_limit_discovery_notification_text">80%까지만 충전하는 기능을 사용 설정해 배터리 상태와 수명을 보호하세요. 이 기능은 언제든지 설정에서 관리할 수 있습니다.</string>
+  <string name="charge_limit_discovery_notification_title">충전 중에 배터리를 보호하세요</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s까지 충전 완료</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s 후 충전 완료</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • 충전 완료</string>
+</resources>

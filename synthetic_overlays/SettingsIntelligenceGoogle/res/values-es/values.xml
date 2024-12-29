@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">carga, límite, optimización de la carga, límite de la carga</string>
+  <string name="charge_limit_mode_summary">Tu teléfono solo se cargará hasta el {batteryLimitLevel} % de batería</string>
+  <string name="charge_limit_mode_title">Limitar al {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Para prolongar la vida útil de la batería, Carga inteligente aprende tu rutina de carga. Hace una pausa cuando llega al {batteryLimitLevel} % y termina en el {batteryFullLevel} % una hora antes de cuando sueles desenchufar el dispositivo.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Para prolongar la vida útil de la batería, el teléfono solo se cargará hasta un {batteryLimitLevel} % de batería. El teléfono se cargará al 100 % de vez en cuando para recalibrar la capacidad estimada.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Más información sobre Carga inteligente</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Más información sobre Limitar al {batteryLimitLevel} %</string>
+  <string name="charging_optimization_footer_learn_more_default">Más información sobre la optimización de la carga</string>
+  <string name="charging_optimization_footer_off">Para prolongar la vida útil de la batería, activa la optimización de la carga</string>
+  <string name="charging_optimization_main_switch_title">Usar optimización de la carga</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Limitar al {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_adaptive">Carga inteligente</string>
+  <string name="charging_optimization_summary_charge_limit">Limitar al {batteryLimitLevel} %</string>
+  <string name="charging_optimization_summary_off">Desactivada</string>
+  <string name="charging_optimization_title">Optimización de la carga</string>
+</resources>

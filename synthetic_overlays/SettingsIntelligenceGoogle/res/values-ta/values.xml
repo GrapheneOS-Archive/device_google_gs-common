@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">சார்ஜிங், வரம்பு, சார்ஜிங் மேம்படுத்துதல், சார்ஜிங் வரம்பு</string>
+  <string name="charge_limit_mode_summary">உங்கள் மொபைல் பேட்டரி {batteryLimitLevel}% வரை மட்டுமே சார்ஜாகும்</string>
+  <string name="charge_limit_mode_title">{batteryLimitLevel}%க்குக் கட்டுப்படுத்துதல்</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">பேட்டரியின் ஆயுட்காலத்தை நீட்டிக்க அடாப்டிவ் சார்ஜிங் அம்சம் உங்கள் சார்ஜிங் வழக்கத்தை அறிந்துகொண்டு {batteryLimitLevel}% இல் சார்ஜிங்கை இடைநிறுத்தி, நீங்கள் வழக்கமாகப் பிளக்கை அகற்றுவதற்கு ஒரு மணிநேரத்திற்கு முன்பே {batteryFullLevel}% சார்ஜாகிவிடும்.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">பேட்டரி ஆயுட்காலத்தை நீட்டிக்க உதவ, உங்கள் மொபைல் பேட்டரி {batteryLimitLevel}% வரை மட்டுமே சார்ஜாகும். மதிப்பிடப்பட்ட திறனை மறுசீரமைக்க மொபைல் அவ்வப்போது 100% வரை சார்ஜாகும்.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">அடாப்டிவ் சார்ஜிங் குறித்து மேலும் அறிக</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}%க்குக் கட்டுப்படுத்துதல் குறித்து மேலும் அறிக</string>
+  <string name="charging_optimization_footer_learn_more_default">சார்ஜிங் மேம்பாடுகள் குறித்து மேலும் அறிக</string>
+  <string name="charging_optimization_footer_off">பேட்டரி ஆயுட்காலத்தை நீட்டிக்க உதவ, சார்ஜிங் மேம்படுத்துதலை இயக்குங்கள்</string>
+  <string name="charging_optimization_main_switch_title">சார்ஜிங் மேம்படுத்துதலைப் பயன்படுத்துதல்</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">{batteryLimitLevel}%க்குக் கட்டுப்படுத்துதல்</string>
+  <string name="charging_optimization_summary_adaptive">அடாப்டிவ் சார்ஜிங்</string>
+  <string name="charging_optimization_summary_charge_limit">{batteryLimitLevel}%க்குக் கட்டுப்படுத்தும்</string>
+  <string name="charging_optimization_summary_off">ஆஃப்</string>
+  <string name="charging_optimization_title">சார்ஜிங் மேம்படுத்துதல்</string>
+</resources>

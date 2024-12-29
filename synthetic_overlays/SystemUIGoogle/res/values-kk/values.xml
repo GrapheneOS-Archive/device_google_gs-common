@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Қазір қосу</string>
+  <string name="charge_limit_discovery_notification_text">80%-ға шектеу функциясын қосып көрсеңіз, батареяның күйі мен қызмет мерзімін қорғай аласыз. Мұны кез келген уақытта параметрлерден басқаруға болады.</string>
+  <string name="charge_limit_discovery_notification_title">Зарядтау барысында батареяны қорғаңыз</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s шамасында зарядталып болады.</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Зарядталып болатын уақыт: %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • зарядталып болды.</string>
+</resources>

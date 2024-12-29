@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">լիցքավորում, սահմանաչափ, լիցքավորման օպտիմալացում, լիցքավորման սահմանաչափ</string>
+  <string name="charge_limit_mode_summary">Ձեր հեռախոսը կլիցքավորվի միայն մինչև {batteryLimitLevel}%</string>
+  <string name="charge_limit_mode_title">Սահմանաչափը՝ {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Մարտկոցի աշխատաժամանակը երկարացնելու համար «Հարմարվող լիցքավորում» գործառույթը վերլուծում է լիցքավորման ձեր ռեժիմը և դադարեցնում լիցքավորումը {batteryLimitLevel}%-ի ժամանակ, այնուհետև, երբ լիցքավորիչը սովորաբար անջատելուն մեկ ժամ է մնում, հասցնում է լիցքը {batteryFullLevel}%-ի։</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Մարտկոցի աշխատաժամանակը երկարացնելու համար ձեր հեռախոսը կլիցքավորվի միայն մինչև {batteryLimitLevel}%։ Հեռախոսը ժամանակ առ ժամանակ կլիցքավորվի 100%-ով՝ մարտկոցի մոտավոր տարողունակությունը վերաչափաբերելու համար։</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Իմանալ ավելին հարմարվող լիցքավորման մասին</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Իմանալ ավելին {batteryLimitLevel}% սահմանաչափի մասին</string>
+  <string name="charging_optimization_footer_learn_more_default">Իմանալ ավելին լիցքավորման օպտիմալացման մասին</string>
+  <string name="charging_optimization_footer_off">Մարտկոցի աշխատաժամանակը երկարացնելու համար միացրեք լիցքավորման օպտիմալացումը</string>
+  <string name="charging_optimization_main_switch_title">Օգտագործել լիցքավորման օպտիմալացումը</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Սահմանաչափը՝ {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Հարմարվող լիցքավորում</string>
+  <string name="charging_optimization_summary_charge_limit">Սահմանաչափը՝ {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Անջատված է</string>
+  <string name="charging_optimization_title">Լիցքավորման օպտիմալացում</string>
+</resources>

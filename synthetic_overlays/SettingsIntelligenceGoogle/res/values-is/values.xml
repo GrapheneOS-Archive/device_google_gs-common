@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">hleðsla, takmörk, fínstillt hleðsla, hleðslumörk</string>
+  <string name="charge_limit_mode_summary">Rafhlaða símans mun hætta að hlaðast þegar {batteryLimitLevel}% hleðslu er náð</string>
+  <string name="charge_limit_mode_title">Takmarka við {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">Til að lengja endingartíma rafhlöðunnar lærir aðlöguð hleðsla að þekkja hleðsluvenjur þínar og gerir hlé á hleðslu þegar {batteryLimitLevel}% hleðslu er náð og klárar síðan að hlaða í {batteryFullLevel}% klukkustund áður en þú tekur símann vanalega úr sambandi.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">Til að hjálpa til við að lengja endingartíma rafhlöðunnar verður hleðslu símans hætt þegar {batteryLimitLevel}% hleðslu er náð. Síminn hleðst af og til upp í 100% til að endurkvarða áætlaða hleðslugetu.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">Nánar um aðlagaða hleðslu</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">Nánar um takmörkun við {batteryLimitLevel}%</string>
+  <string name="charging_optimization_footer_learn_more_default">Nánar um fínstillingu hleðslu</string>
+  <string name="charging_optimization_footer_off">Kveiktu á fínstilltri hleðslu til að lengja endingartíma rafhlöðunnar</string>
+  <string name="charging_optimization_main_switch_title">Nota fínstillta hleðslu</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">Takmarka við {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_adaptive">Aðlöguð hleðsla</string>
+  <string name="charging_optimization_summary_charge_limit">Takmarka við {batteryLimitLevel}%</string>
+  <string name="charging_optimization_summary_off">Slökkt</string>
+  <string name="charging_optimization_title">Fínstillt hleðsla</string>
+</resources>

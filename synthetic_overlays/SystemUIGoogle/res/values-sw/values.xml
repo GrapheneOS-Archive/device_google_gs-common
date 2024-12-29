@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">Washa sasa</string>
+  <string name="charge_limit_discovery_notification_text">Jaribu kuwasha kipengele cha kuweka kikomo cha chaji kuwa asilimia 80 ili ulinde betri yako na idumu zaidi. Unaweza kudhibiti hali hii katika mipangilio wakati wowote</string>
+  <string name="charge_limit_discovery_notification_title">Linda betri yako wakati inachaji</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • Itamaliza kuchaji kufikia %1$s</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • Itamaliza kuchaji baada ya %1$s</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • Imemaliza kuchaji</string>
+</resources>

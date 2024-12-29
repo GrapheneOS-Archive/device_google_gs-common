@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - ಚಾರ್ಜಿಂಗ್ %2$s ಸಮಯಕ್ಕೆ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+  <string name="charging_optimization_remaining_time_label">%1$s ಸಮಯಕ್ಕೆ ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಂಡಿದೆ •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">%1$s ವೇಳೆಗೆ ವೈರ್‌ಲೆಸ್ ಚಾರ್ಜಿಂಗ್ ಪೂರ್ಣಗೊಳ್ಳುತ್ತದೆ •</string>
+</resources>

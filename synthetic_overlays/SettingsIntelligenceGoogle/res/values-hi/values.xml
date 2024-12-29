@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">बैटरी चार्ज हो रही है, सीमा, चार्जिंग ऑप्टिमाइज़ेशन, चार्ज करने की तय सीमा</string>
+  <string name="charge_limit_mode_summary">इससे आपके फ़ोन की बैटरी सिर्फ़ {batteryLimitLevel}% तक चार्ज होगी</string>
+  <string name="charge_limit_mode_title">बैटरी को सिर्फ़ {batteryLimitLevel}% तक चार्ज करें</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">अडैप्टिव चार्जिंग की सुविधा, बैटरी लाइफ़ बढ़ाने के लिए चार्जिंग के रूटीन को ध्यान में रखती है और बैटरी {batteryLimitLevel}% चार्ज होने पर चार्जिंग रोक देती है. साथ ही, जिस समय आम तौर पर चार्जर हटाया जाता है उससे एक घंटा पहले, बैटरी {batteryFullLevel}% तक चार्ज हो जाती है.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">बैटरी लाइफ़ बढ़ाने के लिए, आपके फ़ोन की बैटरी सिर्फ़ {batteryLimitLevel}% तक चार्ज होगी. बैटरी की अनुमानित क्षमता को फिर से सेट करने के लिए, फ़ोन को समय-समय पर 100% तक चार्ज किया जाएगा.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">अडैप्टिव चार्जिंग की सुविधा के बारे में ज़्यादा जानें</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">{batteryLimitLevel}% पर सीमित करने के बारे में ज़्यादा जानें</string>
+  <string name="charging_optimization_footer_learn_more_default">चार्जिंग ऑप्टिमाइज़ेशन के बारे में ज़्यादा जानें</string>
+  <string name="charging_optimization_footer_off">बैटरी लाइफ़ बढ़ाने के लिए, चार्जिंग ऑप्टिमाइज़ेशन की सेटिंग चालू करें</string>
+  <string name="charging_optimization_main_switch_title">चार्जिंग ऑप्टिमाइज़ेशन की सेटिंग का इस्तेमाल करें</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">बैटरी को सिर्फ़ {batteryLimitLevel}% तक चार्ज करें</string>
+  <string name="charging_optimization_summary_adaptive">अडैप्टिव चार्जिंग की सुविधा</string>
+  <string name="charging_optimization_summary_charge_limit">बैटरी को सिर्फ़ {batteryLimitLevel}% तक चार्ज करें</string>
+  <string name="charging_optimization_summary_off">बंद है</string>
+  <string name="charging_optimization_title">चार्जिंग ऑप्टिमाइज़ेशन</string>
+</resources>

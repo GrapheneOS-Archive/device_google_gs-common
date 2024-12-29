@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">አሁን ያንቁ</string>
+  <string name="charge_limit_discovery_notification_text">የባትሪ ጤናን እና የህይወት ዘመንን ለመጠበቅ የ80% ገደብ ባህሪን ለማብራት ይሞክሩ። ይህን በማንኛውም ጊዜ በቅንብሮች ውስጥ ማስተዳደር ይችላሉ</string>
+  <string name="charge_limit_discovery_notification_title">ኃይል በሚሞላበት ጊዜ ባትሪዎን ይጠብቁ</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s ላይ ኃይል መሙላት ተጠናቅቋል</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s ውስጥ ኃይል መሙላት ተጠናቅቋል</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • ኃይል መሙላት ተጠናቅቋል</string>
+</resources>

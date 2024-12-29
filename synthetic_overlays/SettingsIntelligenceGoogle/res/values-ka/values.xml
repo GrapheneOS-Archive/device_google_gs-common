@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_indexing_keywords">დატენვა, ლიმიტი, დატენვის ოპტიმიზაცია, დატენვის ლიმიტი</string>
+  <string name="charge_limit_mode_summary">თქვენი ტელეფონის ბატარეა დაიტენება მხოლოდ {batteryLimitLevel}%-მდე</string>
+  <string name="charge_limit_mode_title">ლიმიტის დაყენება {batteryLimitLevel}%-ზე</string>
+  <string name="charging_optimization_footer_adaptive" formatted="false">ბატარეის ხანგრძლივობის გასაზრდელად ადაპტიური დამუხტვა შეისწავლის თქვენს ტენის რუტინას, დაპაუზდება {batteryLimitLevel}%-ზე და მიაღწევს {batteryFullLevel}%-ს ერთი საათით ადრე, სანამ, ჩვეულებისამებრ, გამოაერთებთ ხოლმე დამტენს.</string>
+  <string name="charging_optimization_footer_charge_limit" formatted="false">ბატარეის ხანგრძლივობის გაზრდის ხელშეწყობის მიზნით თქვენი ტელეფონი მხოლოდ {batteryLimitLevel}%-მდე დაიტენება. სავარაუდო ტევადობის ხელახლა დაკალიბრებისთვის ტელეფონი პერიოდულად 100%-მდე დაიტენება.</string>
+  <string name="charging_optimization_footer_learn_more_adaptive_charging">შეიტყვეთ მეტი ადაპტირებადი დატენვის შესახებ</string>
+  <string name="charging_optimization_footer_learn_more_charge_limit">შეიტყვეთ მეტი {batteryLimitLevel}%-მდე შეზღუდვის შესახებ</string>
+  <string name="charging_optimization_footer_learn_more_default">შეიტყვეთ მეტი დატენვის ოპტიმიზაციის შესახებ</string>
+  <string name="charging_optimization_footer_off">ჩართეთ დატენის ოპტიმიზაცია, რათა ხელი შეუწყოთ ბატარეის ხანგრძლივობის გაზრდას</string>
+  <string name="charging_optimization_main_switch_title">დატენის ოპტიმიზაციის გამოყენება</string>
+  <string name="charging_optimization_main_switch_title_charge_limit_only">ლიმიტი დაყენებულია {batteryLimitLevel}%-ზე</string>
+  <string name="charging_optimization_summary_adaptive">ადაპტიური დამუხტვა</string>
+  <string name="charging_optimization_summary_charge_limit">ლიმიტი დაყენებულია {batteryLimitLevel}%-ზე</string>
+  <string name="charging_optimization_summary_off">გამორთულია</string>
+  <string name="charging_optimization_title">დატენის ოპტიმიზაცია</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - %2$s တွင် အားသွင်းမှုပြီးမည်</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - အားသွင်းပြီးပါပြီ</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">အားသွင်းပြီးပါပြီ</string>
+  <string name="charging_optimization_remaining_time_label">%1$s တွင် အားသွင်းမှုပြီးမည်</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">ကြိုးမဲ့အားသွင်းခြင်း ပြီးပါပြီ •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">%1$s တွင် ကြိုးမဲ့အားသွင်းခြင်း ပြီးပါမည် •</string>
+</resources>

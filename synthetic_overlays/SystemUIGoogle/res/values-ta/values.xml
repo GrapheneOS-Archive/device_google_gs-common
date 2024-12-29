@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">இப்போதே இயக்கு</string>
+  <string name="charge_limit_discovery_notification_text">பேட்டரி நிலையையும் ஆயுட்காலத்தையும் பாதுகாக்க 80% வரம்பு அம்சத்தை இயக்க முயலவும். நீங்கள் எப்போது வேண்டுமானாலும் இதை அமைப்புகளில் நிர்வகிக்கலாம்.</string>
+  <string name="charge_limit_discovery_notification_title">சார்ஜ் செய்யும்போது உங்கள் பேட்டரியைப் பாதுகாத்தல்</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$sக்குச் சார்ஜாகிவிட்டது</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s இல் சார்ஜாகிவிட்டது</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • சார்ஜாகிவிட்டது</string>
+</resources>

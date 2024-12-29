@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - %2$s-നകം പൂർണ്ണമായി ചാർജ് ചെയ്തു</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - ചാർജ്ജ് ചെയ്യൽ പൂർത്തിയായി</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">ചാർജ്ജ് ചെയ്യൽ പൂർത്തിയായി</string>
+  <string name="charging_optimization_remaining_time_label">%1$s-നകം പൂർണ്ണമായി ചാർജ് ചെയ്തു</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">വയർലെസ്സായി ചാർജ്ജ് ചെയ്യൽ പൂർത്തിയായി •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">%1$s-ന് വയർലെസ്സായി ചാർജ്ജ് ചെയ്യൽ പൂർത്തിയാകും •</string>
+</resources>

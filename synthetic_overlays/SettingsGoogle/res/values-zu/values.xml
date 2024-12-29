@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charging_optimization_charge_label">%1$s - Idedile eeukushaja ngo-%2$s</string>
+  <string name="charging_optimization_reach_limit_charge_label">%1$s - Iqedile ukushaja</string>
+  <string name="charging_optimization_reach_limit_remaining_time_label">Iqedile ukushaja</string>
+  <string name="charging_optimization_remaining_time_label">Iqedile ukushaja ngo-%1$s</string>
+  <string name="charging_optimization_wireless_reach_limit_remaining_time_label">Iqedile ukushaja okungenantambo •</string>
+  <string name="charging_optimization_wireless_remaining_time_label">Iqedile ukushaja okungenantambo ngo-%1$s •</string>
+</resources>

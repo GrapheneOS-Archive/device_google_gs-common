@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="charge_limit_discovery_notification_enable_button">ਹੁਣੇ ਚਾਲੂ ਕਰੋ</string>
+  <string name="charge_limit_discovery_notification_text">ਬੈਟਰੀ ਦੀ ਹਾਲਤ ਅਤੇ ਲਾਈਫ਼ ਬਚਾਉਣ ਲਈ 80% ਸੀਮਾ ਵਾਲੀ ਵਿਸ਼ੇਸ਼ਤਾ ਚਾਲੂ ਕਰ ਕੇ ਦੇਖੋ। ਤੁਸੀਂ ਕਿਸੇ ਵੀ ਸਮੇਂ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਇਸਦਾ ਪ੍ਰਬੰਧਨ ਕਰ ਸਕਦੇ ਹੋ</string>
+  <string name="charge_limit_discovery_notification_title">ਚਾਰਜਿੰਗ ਦੌਰਾਨ ਆਪਣੀ ਬੈਟਰੀ ਨੂੰ ਸੁਰੱਖਿਅਤ ਰੱਖੋ</string>
+  <string name="keyguard_indication_charging_time_charge_limit">%2$s • %1$s ਤੱਕ ਚਾਰਜਿੰਗ ਪੂਰੀ ਹੋ ਜਾਵੇਗੀ</string>
+  <string name="keyguard_indication_charging_time_charge_limit_v1">%2$s • %1$s ਵਿੱਚ ਚਾਰਜਿੰਗ ਹੋ ਜਾਵੇਗੀ</string>
+  <string name="keyguard_indication_charging_time_reach_charge_limit">%1$s • ਚਾਰਜਿੰਗ ਪੂਰੀ ਹੋ ਗਈ</string>
+</resources>
