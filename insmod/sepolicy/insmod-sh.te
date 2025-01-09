@@ -12,3 +12,6 @@ allow insmod-sh vendor_toolbox_exec:file execute_no_trans;
 set_prop(insmod-sh, vendor_device_prop)
 
 dontaudit insmod-sh proc_cmdline:file r_file_perms;
+
+# Allow modprobe to log to kmsg.
+allow insmod-sh kmsg_device:chr_file w_file_perms;
