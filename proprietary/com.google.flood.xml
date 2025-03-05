@@ -1,0 +1,10 @@
+<compatibility-matrix version="9.0" type="framework" level="8">
+    <hal format="aidl" optional="true">
+        <name>com.google.flood</name>
+        <version>1</version>
+        <interface>
+            <name>IFloodService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
