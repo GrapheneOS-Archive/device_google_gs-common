@@ -10,7 +10,6 @@ cc_binary {
         "-Wall",
         "-Wextra",
         "-Werror",
-        "-pedantic",
     ],
     shared_libs: [
         "libdump",
