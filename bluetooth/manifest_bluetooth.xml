@@ -14,14 +14,4 @@
         <version>1</version>
         <fqname>IBluetoothChannelSounding/default</fqname>
     </hal>
-    <hal format="aidl">
-        <name>vendor.google.bluetooth_ext</name>
-        <version>1</version>
-        <fqname>IBTChannelAvoidance/default</fqname>
-        <fqname>IBluetoothCcc/default</fqname>
-        <fqname>IBluetoothEwp/default</fqname>
-        <fqname>IBluetoothExt/default</fqname>
-        <fqname>IBluetoothFinder/default</fqname>
-        <fqname>IBluetoothSar/default</fqname>
-    </hal>
 </manifest>
