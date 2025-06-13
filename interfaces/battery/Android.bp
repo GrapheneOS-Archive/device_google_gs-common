@@ -1,4 +1,0 @@
-java_library {
-    name: "google_battery",
-    srcs: ["src/**/*.aidl"],
-}
