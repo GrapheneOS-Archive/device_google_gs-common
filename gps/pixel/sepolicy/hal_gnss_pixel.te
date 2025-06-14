@@ -27,3 +27,6 @@ allow hal_gnss_pixel sscoredump_vendor_data_crashinfo_file:dir r_dir_perms;
 
 # Allow pixel gnss access vendor_gps_file
 allow hal_gnss_pixel vendor_gps_file:file create_file_perms;
+
+# Allow hal_gnss_pixel to find the stats service in service_manager (may be no needed)
+allow hal_gnss_pixel fwk_stats_service:service_manager find;
