@@ -1,7 +1,7 @@
 <compatibility-matrix version="1.0" type="framework">
     <hal format="aidl">
         <name>vendor.google.whitechapel.audio.extension</name>
-        <version>4</version>
+        <version>5</version>
         <interface>
             <name>IAudioExtension</name>
             <instance>default</instance>
