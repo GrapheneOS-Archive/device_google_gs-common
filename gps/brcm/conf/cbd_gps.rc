@@ -1,5 +1,0 @@
-# disable gps service if cbd state is invalid
-on property:vendor.ril.cbd.svc=0
-    stop gpsd
-    stop lhd
-    stop scd
