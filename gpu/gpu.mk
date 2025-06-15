@@ -4,6 +4,7 @@ PRODUCT_PACKAGES += gpu_probe
 
 USE_MAPPER5 := true
 
+# TODO: These are part of hardware/google/gchips, review them later.
 PRODUCT_PACKAGES += pixel_gralloc_allocator
 PRODUCT_PACKAGES += pixel_gralloc_mapper
 
