@@ -1,8 +1,0 @@
-on property:sys.boot_completed=1
-    chown system system /sys/kernel/tracing/instances/goog_cpm_mailbox
-    chown system system /sys/kernel/tracing/instances/goog_cpm_mailbox/trace
-    write /sys/kernel/tracing/instances/goog_cpm_mailbox/buffer_size_kb 512
-
-    chown system system /sys/kernel/tracing/instances/goog_nq_mailbox
-    chown system system /sys/kernel/tracing/instances/goog_nq_mailbox/trace
-    write /sys/kernel/tracing/instances/goog_nq_mailbox/buffer_size_kb 512
