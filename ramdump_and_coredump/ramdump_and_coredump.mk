@@ -1,3 +1,4 @@
+# TODO: Verify this can be removed. It probably can it's just hard to grep.
 PRODUCT_PACKAGES_DEBUG += \
     ramdump
 
