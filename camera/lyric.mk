@@ -33,34 +33,6 @@ else
   BUILD_LYRIC_FROM_SOURCE := true
 endif  # RELEASE_PIXEL_CAMERA_ENABLE_PREBUILT
 
-ifeq ($(BUILD_LYRIC_FROM_SOURCE),true)
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/google/camera \
-    vendor/google/camera/google_3a/libs_v4 \
-    vendor/google/camera/rlsservice
-
-# TODO(b/257379485): 3A is incrementally enabling cuttlefish build for native
-# code coverage support, temporary require separate namespace for folders that
-# can be built successfully.
-PRODUCT_SOONG_NAMESPACES += \
-    vendor/google/camera/common/g3_shared \
-    vendor/google/camera/google_3a/libs_v4/g3ABase \
-    vendor/google/camera/google_3a/libs_v4/gABC/native_coverage \
-    vendor/google/camera/google_3a/libs_v4/gAF \
-    vendor/google/camera/google_3a/libs_v4/gafd \
-    vendor/google/camera/google_3a/libs_v4/gHAWB/native_coverage
-endif  # BUILD_LYRIC_FROM_SOURCE
-
-# Init-time log settings for Google 3A
-PRODUCT_PACKAGES += libg3a_standalone_gabc_rc
-PRODUCT_PACKAGES += libg3a_standalone_gaf_rc
-PRODUCT_PACKAGES += libg3a_standalone_ghawb_rc
-
-# Vendor APEX which contains the camera HAL
-PRODUCT_PACKAGES += com.google.pixel.camera.hal
-PRODUCT_PACKAGES += init.camera.set-interrupts-ownership
-PRODUCT_PACKAGES += lyric_preview_dis_xml
-
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += \
     device/google/gs-common/camera/device_framework_matrix_product.xml
 
@@ -69,7 +41,3 @@ DEVICE_MATRIX_FILE += \
 
 # sepolicy dir is added in dump.mk.
 # Make doesn't deduplicate sepolicy dirs, so including it here causes build errors.
-
-# Calibration tools for debug builds
-PRODUCT_PACKAGES_DEBUG += tarasque_test
-PRODUCT_PACKAGES_DEBUG += ProtoCalibGenerator
