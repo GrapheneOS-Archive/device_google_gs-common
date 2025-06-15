@@ -14,14 +14,6 @@
 # limitations under the License.
 #
 
-#
-# UmfwStat product makefile.
-#
-
-# Add UmfwStat product packages.
-PRODUCT_PACKAGES += dump_umfw_stat
-PRODUCT_PACKAGES += umfw_stat_tool
-
 # Add UmfwStat SELinx policy.
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/umfw_stat/sepolicy
 
