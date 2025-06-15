@@ -1,11 +1,6 @@
 
 DEVICE_MANIFEST_FILE += device/google/gs-common/audio/aidl/manifest.xml
 
-# Audio HALs
-PRODUCT_PACKAGES += \
-    android.hardware.audio.service-aidl.aoc \
-    vendor.google.whitechapel.audio.hal.parserservice \
-
 PRODUCT_PACKAGES += \
     libvisualizeraidl \
     libbundleaidl \
@@ -25,11 +20,6 @@ endif
 include device/google/gs-common/audio/common.mk
 
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += device/google/gs-common/audio/aidl/device_framework_matrix_product.xml
-
-PRODUCT_PROPERTY_OVERRIDES += \
-       vendor.audio_hal.aidl.enable=true
-PRODUCT_SYSTEM_EXT_PROPERTIES += \
-       ro.audio.ihaladaptervendorextension_enabled=true
 
 ifneq (,$(filter userdebug eng, $(TARGET_BUILD_VARIANT)))
 $(call soong_config_set,aoc_audio_func,dump_usecase_data,true)

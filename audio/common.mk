@@ -1,18 +1,5 @@
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/audio/sepolicy/common
 
-#Audio Vendor libraries
-PRODUCT_PACKAGES += \
-	libfvsam_prm_parser \
-	libmahalcontroller
-
-ifeq ($(USE_MAM_V4_ABOVE),true)
-PRODUCT_PACKAGES += \
-	libMAM_Google_Pixel_Android
-else
-PRODUCT_PACKAGES += \
-	libAlgFx_HiFi3z
-endif
-
 ifneq ($(USE_AUDIO_HAL_AIDL),true)
 ## AudioHAL Configurations
 PRODUCT_COPY_FILES += \
@@ -26,10 +13,5 @@ PRODUCT_COPY_FILES += \
 	frameworks/av/services/audiopolicy/config/bluetooth_audio_policy_configuration_7_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/bluetooth_audio_policy_configuration_7_0.xml
 
 endif
-
-## TODO(b/271958194): separate for hidl and aidl.
-PRODUCT_SOONG_NAMESPACES += \
-	vendor/google/whitechapel/audio/hal \
-	vendor/google/whitechapel/audio/interfaces
 
 $(call soong_config_set,aoc_audio_board,platform,$(TARGET_BOARD_PLATFORM))

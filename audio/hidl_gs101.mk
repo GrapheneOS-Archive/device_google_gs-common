@@ -6,37 +6,14 @@ PRODUCT_PACKAGES += \
 	android.hardware.audio@7.1-impl \
 	android.hardware.audio.effect@7.0-impl \
 	android.hardware.bluetooth.audio-impl \
-	android.hardware.soundtrigger@2.3-impl \
-	vendor.google.whitechapel.audio.audioext@4.0-impl
+	android.hardware.soundtrigger@2.3-impl
 
 #Audio HAL libraries
 PRODUCT_PACKAGES += \
-	audio.primary.$(TARGET_BOARD_PLATFORM) \
-	audio.platform.aoc \
-	sound_trigger.primary.$(TARGET_BOARD_PLATFORM) \
-	audio_bt_aoc \
-	audio_tunnel_aoc \
-	aoc_aud_ext \
-	libaoctuningdecoder \
-	libaoc_waves \
-	liboffloadeffect \
-	audio_waves_aoc \
-	audio_fortemedia_aoc \
-	audio_bluenote_aoc \
-	audio_usb_aoc \
-	audio_spk_35l41 \
 	audio.usb.default \
 	audio.usbv2.default \
 	audio.bluetooth.default \
-	audio.r_submix.default \
-	libamcsextfile \
-	audio_amcs_ext \
-
-ifeq (,$(filter aosp_%,$(TARGET_PRODUCT)))
-# IAudioMetricExt HIDL
-PRODUCT_PACKAGES += \
-	vendor.google.audiometricext@1.0-service-vendor
-endif
+	audio.r_submix.default
 
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/audio/sepolicy/hidl
 
