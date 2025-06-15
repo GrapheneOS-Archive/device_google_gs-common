@@ -1,25 +1,6 @@
 # Dauntless
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/dauntless/sepolicy
 ifneq ($(wildcard vendor/google_nos),)
-PRODUCT_SOONG_NAMESPACES += vendor/google_nos/init/dauntless
-
-PRODUCT_PACKAGES += \
-    citadeld \
-    citadel_updater \
-    android.hardware.weaver-service.citadel \
-    android.hardware.authsecret-service.citadel \
-    android.hardware.oemlock-service.citadel \
-    init_citadel \
-    android.hardware.strongbox_keystore.xml \
-    android.hardware.security.keymint-service.citadel \
-    dump_gsc.sh
-
-# USERDEBUG ONLY: Install test packages
-PRODUCT_PACKAGES_DEBUG += citadel_integration_tests \
-                          pwntest \
-                          nugget_targeted_tests \
-                          CitadelProvision \
-                          nugget_aidl_test_weaver
 
 # Assign default value for RELEASE_GOOGLE_DAUNTLESS_DIR if no trunk flags support
 RELEASE_GOOGLE_DAUNTLESS_DIR ?= vendor/google_nos/prebuilts/dauntless
@@ -34,8 +15,6 @@ ifneq (,$(wildcard $(RELEASE_GOOGLE_DAUNTLESS_DIR)/proto11.ec.bin))
 ifneq ($(DAUNTLESS_FIRMWARE_SIZE), $(shell stat -c "%s" $(RELEASE_GOOGLE_DAUNTLESS_DIR)/proto11.ec.bin))
 $(error GSC firmware size check fail)
 endif
-PRODUCT_COPY_FILES += \
-    $(RELEASE_GOOGLE_DAUNTLESS_DIR)/proto11.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dauntless/proto11.ec.bin
 $(call dist-for-goals,droid,$(RELEASE_GOOGLE_DAUNTLESS_DIR)/proto11.ec.bin)
 else
 $(error GSC firmware not found in $(RELEASE_GOOGLE_DAUNTLESS_DIR))
@@ -46,8 +25,6 @@ ifneq (,$(wildcard $(RELEASE_GOOGLE_DAUNTLESS_DIR)/evt.ec.bin))
 ifneq ($(DAUNTLESS_FIRMWARE_SIZE), $(shell stat -c "%s" $(RELEASE_GOOGLE_DAUNTLESS_DIR)/evt.ec.bin))
 $(error GSC firmware size check fail)
 endif
-PRODUCT_COPY_FILES += \
-    $(RELEASE_GOOGLE_DAUNTLESS_DIR)/evt.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dauntless/evt.ec.bin
 $(call dist-for-goals,droid,$(RELEASE_GOOGLE_DAUNTLESS_DIR)/evt.ec.bin)
 else
 $(error GSC firmware not found in $(RELEASE_GOOGLE_DAUNTLESS_DIR))
@@ -58,8 +35,6 @@ ifneq (,$(wildcard $(RELEASE_GOOGLE_DAUNTLESS_DIR)/d3m2.ec.bin))
 ifneq ($(DAUNTLESS_FIRMWARE_SIZE), $(shell stat -c "%s" $(RELEASE_GOOGLE_DAUNTLESS_DIR)/d3m2.ec.bin))
 $(error GSC firmware size check fail)
 endif
-PRODUCT_COPY_FILES += \
-    $(RELEASE_GOOGLE_DAUNTLESS_DIR)/d3m2.ec.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/dauntless/d3m2.ec.bin
 $(call dist-for-goals,droid,$(RELEASE_GOOGLE_DAUNTLESS_DIR)/d3m2.ec.bin)
 else
 $(error GSC firmware not found in $(RELEASE_GOOGLE_DAUNTLESS_DIR))
