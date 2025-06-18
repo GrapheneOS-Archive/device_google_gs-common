@@ -17,6 +17,8 @@ package {
     default_applicable_licenses: ["Android-Apache-2.0"],
 }
 
+// TODO: Review this.
+
 aconfig_declarations {
     name: "VibratorFlagsL26",
     package: "vendor.vibrator.hal.flags",
