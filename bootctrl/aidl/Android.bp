@@ -56,13 +56,6 @@ cc_defaults {
 }
 
 cc_binary {
-    name: "android.hardware.boot-service.default-pixel",
-    defaults: ["android.hardware.boot-service_common-pixel"],
-    init_rc: ["android.hardware.boot-service.default-pixel.rc"],
-    vendor: true,
-}
-
-cc_binary {
     name: "android.hardware.boot-service.default_recovery-pixel",
     defaults: ["android.hardware.boot-service_common-pixel"],
     vintf_fragments: ["android.hardware.boot-service.default_recovery-pixel.xml"],
