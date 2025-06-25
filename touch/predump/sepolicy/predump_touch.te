@@ -2,6 +2,9 @@ type predump_touch, domain;
 type predump_touch_exec, vendor_file_type, exec_type, file_type;
 init_daemon_domain(predump_touch)
 
+domain_auto_trans(dump_touch, predump_touch_exec, predump_touch)
+allow predump_touch dump_touch:fd use;
+
 allow predump_touch vendor_touch_dump_file:dir rw_dir_perms;
 allow predump_touch vendor_touch_dump_file:file create_file_perms;
 
