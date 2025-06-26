@@ -1,1 +1,4 @@
+# Obtained from BP2A lynx stock factory image
 vendor.wlcservice.test.authentication       u:object_r:vendor_wlcservice_prop:s0 exact bool
+vendor.wlcservice.fwupdate.tx               u:object_r:vendor_wlcservice_prop:s0 exact enum 0 1 2 3
+vendor.wlcservice.start                     u:object_r:vendor_wlcservice_prop:s0 exact bool
