@@ -2,3 +2,5 @@
 
 /data/vendor/log/hwc(/.*)?                       u:object_r:vendor_hwc_log_file:s0
 
+# Obtained from lynx BP2A stock factory image.
+/vendor/bin/dump/dump_exynos_display             u:object_r:dump_exynos_display_exec:s0
