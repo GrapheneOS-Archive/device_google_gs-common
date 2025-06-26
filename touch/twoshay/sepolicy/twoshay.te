@@ -10,6 +10,7 @@ binder_use(twoshay)
 add_service(twoshay, gril_antenna_tuning_service)
 add_service(twoshay, screen_protector_detector_service)
 add_service(twoshay, touch_context_service)
+add_service(twoshay, twoshay_notification_service)
 
 binder_call(twoshay, platform_app)
 
