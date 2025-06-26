@@ -1,0 +1,7 @@
+init_daemon_domain(storage_init)
+type storage_init, domain;
+type storage_init_exec, vendor_file_type, exec_type, file_type;
+
+allow storage_init vendor_toolbox_exec:file execute_no_trans;
+allow storage_init sysfs_fs_f2fs:dir search;
+allow storage_init sysfs_fs_f2fs:file { write open };
