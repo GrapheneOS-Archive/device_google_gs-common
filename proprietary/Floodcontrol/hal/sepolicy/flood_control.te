@@ -1,0 +1,21 @@
+type flood_control, domain;
+type flood_control_exec, exec_type, vendor_file_type, file_type;
+type flood_control_service, hal_service_type, service_manager_type, app_api_service;
+
+binder_call(dumpstate, flood_control)
+init_daemon_domain(flood_control)
+allow flood_control dumpstate:fd use;
+allow flood_control dumpstate:fifo_file { write lock append map open };
+
+allow flood_control pstorefs:dir r_dir_perms;
+allow flood_control pstorefs:file r_file_perms;
+
+get_prop(flood_control, system_boot_reason_prop)
+set_prop(flood_control, vendor_flood_prop)
+
+binder_use(flood_control)
+add_service(flood_control, flood_control_service)
+
+domain_auto_trans(flood_control, vendor_misc_writer_exec, vendor_misc_writer)
+allow vendor_misc_writer flood_control:fd use;
+allow vendor_misc_writer flood_control:fifo_file { write getattr };
