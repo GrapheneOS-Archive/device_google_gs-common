@@ -1,2 +1,5 @@
 r_dir_file(hal_googlebattery, sysfs_wlc)
 allow hal_googlebattery sysfs_wlc:file rw_file_perms;
+
+# BP2A change
+set_prop(hal_googlebattery, vendor_wlcservice_prop)
