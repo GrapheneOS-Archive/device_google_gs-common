@@ -11,3 +11,4 @@
 /vendor/bin/sg_read_buffer                                           u:object_r:sg_util_exec:s0
 /vendor/bin/storage_intelligence\.sh                                 u:object_r:storage_intelligence_exec:s0
 /vendor/bin/ufs_firmware_update\.sh                                  u:object_r:ufs_firmware_update_exec:s0
+/vendor/bin/storage_init\.sh                                         u:object_r:storage_init_exec:s0
