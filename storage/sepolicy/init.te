@@ -1,4 +1,5 @@
 # init
 allow init sysfs_scsi_devices_0000:file w_file_perms;
 
-dontaudit init intelligence_data_file:dir mounton;
+allow init userdata_exp_block_device:blk_file write;
+allow init intelligence_data_file:dir mounton;
