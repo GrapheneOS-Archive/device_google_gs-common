@@ -3,3 +3,4 @@ ro.boot.sota.                                   u:object_r:sota_prop:s0
 persist.vendor.factoryota.                      u:object_r:sota_prop:s0
 persist.vendor.radio.bootwithlpm                u:object_r:sota_prop:s0
 persist.vendor.nfc.factoryota.                  u:object_r:sota_prop:s0
+sota.charge.stop.level                          u:object_r:sota_prop:s0
