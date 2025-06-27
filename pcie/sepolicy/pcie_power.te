@@ -1,0 +1,6 @@
+init_daemon_domain(pcie_power)
+type pcie_power, domain;
+type pcie_power_exec, vendor_file_type, exec_type, file_type;
+
+allow pcie_power vendor_toolbox_exec:file execute_no_trans;
+allow pcie_power sysfs_pcie:file rw_file_perms;

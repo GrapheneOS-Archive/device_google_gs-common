@@ -2,3 +2,5 @@
 
 /dev/logbuffer_pcie0                u:object_r:pcie_log_device:s0
 /dev/logbuffer_pcie1                u:object_r:pcie_log_device:s0
+# Added in BP2A
+/vendor/bin/pcie_power_control      u:object_r:pcie_power_exec:s0
