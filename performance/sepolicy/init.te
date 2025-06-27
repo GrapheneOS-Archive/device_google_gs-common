@@ -1,0 +1,7 @@
+# BP2A change
+# Note that this is already present in individual repos and will be duplicated
+# device/google/gs101-sepolicy/whitechapel/vendor/google/init.te
+# device/google/gs201-sepolicy/whitechapel_pro/init.te
+# device/google/zuma-sepolicy/vendor/init.te
+# device/google/zumapro-sepolicy/legacy/zuma/vendor/init.te
+allow init ram_device:blk_file w_file_perms;
