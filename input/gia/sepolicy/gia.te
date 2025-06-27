@@ -16,3 +16,6 @@ hal_server_domain(gia, hal_gia)
 # allow gia for accessing touch related system file-nodes
 allow gia sysfs_touch_gti:dir r_dir_perms;
 allow gia sysfs_touch_gti:file rw_file_perms;
+
+allow gia fwk_stats_service:service_manager find;
+binder_call(gia, stats_service_server)
