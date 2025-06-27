@@ -1,2 +1,2 @@
 # define hal_shared_modem_platform_service
-type hal_shared_modem_platform_service, hal_service_type, service_manager_type;
+type hal_shared_modem_platform_service, hal_service_type, protected_service, service_manager_type;
