@@ -30,3 +30,6 @@ allow factory_ota_app radio_service:service_manager find;
 
 # For suppress more GPU service sepolicy error log.
 dontaudit factory_ota_app gpuservice:binder call;
+
+# BP2A change
+get_prop(factory_ota_app, system_boot_reason_prop)
