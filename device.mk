@@ -30,3 +30,6 @@ PRODUCT_PACKAGES += \
 	SystemUIGoogleSyntheticOverlay
 
 DEVICE_PRODUCT_COMPATIBILITY_MATRIX_FILE += device/google/gs-common/proprietary/com.google.flood.xml
+
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
+	device/google/gs-common/proprietary/com.google.android.imageprocessing.hal.xml
