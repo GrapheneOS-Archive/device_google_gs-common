@@ -1,0 +1,9 @@
+<compatibility-matrix version="9.0" type="framework">
+    <hal format="aidl" optional="true">
+        <name>com.google.android.imageprocessing.hal</name>
+        <interface>
+            <name>IImageProcessingHal</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+</compatibility-matrix>
